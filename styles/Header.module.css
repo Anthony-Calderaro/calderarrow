@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.logo {
+  padding: 12px 24px;
+  font-size: 24px;
+}
+
+.logo:hover, .icon:hover {
+  cursor: pointer;
+}
+
+.linkContainer, .iconContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.link, .icon {
+  padding: 12px 24px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
