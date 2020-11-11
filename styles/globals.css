@@ -14,3 +14,20 @@ a {
 * {
   box-sizing: border-box;
 }
+
+main {
+  display: flex;
+  padding-top: 5vh;
+  flex-direction: column;
+  max-width: 680px;
+  height: 80vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
