@@ -1,11 +1,7 @@
-import Head from 'next/head'
 import Link from 'next/link';
+import styles from '../styles/Home.module.css';
 
-import styles from '../styles/Home.module.css'
-
-import Header from '../components/Header';
-
-const AboutMe = () => {
+export default function Home() {
   return (
     <div>
       <h1>I'm Anthony! 👋</h1>
@@ -18,19 +14,4 @@ const AboutMe = () => {
       <p>This is my personal website where you can read things I've written, check out projects I've worked on, and get in touch with me.</p>
     </div>
   );
-}
-
-export default function Home() {
-  return (
-    <div className={styles.container}>
-      <Head>
-        <title>Anthony Calderaro</title>
-        <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎯</text></svg>" />
-      </Head>
-      <Header />
-      <main className={styles.main}>
-        <AboutMe />
-      </main>
-    </div>
-  )
 }
