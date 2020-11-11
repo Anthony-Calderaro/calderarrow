@@ -1,4 +1,4 @@
-### The repository for my personal site. ###
+### The repository that powers [calderarrow.me](calderarrow.me) ###
 
 Built with [Next JS](https://nextjs.org/) (because I enjoy it) and vanilla CSS (because it keeps me humble :pray:).
 
