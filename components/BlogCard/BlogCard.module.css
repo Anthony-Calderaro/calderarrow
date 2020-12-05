@@ -1,0 +1,31 @@
+.blogCard {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  max-width: 800px; /* Todo: Check  if 880 */
+  padding: 10px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  word-wrap: break-word;
+}
+
+.blogFooter {
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: center;
+}
+
+.headshot {
+  border-radius: 50%;
+  height: 24px;
+  width: 24px;
+  background: black;
+}
+
+.categories {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
