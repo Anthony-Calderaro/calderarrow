@@ -4,9 +4,9 @@ import Link from 'next/link';
 const links = ['writings', 'projects', 'contact'];
 const icons = ['Subscribe'];
 
-const LinkCategory = ({ category, key }) => <Link href={`/${category}`}><a className={headerStyles.link} key={key}>{category}</a></Link>;
+const LinkCategory = ({ category }) => <Link href={`/${category}`}><a className={headerStyles.link}>{category}</a></Link>;
 
-const Icon = ({ icon, key }) => {
+const Icon = ({ icon }) => {
   let iconImage = <div></div>;
 
   switch(icon) {
@@ -16,7 +16,7 @@ const Icon = ({ icon, key }) => {
     default:
       break;
   }
-  return <div key={key} className={headerStyles.icon}>{iconImage}</div>
+  return <div className={headerStyles.icon}>{iconImage}</div>
 };
 
 const Header = () => {

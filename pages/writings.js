@@ -7,18 +7,20 @@ import { essays, essayCategories } from '../public/staticText';
 // Todo: make category colors align with ND
 const ListView = () => <svg className={writingsStyles.viewOption} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="black" width="18px" height="18px"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>;
 const CardView = () => <svg className={writingsStyles.viewOption} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="black" width="18px" height="18px"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M19 5v4H4V5h15m0 10v4H4v-4h15m1-12H3c-.55 0-1 .45-1 1v6c0 .55.45 1 1 1h17c.55 0 1-.45 1-1V4c0-.55-.45-1-1-1zm0 10H3c-.55 0-1 .45-1 1v6c0 .55.45 1 1 1h17c.55 0 1-.45 1-1v-6c0-.55-.45-1-1-1z"/></svg>;
-const Descending = () => <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" viewBox="0 0 24 24" fill="black" width="18px" height="18px"><rect fill="none" height="24" width="24"/><path d="M19,15l-1.41-1.41L13,18.17V2H11v16.17l-4.59-4.59L5,15l7,7L19,15z"/></svg>;
-const Ascending = () => <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" viewBox="0 0 24 24" fill="black" width="18px" height="18px"><rect fill="none" height="24" width="24"/><path d="M5,9l1.41,1.41L11,5.83V22H13V5.83l4.59,4.59L19,9l-7-7L5,9z"/></svg>;
+const Descending = () => <svg xmlns="http://www.w3.org/2000/svg" enableBackground="new 0 0 24 24" viewBox="0 0 24 24" fill="black" width="18px" height="18px"><rect fill="none" height="24" width="24"/><path d="M19,15l-1.41-1.41L13,18.17V2H11v16.17l-4.59-4.59L5,15l7,7L19,15z"/></svg>;
+const Ascending = () => <svg xmlns="http://www.w3.org/2000/svg" enableBackground="new 0 0 24 24" viewBox="0 0 24 24" fill="black" width="18px" height="18px"><rect fill="none" height="24" width="24"/><path d="M5,9l1.41,1.41L11,5.83V22H13V5.83l4.59,4.59L19,9l-7-7L5,9z"/></svg>;
 
 
 const SortMenu = ({ selectOption }) => {
   const options = ['Category', 'Date', 'Title']
   return (
     <div className={writingsStyles.sortMenu}>
-      {options.map(option => <div onClick={(e) => selectOption(e.target.innerText)}>{option}</div>)}
+      {options.map((option, i) => <div key={i} onClick={(e) => selectOption(e.target.innerText)}>{option}</div>)}
     </div>
   )
 }
+
+// Todo: Combine shortblog and blogcard into a switch
 const ShortBlog = ({ essay }) => {
   const { title, date, categories } = essay;
   return (
@@ -26,7 +28,7 @@ const ShortBlog = ({ essay }) => {
       <div className={writingsStyles.shortBlogTitleContainer}>
         <div className={writingsStyles.shortBlogTitle}>{title}</div>
         <div className={writingsStyles.categories}>
-          {categories.map(cat => <div className={`${writingsStyles.category} ${writingsStyles[cat]}`}>{cat}</div>)}
+          {categories.map((category, i) => <div key={i} className={`${writingsStyles.category} ${writingsStyles[category]}`}>{category}</div>)}
         </div>
       </div>
       <div>{date}</div>
@@ -43,7 +45,7 @@ const BlogCard = ({ essay }) => {
           <div className={writingsStyles.title}>{title}</div>
           <div className={writingsStyles.date}>{date}</div>
         </div>
-        <div className={writingsStyles.categories}>{categories.map(cat => <div className={`${writingsStyles.category} ${writingsStyles[cat]}`}>{cat}</div>)}</div>
+        <div className={writingsStyles.categories}>{categories.map((category, i) => <div key={i} className={`${writingsStyles.category} ${writingsStyles[category]}`}>{category}</div>)}</div>
         <div className={writingsStyles.tldr}>{tldr}</div>
       </a>
     </Link>
@@ -51,10 +53,7 @@ const BlogCard = ({ essay }) => {
 };
 
 export default function writings() {
-  // Todo: combine filters into one object
-
-  // { Searchbox text, categories, sort by, sort direction, view } 
-  const [searchBoxText, updateSearchText] = useState('');
+  const [searchBoxText, updateSearchText] = useState();
   const [sortBy, updateSortBy] = useState('title');
   const [sortAscending, toggleSortDirection] = useState(true);
   const [categoryFilters, updateCategoryFilters] = useState(essayCategories.map(c => c));
@@ -93,7 +92,6 @@ export default function writings() {
     updateCategoryFilters(currentCategoryFilters);
   };
 
-  console.log('essays: ', essays);
   return (
     <div className={writingsStyles.writingList} >
       <div className={writingsStyles.searchOptions}>
@@ -101,15 +99,16 @@ export default function writings() {
           className={writingsStyles.search}
           onChange={(e) => updateSearchText(e.target.value)}
           placeholder={'Search by title, text, or category'}
-          value={searchBoxText !== '' ? null : searchBoxText}
+          value={searchBoxText && searchBoxText}
         />
         
         <div className={writingsStyles.categories}>
-          {essayCategories.map(category => {
+          {essayCategories.map((category, i) => {
             return (
             <div
               className={`${writingsStyles.category} ${writingsStyles[category]} ${categoryFilters.includes(category) ? '' : `${writingsStyles.opaque}`}`}
               onClick={() => toggleFilter(category)}
+              key={i}
             >{category}
             </div>
           )})}
@@ -126,7 +125,7 @@ export default function writings() {
         </div>
       </div>
 
-      {filteredEssays.map(essay => listView ? <ShortBlog essay={essay} /> : <BlogCard essay={essay} />)}
+      {filteredEssays.map((essay, i) => listView ? <ShortBlog key={i} essay={essay} /> : <BlogCard key={i} essay={essay} />)}
 
     </div>
   )
