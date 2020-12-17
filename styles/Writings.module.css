@@ -17,6 +17,7 @@
   display: flex;
   align-items: center;
   cursor: pointer;
+  text-transform: capitalize;
 }
 
 .sortCategory {
@@ -112,3 +113,33 @@
   border: 1px solid #38b838;
   background-color: #38b838;
 }
+
+
+.blogCard {
+  border-top: 1px solid #a6a6a6;
+  padding: 10px;
+  width: 650px;
+}
+
+.blogCardTopLine {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.date {
+  font-size: 12px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  word-wrap: break-word;
+}
+
+.tldr {
+  margin-top: 5px;
+}
+
+

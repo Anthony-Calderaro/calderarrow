@@ -1,10 +1,8 @@
 import Head from 'next/head';
 import writingsStyles from '../styles/Writings.module.css'
-import blogCardStyles from '../components/BlogCard/BlogCard.module.css'
-import BlogCard from '../components/BlogCard/BlogCard';
 import { useState, useEffect } from 'react';
 
-const categories = ['money', 'career', 'life', 'family', 'reflection']
+import { essays, essayCategories } from '../public/staticText';
 
 const ListView = () => <svg className={writingsStyles.viewOption} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="black" width="18px" height="18px"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>;
 const CardView = () => <svg className={writingsStyles.viewOption} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="black" width="18px" height="18px"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M19 5v4H4V5h15m0 10v4H4v-4h15m1-12H3c-.55 0-1 .45-1 1v6c0 .55.45 1 1 1h17c.55 0 1-.45 1-1V4c0-.55-.45-1-1-1zm0 10H3c-.55 0-1 .45-1 1v6c0 .55.45 1 1 1h17c.55 0 1-.45 1-1v-6c0-.55-.45-1-1-1z"/></svg>;
@@ -20,33 +18,65 @@ const SortMenu = ({ selectOption }) => {
     </div>
   )
 }
-const ShortBlog = () => {
+const ShortBlog = ({ essay }) => {
+  const { title, date, categories } = essay;
   return (
     <div className={writingsStyles.shortBlog}>
       <div className={writingsStyles.shortBlogTitleContainer}>
-        <div className={writingsStyles.shortBlogTitle}>Title</div>
+        <div className={writingsStyles.shortBlogTitle}>{title}</div>
         <div className={writingsStyles.categories}>
           {categories.map(cat => <div className={`${writingsStyles.category} ${writingsStyles[cat]}`}>{cat}</div>)}
         </div>
       </div>
-      <div>Date</div>
+      <div>{date}</div>
     </div>
   );
 }
 
+const BlogCard = ({ essay }) => {
+  const { title, date, categories, tldr } = essay;
+  return (
+    <div className={writingsStyles.blogCard}>
+      <div className={writingsStyles.blogCardTopLine}>
+        <div className={writingsStyles.title}>{title}</div>
+        <div className={writingsStyles.date}>{date}</div>
+      </div>
+      <div className={writingsStyles.categories}>{categories.map(cat => <div className={`${writingsStyles.category} ${writingsStyles[cat]}`}>{cat}</div>)}</div>
+      <div className={writingsStyles.tldr}>{tldr}</div>
+    </div>
+  );
+};
+
 export default function writings() {
-  const writings = ['1', '2', '3', '4', '5'];
+  // Todo: combine filters into one object
+
+  // { Searchbox text, categories, sort by, sort direction, view } 
   const [searchBoxText, updateSearchText] = useState('');
-  const [filteredWritings, updateWritingFilter] = useState(writings);
+  const [sortBy, updateSortBy] = useState('title');
+  const [sortAscending, toggleSortDirection] = useState(true);
+  const [categoryFilters, updateCategoryFilters] = useState(essayCategories.map(c => c));
+
+  const [filteredEssays, updateEssays] = useState(essays);
   const [listView, toggleListView] = useState(false);
   const [sortMenuVisible, toggleSortMenu] = useState(false);
-  const [sortBy, updateSortBy] = useState('Title');
-  const [sortDirection, toggleSortDirection] = useState(true);
-  const [categoryFilters, updateCategoryFilters] = useState(categories.map(c => c));
 
-  useEffect(() => {
-    updateWritingFilter(writings.filter(writing => writing.includes(searchBoxText)))
-  }, [searchBoxText])
+  const essayCategoryIsSelected = categories => categories.filter(category => categoryFilters.includes(category)).length > 0;
+
+  const filterEssays = () => {
+    return filteredEssays.filter(({ title, tldr, date, categories, paragraphs }) => {
+      return (
+        title.includes(searchBoxText) ||
+        tldr.includes(searchBoxText) ||
+        date.includes(searchBoxText) ||
+        paragraphs.join(' ').includes(searchBoxText) ||
+        essayCategoryIsSelected(categories)
+      )
+    });
+  }
+
+  const sortEssays = essays => essays.sort((essayA, essayB) => sortAscending ? essayA[sortBy] - essayB[sortBy] : essayB[sortBy] - essayA[sortBy]);
+
+  useEffect(() => updateEssays(sortEssays(filterEssays())), [searchBoxText, sortBy, sortAscending, categoryFilters])
 
   const selectSortOption = sortOption => {
     updateSortBy(sortOption);
@@ -60,6 +90,7 @@ export default function writings() {
     updateCategoryFilters(currentCategoryFilters);
   };
 
+  console.log('essays: ', essays);
   return (
     <div className={writingsStyles.writingList} >
       <div className={writingsStyles.searchOptions}>
@@ -71,7 +102,7 @@ export default function writings() {
         />
         
         <div className={writingsStyles.categories}>
-          {categories.map(category => {
+          {essayCategories.map(category => {
             return (
             <div
               className={`${writingsStyles.category} ${writingsStyles[category]} ${categoryFilters.includes(category) ? '' : `${writingsStyles.opaque}`}`}
@@ -83,7 +114,7 @@ export default function writings() {
 
         <div className={writingsStyles.sortBy}>
           <div className={writingsStyles.sortCategory} onClick={() => toggleSortMenu(!sortMenuVisible)}>{sortBy}</div>
-          <div onClick={() => toggleSortDirection(!sortDirection)}>{sortDirection ? <Ascending /> : <Descending />}</div>
+          <div onClick={() => toggleSortDirection(!sortAscending)}>{sortAscending ? <Ascending /> : <Descending />}</div>
         </div>
         {sortMenuVisible && <SortMenu selectOption={selectSortOption} />}
 
@@ -92,7 +123,7 @@ export default function writings() {
         </div>
       </div>
 
-      {filteredWritings.map(() => listView ? <ShortBlog /> : <BlogCard />)}
+      {filteredEssays.map(essay => listView ? <ShortBlog essay={essay} /> : <BlogCard essay={essay} />)}
 
     </div>
   )
