@@ -89,7 +89,7 @@
   opacity: .5;
 }
 
-.career {
+.athletics {
   border: 1px solid #BC544B; /* todo: border color darker? lighter? none? */
   background-color: #BC544B;
 }
@@ -140,6 +140,8 @@
 
 .tldr {
   margin-top: 5px;
+  font-style: italic;
+  font-size: 14px;
 }
 
 
