@@ -27,16 +27,24 @@
 .sortMenu {
   position: absolute;
   cursor: pointer;
-  width: 85px;
+  width: 120px;
   background: white;
-  border: 2px solid red;
+  border: 2px solid gray;
   border-radius: 4px;
-  top: 105px;
-  right: 428px;
+  top: 155px;
+  right: 390px;
 }
 
 .sortOption {
-  color: red;
+  color: black;
+  /* background: green; */
+  cursor: pointer;
+}
+
+.sortOption:hover {
+  color: white;
+  /* background:rgb(118, 118, 118); */
+  background:black;
 }
 
 .shortBlog {
@@ -121,6 +129,10 @@
   width: 650px;
 }
 
+.blogCard:hover {
+  background: rgba(12, 35, 64, .1);
+}
+
 .blogCardTopLine {
   display: flex;
   justify-content: space-between;
@@ -138,7 +150,7 @@
   word-wrap: break-word;
 }
 
-.tldr {
+.summary {
   margin-top: 5px;
   font-style: italic;
   font-size: 14px;
