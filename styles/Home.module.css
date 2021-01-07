@@ -1,7 +1,12 @@
 .blogLink {
-  color: #00823E;
+  color: #3b82f6;
+  border-bottom: 1px solid #3b82f6; 
+  font-weight: 500;
 }
 
+.blogLink:hover {
+  border-bottom: 1px solid #0c2340;
+}
 .footer {
   width: 100%;
   height: 9vh;
@@ -90,12 +95,9 @@
   font-size: 1.5rem;
 }
 
-.card p {
-  margin: 0;
-  font-size: 1.25rem;
-  line-height: 1.5;
+.home_container p {
+  line-height: 24px;
 }
-
 .logo {
   height: 1em;
 }

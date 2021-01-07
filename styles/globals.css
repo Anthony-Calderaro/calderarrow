@@ -19,7 +19,7 @@ main {
   display: flex;
   padding-top: 5vh;
   flex-direction: column;
-  max-width: 680px;
+  max-width: 600px;
   min-height: 80vh; /* Todo: Fix so not fixed */
 }
 

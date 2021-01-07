@@ -1,4 +1,39 @@
-export const essayCategories = ['money', 'athletics', 'life', 'family', 'reflection'];
+export const essayCategories = ['money', 'athletics', 'life', 'family', 'reflection', 'how-to'];
+
+export const homePageLinks = {
+  software: {
+    link: 'https://github.com/Anthony-Calderaro',
+    text: 'software developer'
+  },
+  dlvfr: {
+    link: 'https://www.dlvfrd.org/',
+    text: 'volunteer EMT'
+  },
+  cpa: {
+    link: 'https://cpaportal.boa.virginia.gov/Verification/',
+    text: 'Certified Public Accountant.'
+  },
+  employer: {
+    link: 'https://www.ustaxcourt.gov/',
+    text: 'the U.S. Tax Court.'
+  },
+  running: {
+    link: '/writings/run-log',
+    text: 'here.'
+  },
+  writings: {
+    link: '/writings',
+    text: `things I've written`
+  },
+  projects: {
+    link: '/projects',
+    text: 'things I built'
+  },
+  contact: {
+    link: '/contact',
+    text: 'connect'
+  },
+};
 
 export const essays = [
   {
