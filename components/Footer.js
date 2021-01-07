@@ -1,36 +1,49 @@
 import Link from 'next/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faMusic, faRss } from '@fortawesome/free-solid-svg-icons'
+import { faMusic, faRss, faFileAlt } from '@fortawesome/free-solid-svg-icons'
+import { faFile } from '@fortawesome/free-regular-svg-icons'
+
 import { faLinkedinIn, faSpotify, faTwitter, faGithub,  } from '@fortawesome/free-brands-svg-icons' 
 
-import footerStyles from '../styles/Footer.module.css';
 // Todo: Refactor all the module styles
+import footerStyles from '../styles/Footer.module.css';
+
+const icons = [
+  { icon: faFile,
+    link: 'https://gist.github.com/Anthony-Calderaro/6c41f8429a9dd395bf59362037c34d99',
+  }, 
+  { icon: faMusic,
+    link: '/writings/music',
+  }, 
+  { icon: faTwitter,
+    link: 'https://twitter.com/calderarrow',
+  }, 
+  { icon: faGithub,
+    link: 'https://github.com/Anthony-Calderaro',
+  }, 
+  { icon: faRss,
+    link: '/rss',
+  }, 
+];
+
+const IconLink = ({ iconDetails }) => {
+  const { icon, link } = iconDetails;
+  return (
+    <Link href={`${link}`}>
+      <a target='#' rel='noreferrer'>
+        <FontAwesomeIcon icon={icon} /> 
+      </a>
+    </Link>
+  )
+}
 
 const Footer = () => {
-  // Todo: make all links and a tags use target and rel
-  const currentYear = new Date().getFullYear();
   return (
     <footer className={footerStyles.footer}>
-      <div style={{ display: 'flex', justifyContent: 'center', width: '600px'}}>
-        {/* Todo: Add spotify
-        https://developer.spotify.com/console/get-users-currently-playing-track/?market=US&additional_types=
-         */}
-      </div>
       <div className={footerStyles.icon_menu}>
-        <FontAwesomeIcon icon={faLinkedinIn} />
-        <FontAwesomeIcon icon={faMusic} /> 
-        <FontAwesomeIcon icon={faTwitter} /> 
-        <FontAwesomeIcon icon={faGithub} /> 
-        <FontAwesomeIcon icon={faRss} /> 
-        {/* Top tracks post w/ Profile */}
+        {icons.map(iconDetails => <IconLink iconDetails={iconDetails} />)}
+        
       </div>
-      {/* Currently playing 
-    // New line
-    Twitter icon
-    Github icon
-    Linkedin
-    RSS icon
-    */}
     </footer>
   );
 };

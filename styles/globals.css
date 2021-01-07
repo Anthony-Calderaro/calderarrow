@@ -28,4 +28,14 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background: white;
+  color: black;
+}
+
+.container.dark {
+  background: black !important;
+  color: white !important;
+  /* Todo: 156,163,175 for lighter text */
+  /*Dark  Todo: Text color: 156,163,175 
+light: 156,163,175*/
 }

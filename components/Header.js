@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import Link from 'next/link';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -12,10 +11,7 @@ const links = ['writings', 'projects', 'quotes', 'TIL', 'contact'];
 
 const LinkCategory = ({ category }) => <Link href={`/${category}`}><a className={headerStyles.link}>{category}</a></Link>;
 
-const Header = () => {
-  const [lightTheme, toggleTheme] = useState(true);
-/*Dark  Todo: Text color: 156,163,175 
-light: 156,163,175*/
+const Header = ({ theme, toggleTheme }) => {
   return (
     <div className={headerStyles.headerContainer}>
       <div className={headerStyles.linkContainer}>
@@ -28,8 +24,8 @@ light: 156,163,175*/
         {links.map((category, i) => <LinkCategory category={category} key={i} />)}
       </div>
       
-      <div className={headerStyles.iconContainer} onClick={() => toggleTheme(!lightTheme)}>
-          <FontAwesomeIcon icon={lightTheme ? Light : Dark} />
+      <div className={headerStyles.iconContainer} onClick={toggleTheme}>
+          <FontAwesomeIcon icon={theme ? Light : Dark} />
       </div>
     
     </div>
