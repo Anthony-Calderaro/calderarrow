@@ -26,21 +26,7 @@ export default function Home() {
       <p>While you're here, you can read <HomePageLink linkObject={homePageLinks.writings} />, check out <HomePageLink linkObject={homePageLinks.projects} />, or <HomePageLink linkObject={homePageLinks.contact} /> with me.</p>
 {/* 
   Todo: Timeline https://leerob.io/ 
-    Currently playing 
-    // New line
-    Spotify Link to profile or top tracks music
-    Twitter icon
-    Github icon
-    Linkedin
-    RSS icon
-    <FontAwesomeIcon icon={faLinkedinIn} />
-    import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
 */}
-      {/* <div>
-        <p>I'm currently working on</p>
-
-      </div> */}
     </div>
   );
 }

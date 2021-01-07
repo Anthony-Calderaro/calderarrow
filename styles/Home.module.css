@@ -1,30 +1,12 @@
 .blogLink {
   color: #3b82f6;
-  border-bottom: 1px solid #3b82f6; 
   font-weight: 500;
 }
 
 .blogLink:hover {
-  border-bottom: 1px solid #0c2340;
-}
-.footer {
-  width: 100%;
-  height: 9vh;
-  border-top: 1px solid #eaeaea;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  border-bottom: 1px solid #3b82f6;
 }
 
-.footer img {
-  margin-left: 0.5rem;
-}
-
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
 .title a {
   color: #0070f3;
