@@ -1,21 +1,58 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faMusic, faRss, faRunning } from '@fortawesome/free-solid-svg-icons'
+import { faFile } from '@fortawesome/free-regular-svg-icons'
+import { faTwitter, faGithub } from '@fortawesome/free-brands-svg-icons' 
+
+export function createFontAwesomeIcon(icon) {
+  return <FontAwesomeIcon icon={icon} /> 
+} 
+
+export const footerIcons = [
+  { icon: faRunning,
+    link: '/writings/run-log',
+  },
+  { icon: faFile,
+    link: 'https://gist.github.com/Anthony-Calderaro/6c41f8429a9dd395bf59362037c34d99',
+    target: '_blank'
+  },
+  { icon: faMusic,
+    link: '/writings/music',
+  }, 
+  { icon: faTwitter,
+    link: 'https://twitter.com/calderarrow',
+    target: '_blank'
+  }, 
+  { icon: faGithub,
+    link: 'https://github.com/Anthony-Calderaro',
+    target: '_blank'
+  }, 
+  { icon: faRss,
+    link: '/rss',
+  }, 
+];
+
 export const essayCategories = ['money', 'athletics', 'life', 'family', 'reflection', 'how-to'];
 
 export const homePageLinks = {
   software: {
     link: 'https://github.com/Anthony-Calderaro',
-    text: 'software developer'
+    text: 'software developer',
+    target: '_blank',
   },
   dlvfr: {
     link: 'https://www.dlvfrd.org/',
-    text: 'volunteer EMT'
+    text: 'volunteer EMT',
+    target: '_blank',
   },
   cpa: {
     link: 'https://cpaportal.boa.virginia.gov/Verification/',
-    text: 'Certified Public Accountant.'
+    text: 'Certified Public Accountant.',
+    target: '_blank',
   },
   employer: {
     link: 'https://www.ustaxcourt.gov/',
-    text: 'the U.S. Tax Court.'
+    text: 'the U.S. Tax Court.',
+    target: '_blank',
   },
   running: {
     link: '/writings/run-log',

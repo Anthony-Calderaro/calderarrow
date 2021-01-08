@@ -4,18 +4,16 @@ import { homePageLinks } from '../public/staticText';
 import styles from '../styles/Home.module.css';
 
 const HomePageLink = ({ linkObject }) => {
-  console.log(linkObject)
-  const { link, text } = linkObject;
+  const { link, text, target } = linkObject;
   return (
     <Link href={link}>
-      <a target='#' className={styles.blogLink}>
+      <a target={target && target} className={styles.blogLink}>
         {text}
       </a>
     </Link>
   )
 }
 export default function Home() {
-  console.log('homePageLinks', homePageLinks)
   return (
     <div className={styles.home_container}>
       <h1>Hi, I'm Anthony! 👋</h1>
