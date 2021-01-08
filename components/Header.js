@@ -1,9 +1,6 @@
 import Link from 'next/link';
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLightbulb as Dark } from '@fortawesome/free-solid-svg-icons'
-import { faLightbulb as Light } from '@fortawesome/free-regular-svg-icons'
-
+// Todo: may not need lgiht
 import headerStyles from '../styles/Header.module.css';
 
 // Todo Static
@@ -25,7 +22,7 @@ const Header = ({ theme, toggleTheme }) => {
       </div>
       
       <div className={headerStyles.iconContainer} onClick={toggleTheme}>
-          <FontAwesomeIcon icon={theme ? Light : Dark} />
+          {theme ? <span>🌑</span> : <span>🌕</span>}
       </div>
     
     </div>
