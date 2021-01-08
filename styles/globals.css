@@ -39,3 +39,7 @@ main {
   /*Dark  Todo: Text color: 156,163,175 
 light: 156,163,175*/
 }
+
+.container.dark svg {
+  fill: white;
+}

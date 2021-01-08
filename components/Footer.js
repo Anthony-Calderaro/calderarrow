@@ -11,15 +11,18 @@ import footerStyles from '../styles/Footer.module.css';
 const icons = [
   { icon: faFile,
     link: 'https://gist.github.com/Anthony-Calderaro/6c41f8429a9dd395bf59362037c34d99',
+    target: '_blank'
   }, 
   { icon: faMusic,
     link: '/writings/music',
   }, 
   { icon: faTwitter,
     link: 'https://twitter.com/calderarrow',
+    target: '_blank'
   }, 
   { icon: faGithub,
     link: 'https://github.com/Anthony-Calderaro',
+    target: '_blank'
   }, 
   { icon: faRss,
     link: '/rss',
@@ -27,10 +30,10 @@ const icons = [
 ];
 
 const IconLink = ({ iconDetails }) => {
-  const { icon, link } = iconDetails;
+  const { icon, link, target } = iconDetails;
   return (
     <Link href={`${link}`}>
-      <a target='#' rel='noreferrer'>
+      <a target={target && target} rel='noreferrer'>
         <FontAwesomeIcon icon={icon} /> 
       </a>
     </Link>
