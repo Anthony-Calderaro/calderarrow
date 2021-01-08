@@ -13,7 +13,7 @@ const Intro = () => {
 const Race = ({ raceObject, pageRef }) => {
   return (
     <tr id={pageRef} style={{ fontSize: '14px', textAlign: 'left' }}>
-      {Object.values(raceObject).map(value => <td>{value}</td>)}
+      {Object.values(raceObject).map((value, i) => <td key={i}>{value}</td>)}
     </tr>
   )
 }
@@ -92,9 +92,9 @@ const Log = () => {
     <table>
       <tbody>
       <tr style={{ fontSize: '16px', textAlign: 'left'}}>
-        {columns.map(column => <th style={{ textTransform: 'capitalize' }}>{column}</th>)}
+        {columns.map((column, i) => <th key={i} style={{ textTransform: 'capitalize' }}>{column}</th>)}
       </tr>
-      {races.map((raceObject, index) => <Race pageRef={index} raceObject={raceObject} />)}
+      {races.map((raceObject, index) => <Race key={index} pageRef={index} raceObject={raceObject} />)}
       </tbody>
     </table>
   )

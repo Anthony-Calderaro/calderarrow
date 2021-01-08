@@ -20,7 +20,7 @@ const Footer = () => {
   return (
     <footer className={footerStyles.footer}>
       <div className={footerStyles.icon_menu}>
-        {footerIcons.map(iconDetails => <IconLink iconDetails={iconDetails} />)}
+        {footerIcons.map((iconDetails, i) => <IconLink key={i} iconDetails={iconDetails} />)}
       </div>
     </footer>
   );
