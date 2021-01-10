@@ -31,7 +31,7 @@ export const footerIcons = [
   }, 
 ];
 
-export const essayCategories = ['money', 'athletics', 'life', 'family', 'reflection', 'how-to'];
+export const essayCategories = ['money', 'athletics', 'life', 'family', 'reflection'];
 
 export const homePageLinks = {
   software: {
