@@ -21,10 +21,7 @@ export default function Home() {
       <p>I'm a <HomePageLink linkObject={homePageLinks.software} />, <HomePageLink linkObject={homePageLinks.dlvfr} />, and <HomePageLink linkObject={homePageLinks.cpa} /></p>
       <p>I'm interested in fintech and currently work as a developer for <HomePageLink linkObject={homePageLinks.employer} /></p>
       <p>I'm an avid middle-distance runner. You can check out my most recent times <HomePageLink linkObject={homePageLinks.running} /></p>
-      <p>While you're here, you can read <HomePageLink linkObject={homePageLinks.writings} />, check out <HomePageLink linkObject={homePageLinks.projects} />, or <HomePageLink linkObject={homePageLinks.contact} /> with me.</p>
-{/* 
-  Todo: Timeline https://leerob.io/ 
-*/}
+      <p>Thanks for stopping by! Feel free to check out <HomePageLink linkObject={homePageLinks.writings} />, <HomePageLink linkObject={homePageLinks.projects} />, or <HomePageLink linkObject={homePageLinks.contact} /> with me.</p>
     </div>
   );
 }

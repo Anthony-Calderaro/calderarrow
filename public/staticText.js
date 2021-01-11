@@ -1,34 +1,75 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMusic, faRss, faRunning } from '@fortawesome/free-solid-svg-icons'
 import { faFile } from '@fortawesome/free-regular-svg-icons'
-import { faTwitter, faGithub } from '@fortawesome/free-brands-svg-icons' 
+import { faTwitter, faGithub } from '@fortawesome/free-brands-svg-icons'
 
 export function createFontAwesomeIcon(icon) {
-  return <FontAwesomeIcon icon={icon} /> 
-} 
+  return <FontAwesomeIcon icon={icon} />
+}
+
+export const races = [
+  {
+    'date': 'Dec 2020',
+    'distance': '1600m',
+    'time': '6:13.64',
+    'trend': 'Slower',
+    'location': 'Danville, CA',
+    'notes': ''
+  },
+  {
+    'date': 'Apr 2014',
+    'distance': '400m',
+    'time': '56.74',
+    'trend': '-',
+    'location': 'Danville, CA',
+    'notes': 'HS Varsity Track Meet'
+  },
+  {
+    'date': 'Feb 2014',
+    'distance': '800m',
+    'time': '2:12.15',
+    'trend': '-',
+    'location': 'Livermore, CA',
+    'notes': 'HS Varsity Track Meet'
+  },
+  {
+    'date': 'Nov 2014',
+    'distance': '1600m',
+    'time': '5:35.26',
+    'trend': '-',
+    'location': 'Danville, CA',
+    'notes': 'HS 24 Hour Marathon'
+  }
+];
 
 export const footerIcons = [
-  { icon: faRunning,
+  {
+    icon: faRunning,
     link: '/writings/run-log',
   },
-  { icon: faFile,
+  {
+    icon: faFile,
     link: 'https://gist.github.com/Anthony-Calderaro/6c41f8429a9dd395bf59362037c34d99',
     target: '_blank'
   },
-  { icon: faMusic,
+  {
+    icon: faMusic,
     link: '/writings/music',
-  }, 
-  { icon: faTwitter,
+  },
+  {
+    icon: faTwitter,
     link: 'https://twitter.com/calderarrow',
     target: '_blank'
-  }, 
-  { icon: faGithub,
+  },
+  {
+    icon: faGithub,
     link: 'https://github.com/Anthony-Calderaro',
     target: '_blank'
-  }, 
-  { icon: faRss,
+  },
+  {
+    icon: faRss,
     link: '/rss',
-  }, 
+  },
 ];
 
 export const essayCategories = ['money', 'athletics', 'life', 'family', 'reflection'];
