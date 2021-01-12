@@ -4,7 +4,7 @@ import styles from '../styles/Home.module.css';
 export default function Projects() {
   return (
     <div>
-      Coming soon.
+      Coming soon. Haha!
       {/* Todo: Make a wall of icons for linking to my various profiles and accounts? */}
       {/* <h1>Our Holistic Approach</h1> */}
       {/* <p style={{ lineHeight: '2rem' }}>Our team obtains updated bank data and adds dozens of new accounts and products every day. Unlike other companies[Quora link] or blogs offering financial advice that provide you with a preselected number of options and recommend the best from that pool of choices, so they can receive kickbacks or show more advertisements. We don't serve ads, and we don't exclude any companies or products. We intentionally seek out the most accurate, up-to-date information on as many products as humanly possible, to ensure that you're making a fully informed decision.</p>
