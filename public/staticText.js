@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faMusic, faRss, faRunning } from '@fortawesome/free-solid-svg-icons'
+import { faMusic, faRss, faRunning, faMoon } from '@fortawesome/free-solid-svg-icons'
 import { faFile } from '@fortawesome/free-regular-svg-icons'
 import { faTwitter, faGithub } from '@fortawesome/free-brands-svg-icons'
 
@@ -42,6 +42,9 @@ export const races = [
   }
 ];
 
+export const themeIcons = {
+  light: faMoon,
+}
 export const footerIcons = [
   {
     icon: faRunning,

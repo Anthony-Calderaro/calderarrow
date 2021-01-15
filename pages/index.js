@@ -1,4 +1,5 @@
 import Link from 'next/link';
+
 import { homePageLinks } from '../public/staticText';
 
 import styles from '../styles/Home.module.css';

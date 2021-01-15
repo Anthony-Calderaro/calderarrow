@@ -1,6 +1,8 @@
 import Link from 'next/link';
+import Image from 'next/image'
 
-// Todo: may not need lgiht
+import { themeIcons, createFontAwesomeIcon } from '../public/staticText';
+
 import headerStyles from '../styles/Header.module.css';
 
 // Todo Static
@@ -12,19 +14,20 @@ const Header = ({ theme, toggleTheme }) => {
   return (
     <div className={headerStyles.headerContainer}>
       <div className={headerStyles.linkContainer}>
-      <Link href='/'>
-        <a className={headerStyles.link}>Home</a> 
-        {/* Todo: headshot */}
-      </Link>
+        <Link href='/'>
+          <a className={headerStyles.headshot}>
+            <Image src='/hs.png' alt='A Picture of Me!' height={48} width={48} />
+          </a>
+        </Link>
       </div>
       <div className={headerStyles.linkContainer}>
         {links.map((category, i) => <LinkCategory category={category} key={i} />)}
       </div>
-      
+
       <div className={headerStyles.iconContainer} onClick={toggleTheme}>
-          {theme ? <span>🌑</span> : <span>🌕</span>}
+        {theme ? <span className={headerStyles.moon}>{createFontAwesomeIcon(themeIcons.light)}</span> : <span>☀️</span>}
       </div>
-    
+
     </div>
   );
 };
