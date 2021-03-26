@@ -1,9 +1,13 @@
+/* Todo: Add variables */
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: Helvetica, sans-serif;
+  line-height: 32px;
+  font-size: 18px;
+  letter-spacing: -0.33px;
+  font-weight: 400;
 }
 
 a {
@@ -19,7 +23,7 @@ main {
   display: flex;
   padding-top: 5vh;
   flex-direction: column;
-  max-width: 600px;
+  max-width: 750px;
   width: 100%;
   min-height: 80vh; /* Todo: Fix so not fixed */
 }
@@ -34,8 +38,8 @@ main {
 }
 
 .container.dark {
-  background: black !important;
-  color: white !important;
+  background: #131415 !important;
+  color: #fafbfc !important;
   /* Todo: 156,163,175 for lighter text */
   /*Dark  Todo: Text color: 156,163,175 
 light: 156,163,175*/

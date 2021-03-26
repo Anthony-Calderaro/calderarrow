@@ -75,8 +75,6 @@ export const footerIcons = [
   },
 ];
 
-export const essayCategories = ['money', 'athletics', 'life', 'family', 'reflection'];
-
 export const homePageLinks = {
   software: {
     link: 'https://github.com/Anthony-Calderaro',
@@ -94,8 +92,8 @@ export const homePageLinks = {
     target: '_blank',
   },
   employer: {
-    link: 'https://www.ustaxcourt.gov/',
-    text: 'the U.S. Tax Court.',
+    link: 'https://www.capitalone.com/',
+    text: 'Capital One.',
     target: '_blank',
   },
   running: {
@@ -115,6 +113,8 @@ export const homePageLinks = {
     text: 'connect'
   },
 };
+
+export const essayCategories = ['money', 'athletics', 'life', 'family', 'reflection', 'career'];
 
 export const essays = [
   {
@@ -154,16 +154,11 @@ export const essays = [
     }
   },
   {
-    title: 'Essay 2',
-    date: 'January 2021',
-    categories: ['money', 'reflection'],
-    summary: 'Here is a TL;DR that could fit in 240 characters',
-    paragraphs: [
-      'Some text for paragraph 1',
-      'Some text for paragraph 2',
-      'Some text for paragraph 3',
-      'Some text for paragraph 4',
-    ]
+    title: 'Three Years to FinTech',
+    url: 'fintech',
+    date: 'March 2021',
+    categories: ['career', 'reflection', 'life'],
+    summary: 'As an accountant, I decided that I would get into financial technology. Three years later, I made it.',
   },
   {
     title: 'Esssay 3',

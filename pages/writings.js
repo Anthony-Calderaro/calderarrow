@@ -6,10 +6,10 @@ import { essays, essayCategories } from '../public/staticText';
 
 // Todo: Make dates numeric, and a switch statement for converting to month
 // Todo: make category colors align with ND
-const ListView = () => <svg className={writingsStyles.viewOption} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="black" width="18px" height="18px"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>;
-const CardView = () => <svg className={writingsStyles.viewOption} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="black" width="18px" height="18px"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M19 5v4H4V5h15m0 10v4H4v-4h15m1-12H3c-.55 0-1 .45-1 1v6c0 .55.45 1 1 1h17c.55 0 1-.45 1-1V4c0-.55-.45-1-1-1zm0 10H3c-.55 0-1 .45-1 1v6c0 .55.45 1 1 1h17c.55 0 1-.45 1-1v-6c0-.55-.45-1-1-1z"/></svg>;
-const Descending = () => <svg xmlns="http://www.w3.org/2000/svg" enableBackground="new 0 0 24 24" viewBox="0 0 24 24" fill="black" width="18px" height="18px"><rect fill="none" height="24" width="24"/><path d="M19,15l-1.41-1.41L13,18.17V2H11v16.17l-4.59-4.59L5,15l7,7L19,15z"/></svg>;
-const Ascending = () => <svg xmlns="http://www.w3.org/2000/svg" enableBackground="new 0 0 24 24" viewBox="0 0 24 24" fill="black" width="18px" height="18px"><rect fill="none" height="24" width="24"/><path d="M5,9l1.41,1.41L11,5.83V22H13V5.83l4.59,4.59L19,9l-7-7L5,9z"/></svg>;
+const ListView = () => <svg className={writingsStyles.viewOption} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="black" width="18px" height="18px"><path d="M0 0h24v24H0V0z" fill="none" /><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" /></svg>;
+const CardView = () => <svg className={writingsStyles.viewOption} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="black" width="18px" height="18px"><path d="M0 0h24v24H0V0z" fill="none" /><path d="M19 5v4H4V5h15m0 10v4H4v-4h15m1-12H3c-.55 0-1 .45-1 1v6c0 .55.45 1 1 1h17c.55 0 1-.45 1-1V4c0-.55-.45-1-1-1zm0 10H3c-.55 0-1 .45-1 1v6c0 .55.45 1 1 1h17c.55 0 1-.45 1-1v-6c0-.55-.45-1-1-1z" /></svg>;
+const Descending = () => <svg xmlns="http://www.w3.org/2000/svg" enableBackground="new 0 0 24 24" viewBox="0 0 24 24" fill="black" width="18px" height="18px"><rect fill="none" height="24" width="24" /><path d="M19,15l-1.41-1.41L13,18.17V2H11v16.17l-4.59-4.59L5,15l7,7L19,15z" /></svg>;
+const Ascending = () => <svg xmlns="http://www.w3.org/2000/svg" enableBackground="new 0 0 24 24" viewBox="0 0 24 24" fill="black" width="18px" height="18px"><rect fill="none" height="24" width="24" /><path d="M5,9l1.41,1.41L11,5.83V22H13V5.83l4.59,4.59L19,9l-7-7L5,9z" /></svg>;
 
 
 const SortMenu = ({ selectOption }) => {
@@ -39,7 +39,7 @@ const ShortBlog = ({ essay }) => {
 
 const BlogCard = ({ essay, categoryFilters }) => {
   const { title, date, categories, summary, url } = essay;
-  
+
   return (
     <Link href={`${url ? `/writings/${url}` : ''}`}>
       <a className={writingsStyles.blogCard}>
@@ -73,7 +73,7 @@ export default function writings() {
   const [sortMenuVisible, toggleSortMenu] = useState(false);
 
   const essayCategoryIsSelected = categories => categories.filter(category => categoryFilters.includes(category)).length > 0;
-  
+
   const essayMatchesSearchText = ({ title, summary, date }) => {
     if (searchBoxText) {
       return (
@@ -88,7 +88,7 @@ export default function writings() {
 
   const filterEssays = () => essays.filter(essay => essayMatchesSearchText(essay) && essayCategoryIsSelected(essay.categories));
 
-  
+
 
   const selectSortOption = sortOption => {
     updateSortBy(sortOption);
@@ -101,9 +101,9 @@ export default function writings() {
     categoryIndex === -1 ? currentCategoryFilters.push(category) : currentCategoryFilters.splice(categoryIndex, 1);
     updateCategoryFilters(currentCategoryFilters);
   };
-  
+
   useEffect(() => updateEssays(sortEssays(filterEssays())), [searchBoxText, sortBy, sortAscending, categoryFilters])
-  
+
   return (
     <div className={writingsStyles.writingList} >
       <div className={writingsStyles.searchOptions}>
@@ -114,17 +114,18 @@ export default function writings() {
           // Todo: Make placeholder text static
           value={searchBoxText && searchBoxText}
         />
-        
+
         <div className={writingsStyles.categories}>
           {essayCategories.map((category, i) => {
             return (
-            <div
-              className={`${writingsStyles.category} ${writingsStyles[category]} ${categoryFilters.includes(category) ? '' : `${writingsStyles.opaque}`}`}
-              onClick={() => toggleFilter(category)}
-              key={i}
-            >{category}
-            </div>
-          )})}
+              <div
+                className={`${writingsStyles.category} ${writingsStyles[category]} ${categoryFilters.includes(category) ? '' : `${writingsStyles.opaque}`}`}
+                onClick={() => toggleFilter(category)}
+                key={i}
+              >{category}
+              </div>
+            )
+          })}
         </div>
 
         <div className={writingsStyles.sortBy}>
