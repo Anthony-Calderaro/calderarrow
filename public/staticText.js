@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMusic, faRss, faRunning, faMoon } from '@fortawesome/free-solid-svg-icons'
-import { faFile } from '@fortawesome/free-regular-svg-icons'
+import { faFile, faLightbulb } from '@fortawesome/free-regular-svg-icons'
 import { faTwitter, faGithub } from '@fortawesome/free-brands-svg-icons'
 
 export function createFontAwesomeIcon(icon) {
@@ -96,6 +96,11 @@ export const homePageLinks = {
     text: 'Capital One.',
     target: '_blank',
   },
+  ymmv: {
+    link: 'https://en.wiktionary.org/wiki/your_mileage_may_vary',
+    text: 'YMMV',
+    target: '_blank',
+  },
   running: {
     link: '/writings/run-log',
     text: 'here.'
@@ -106,11 +111,11 @@ export const homePageLinks = {
   },
   projects: {
     link: '/projects',
-    text: 'things I built'
+    text: 'things I work on'
   },
-  contact: {
-    link: '/contact',
-    text: 'connect'
+  quotes: {
+    link: '/quotes',
+    text: 'other people said'
   },
 };
 

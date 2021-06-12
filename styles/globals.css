@@ -38,7 +38,7 @@ main {
 }
 
 .container.dark {
-  background: #131415 !important;
+  background: rgb(34, 35, 35) !important;
   color: #fafbfc !important;
   /* Todo: 156,163,175 for lighter text */
   /*Dark  Todo: Text color: 156,163,175 

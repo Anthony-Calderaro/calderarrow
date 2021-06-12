@@ -6,7 +6,7 @@ import { themeIcons, createFontAwesomeIcon } from '../public/staticText';
 import headerStyles from '../styles/Header.module.css';
 
 // Todo Static
-const links = ['writings', 'projects', 'quotes', 'TIL', 'contact'];
+const links = ['writings', 'projects', 'quotes', 'contact'];
 
 const LinkCategory = ({ category }) => <Link href={`/${category}`}><a className={headerStyles.link}>{category}</a></Link>;
 

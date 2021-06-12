@@ -54,93 +54,103 @@ const BlogCard = ({ essay, categoryFilters }) => {
   );
 };
 
+// export default function writings() {
+//   const [searchBoxText, updateSearchText] = useState();
+//   const [sortBy, updateSortBy] = useState('date');
+//   const [sortAscending, toggleSortDirection] = useState(true);
+//   const [categoryFilters, updateCategoryFilters] = useState(essayCategories.map(c => c));
+
+//   const sortEssays = essays => essays.sort((essayA, essayB) => {
+//     if (sortAscending) {
+//       return essayA[sortBy] > essayB[sortBy] ? -1 : 1;
+//     } else {
+//       return essayB[sortBy] > essayA[sortBy] ? -1 : 1
+//     }
+//   });
+
+//   const [filteredEssays, updateEssays] = useState(sortEssays(essays));
+//   const [listView, toggleListView] = useState(false);
+//   const [sortMenuVisible, toggleSortMenu] = useState(false);
+
+//   const essayCategoryIsSelected = categories => categories.filter(category => categoryFilters.includes(category)).length > 0;
+
+//   const essayMatchesSearchText = ({ title, summary, date }) => {
+//     if (searchBoxText) {
+//       return (
+//         title.toLowerCase().includes(searchBoxText.toLowerCase()) ||
+//         summary.toLowerCase().includes(searchBoxText.toLowerCase()) ||
+//         date.toLowerCase().includes(searchBoxText.toLowerCase())
+//       );
+//     } else {
+//       return true;
+//     }
+//   }
+
+//   const filterEssays = () => essays.filter(essay => essayMatchesSearchText(essay) && essayCategoryIsSelected(essay.categories));
+
+
+
+//   const selectSortOption = sortOption => {
+//     updateSortBy(sortOption);
+//     toggleSortMenu(false);
+//   }
+
+//   const toggleFilter = category => {
+//     const currentCategoryFilters = categoryFilters.slice();
+//     const categoryIndex = currentCategoryFilters.indexOf(category);
+//     categoryIndex === -1 ? currentCategoryFilters.push(category) : currentCategoryFilters.splice(categoryIndex, 1);
+//     updateCategoryFilters(currentCategoryFilters);
+//   };
+
+//   useEffect(() => updateEssays(sortEssays(filterEssays())), [searchBoxText, sortBy, sortAscending, categoryFilters])
+
+//   return (
+//     <div className={writingsStyles.writingList} >
+//       <div className={writingsStyles.searchOptions}>
+//         <input
+//           className={writingsStyles.search}
+//           onChange={(e) => updateSearchText(e.target.value)}
+//           placeholder={'Search by title, date, or text'}
+//           // Todo: Make placeholder text static
+//           value={searchBoxText && searchBoxText}
+//         />
+
+//         <div className={writingsStyles.categories}>
+//           {essayCategories.map((category, i) => {
+//             return (
+//               <div
+//                 className={`${writingsStyles.category} ${writingsStyles[category]} ${categoryFilters.includes(category) ? '' : `${writingsStyles.opaque}`}`}
+//                 onClick={() => toggleFilter(category)}
+//                 key={i}
+//               >{category}
+//               </div>
+//             )
+//           })}
+//         </div>
+
+//         <div className={writingsStyles.sortBy}>
+//           <div className={writingsStyles.sortCategory} onClick={() => toggleSortMenu(!sortMenuVisible)}>{sortBy}</div>
+//           <div onClick={() => toggleSortDirection(!sortAscending)}>{sortAscending ? <Ascending /> : <Descending />}</div>
+//         </div>
+//         {sortMenuVisible && <SortMenu selectOption={selectSortOption} />}
+
+//         <div className={writingsStyles.viewToggle} onClick={() => toggleListView(!listView)}>
+//           {listView ? <ListView /> : <CardView />}
+//         </div>
+//       </div>
+
+//       {filteredEssays.map((essay, i) => listView ? <ShortBlog categoryFilters={categoryFilters} key={i} essay={essay} /> : <BlogCard key={i} essay={essay} categoryFilters={categoryFilters} />)}
+
+//     </div>
+//   )
+// }
+
+
 export default function writings() {
-  const [searchBoxText, updateSearchText] = useState();
-  const [sortBy, updateSortBy] = useState('date');
-  const [sortAscending, toggleSortDirection] = useState(true);
-  const [categoryFilters, updateCategoryFilters] = useState(essayCategories.map(c => c));
-
-  const sortEssays = essays => essays.sort((essayA, essayB) => {
-    if (sortAscending) {
-      return essayA[sortBy] > essayB[sortBy] ? -1 : 1;
-    } else {
-      return essayB[sortBy] > essayA[sortBy] ? -1 : 1
-    }
-  });
-
-  const [filteredEssays, updateEssays] = useState(sortEssays(essays));
-  const [listView, toggleListView] = useState(false);
-  const [sortMenuVisible, toggleSortMenu] = useState(false);
-
-  const essayCategoryIsSelected = categories => categories.filter(category => categoryFilters.includes(category)).length > 0;
-
-  const essayMatchesSearchText = ({ title, summary, date }) => {
-    if (searchBoxText) {
-      return (
-        title.toLowerCase().includes(searchBoxText.toLowerCase()) ||
-        summary.toLowerCase().includes(searchBoxText.toLowerCase()) ||
-        date.toLowerCase().includes(searchBoxText.toLowerCase())
-      );
-    } else {
-      return true;
-    }
-  }
-
-  const filterEssays = () => essays.filter(essay => essayMatchesSearchText(essay) && essayCategoryIsSelected(essay.categories));
-
-
-
-  const selectSortOption = sortOption => {
-    updateSortBy(sortOption);
-    toggleSortMenu(false);
-  }
-
-  const toggleFilter = category => {
-    const currentCategoryFilters = categoryFilters.slice();
-    const categoryIndex = currentCategoryFilters.indexOf(category);
-    categoryIndex === -1 ? currentCategoryFilters.push(category) : currentCategoryFilters.splice(categoryIndex, 1);
-    updateCategoryFilters(currentCategoryFilters);
-  };
-
-  useEffect(() => updateEssays(sortEssays(filterEssays())), [searchBoxText, sortBy, sortAscending, categoryFilters])
-
+  const arr = [1, 2, 3, 4, 5];
   return (
-    <div className={writingsStyles.writingList} >
-      <div className={writingsStyles.searchOptions}>
-        <input
-          className={writingsStyles.search}
-          onChange={(e) => updateSearchText(e.target.value)}
-          placeholder={'Search by title, date, or text'}
-          // Todo: Make placeholder text static
-          value={searchBoxText && searchBoxText}
-        />
-
-        <div className={writingsStyles.categories}>
-          {essayCategories.map((category, i) => {
-            return (
-              <div
-                className={`${writingsStyles.category} ${writingsStyles[category]} ${categoryFilters.includes(category) ? '' : `${writingsStyles.opaque}`}`}
-                onClick={() => toggleFilter(category)}
-                key={i}
-              >{category}
-              </div>
-            )
-          })}
-        </div>
-
-        <div className={writingsStyles.sortBy}>
-          <div className={writingsStyles.sortCategory} onClick={() => toggleSortMenu(!sortMenuVisible)}>{sortBy}</div>
-          <div onClick={() => toggleSortDirection(!sortAscending)}>{sortAscending ? <Ascending /> : <Descending />}</div>
-        </div>
-        {sortMenuVisible && <SortMenu selectOption={selectSortOption} />}
-
-        <div className={writingsStyles.viewToggle} onClick={() => toggleListView(!listView)}>
-          {listView ? <ListView /> : <CardView />}
-        </div>
-      </div>
-
-      {filteredEssays.map((essay, i) => listView ? <ShortBlog categoryFilters={categoryFilters} key={i} essay={essay} /> : <BlogCard key={i} essay={essay} categoryFilters={categoryFilters} />)}
-
-    </div>
+    <ul>
+        {arr.map(i => <div>{i}</div>)}
+    </ul>
   )
 }
