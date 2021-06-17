@@ -11,7 +11,8 @@ export default function Post() {
         <title>{title} | Bank Rank Blog</title>
         {/* Todo: blog favicon */}
       </Head>
-      </div>
+    </div>
+  )
 }
 
 export async function getStaticPaths() {

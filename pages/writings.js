@@ -146,11 +146,51 @@ const BlogCard = ({ essay, categoryFilters }) => {
 // }
 
 
-export default function writings() {
-  const arr = [1, 2, 3, 4, 5];
+// export default function writings() {
+//   const arr = [1, 2, 3, 4, 5];
+//   return (
+//     <ul>
+//         {arr.map(i => <div>{i}</div>)}
+//     </ul>
+//   )
+// }
+
+// Packages
+import Head from 'next/head';
+
+// Content
+import { getSortedPostsData } from '../lib/posts.js'
+// import NavigationBar from '../components/Navigation/NavigationBar/NavigationBar';
+// import MenuDrawer from '../components/MenuDrawer/MenuDrawer';
+
+export async function getStaticProps() {
+  const allPostsData = getSortedPostsData();
+  return {
+    props: {
+      allPostsData
+    }
+  }
+}
+
+export default ({ allPostsData }) => {
+  console.log('allPostsData', allPostsData)
   return (
-    <ul>
-        {arr.map(i => <div>{i}</div>)}
-    </ul>
+    <>
+      {/* <NavigationBar showSearchResults={false} showSignInButton={false} showPremiumSignupButton={false} />
+      <MenuDrawer /> */}
+      <section style={{ maxWidth: '600px', margin: 'auto'}}>
+        <h2>Bank Rank Blog</h2>
+        <ul> 
+          {allPostsData.map(({ id, date, title }) => (
+            <li key={id} style={{ display: 'flex', justifyContent: 'space-between', margin: '5px 0'}}>
+              <Link href={`/writings/${id}`}>
+                <a>{title}</a>
+              </Link>
+              {date}
+            </li>
+          ))}
+        </ul>
+      </section>
+    </>
   )
 }
