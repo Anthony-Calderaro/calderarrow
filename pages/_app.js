@@ -1,6 +1,6 @@
+import Head from 'next/head'
 import { useState } from 'react';
 import { useRouter } from 'next/router';
-import Head from 'next/head'
 
 import Footer from '../components/Footer';
 import Header from '../components/Header';
@@ -10,26 +10,17 @@ import '../styles/globals.css'
 function MyApp({ Component, pageProps }) {
   const router = useRouter();
   const { pathname } = router;
+  const { postData } = pageProps;
 
   const [lightTheme, toggleTheme] = useState(true);
-  const pageTitle = () => {
-    const pathnames = ['/writings', '/projects', '/contact']
-    if (pathname === '/') {
-      return 'Anthony Calderaro';
-    } else if (pathnames.includes(pathname)) {
-      return `${pathname.slice(1, 2).toUpperCase() + pathname.slice(2)}`
-    } else if (pathname.includes('/writings')) {
-      return `${pathname.slice(9, 10).toUpperCase() + pathname.slice(10)}`
-    } else {
-      return pathname;
-    }
-  };
+
+  const pageTitle = postData ? postData.title : `${pathname.charAt(1).toUpperCase() + pathname.slice(2)}`;
 
   return (
     <div>
       <Head>
-        <title>{pageTitle()}</title>
-        <link rel="shortcut icon" type="image/png" href="/favicon.ico" />
+        <link rel="shortcut icon" type="image/png" href="hs.png" />
+        <title>{pageTitle}</title>
       </Head>
 
       <div className={`container ${lightTheme ? '' : 'dark'}`}>
