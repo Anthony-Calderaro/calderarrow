@@ -1,6 +1,8 @@
 ---
-title: '3 Years To Fintech'
-date: '01-01-0101'
+title: '3 Years To FinTech'
+date: 'February 2021'
+categories: ['life', 'money']
+wordCount: 3000
 ---
 
 ### 3 years to FinTech
@@ -81,7 +83,7 @@ They gave me more than the low end of my offer range, plus a signing bonus, and 
 
 I was then put into the unique position of having to withdraw from the Microsoft program and a job I started less than 6 weeks ago. It was awkward, but the Tax Court is really an amazing team – I felt terrible about leaving so soon, but they were understanding. Their HR team actually mentioned that it happens quite often because the public sector can’t always compete with private – she had actually left a governmnet job within 90 days herself! It was a great eight weeks though, and I really value the opporutnity I had to interface with actual users of the product. We were getting people requesting (or rudely demanding) new functionality every week – talk about product market fit! I learned a ton in such a short period of time. Their product is being developed in the open – and if you have a chance to contribute, you can do so here.
 
-I started with Capital One in March – I finally made it to FinTech! I’m a software engineer, working on fascinating financial technology at a scale I could never have imagined. I can’t wait to go back to the office[link].
+I started with Capital One in March – I finally made it to FinTech! I’m a software engineer, working on fascinating financial technology at a scale I could never have imagined. I can’t wait to go back to the office[link]. What I love most about them is that they are one of the more truer fin tech companies, especially relative to other banks. Most banks are really finance companies with a technology department. Capital One is a tech company that builds financial products. 
 
 For me, FinTech presents an amazing opportunity to do good in the world. Every individual is involved in a global financial system, but not everyone is financially literate. FinTech provides a way to leverage technology to make this system more transparent, accessible, and affordable. It’s not heart surgery, but it provides a lot more value than squeezing as many advertisements as possible into users. I’m incredibly privileged to be here.
 

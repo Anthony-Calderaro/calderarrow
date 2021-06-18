@@ -97,7 +97,7 @@ export const homePageLinks = {
     target: '_blank',
   },
   ymmv: {
-    link: 'https://en.wiktionary.org/wiki/your_mileage_may_vary',
+    link: 'https://en.wiktionary.org/wiki/your_mileage_may_vary#English',
     text: 'YMMV',
     target: '_blank',
   },
@@ -118,8 +118,6 @@ export const homePageLinks = {
     text: 'other people said'
   },
 };
-
-export const essayCategories = ['money', 'athletics', 'life', 'family', 'reflection', 'career'];
 
 export const essays = [
   {
@@ -157,25 +155,6 @@ export const essays = [
       '5000': [],
       '10000': [],
     }
-  },
-  {
-    title: 'Three Years to FinTech',
-    url: 'fintech',
-    date: 'March 2021',
-    categories: ['career', 'reflection', 'life'],
-    summary: 'As an accountant, I decided that I would get into financial technology. Three years later, I made it.',
-  },
-  {
-    title: 'Esssay 3',
-    date: 'January 2021',
-    categories: ['money', 'life'],
-    summary: 'Here is a TL;DR that could fit in 240 characters',
-    paragraphs: [
-      'Some text for paragraph 1',
-      'Some text for paragraph 2',
-      'Some text for paragraph 3',
-      'Some text for paragraph 4',
-    ]
   },
 ]
 

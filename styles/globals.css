@@ -23,7 +23,7 @@ main {
   display: flex;
   padding-top: 5vh;
   flex-direction: column;
-  max-width: 750px;
+  max-width: 650px;
   width: 100%;
   min-height: 80vh; /* Todo: Fix so not fixed */
 }

@@ -39,7 +39,7 @@
   display: flex;
 }
 
-.link:hover {
+.link:hover, .active {
   border-bottom: 1px solid #d39f10;
 }
 
