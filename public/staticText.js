@@ -85,7 +85,7 @@ export const quotes = [
     link: 'wikipedia intelligent investor'
   },
   {
-    quote: '',
+    quote: 'Kierkegard said life can be understood backward but must be lived forwards',
     source: '',
     link: ''
   },
