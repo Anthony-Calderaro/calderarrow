@@ -1,63 +1,21 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faMusic, faRss, faRunning, faMoon } from '@fortawesome/free-solid-svg-icons'
-import { faFile, faLightbulb } from '@fortawesome/free-regular-svg-icons'
+import { faRss, faMoon } from '@fortawesome/free-solid-svg-icons'
+import { faFile } from '@fortawesome/free-regular-svg-icons'
 import { faTwitter, faGithub } from '@fortawesome/free-brands-svg-icons'
 
 export function createFontAwesomeIcon(icon) {
   return <FontAwesomeIcon icon={icon} />
 }
 
-export const races = [
-  {
-    'date': 'Dec 2020',
-    'distance': '1600m',
-    'time': '6:13.64',
-    'trend': 'Slower',
-    'location': 'Danville, CA',
-    'notes': ''
-  },
-  {
-    'date': 'Apr 2014',
-    'distance': '400m',
-    'time': '56.74',
-    'trend': '-',
-    'location': 'Danville, CA',
-    'notes': 'HS Varsity Track Meet'
-  },
-  {
-    'date': 'Feb 2014',
-    'distance': '800m',
-    'time': '2:12.15',
-    'trend': '-',
-    'location': 'Livermore, CA',
-    'notes': 'HS Varsity Track Meet'
-  },
-  {
-    'date': 'Nov 2014',
-    'distance': '1600m',
-    'time': '5:35.26',
-    'trend': '-',
-    'location': 'Danville, CA',
-    'notes': 'HS 24 Hour Marathon'
-  }
-];
-
 export const themeIcons = {
   light: faMoon,
 }
+
 export const footerIcons = [
-  {
-    icon: faRunning,
-    link: '/writings/run-log',
-  },
   {
     icon: faFile,
     link: 'https://gist.github.com/Anthony-Calderaro/6c41f8429a9dd395bf59362037c34d99',
     target: '_blank'
-  },
-  {
-    icon: faMusic,
-    link: '/writings/music',
   },
   {
     icon: faTwitter,
@@ -101,10 +59,6 @@ export const homePageLinks = {
     text: 'YMMV',
     target: '_blank',
   },
-  running: {
-    link: '/writings/run-log',
-    text: 'here.'
-  },
   writings: {
     link: '/writings',
     text: `things I've written`
@@ -119,42 +73,20 @@ export const homePageLinks = {
   },
 };
 
-export const essays = [
+export const quotes = [
   {
-    title: 'Run Log',
-    url: 'run-log',
-    date: 'December 2020',
-    categories: ['athletics'],
-    summary: 'Charts & logs visualizing my Personal Records in the 400m, 800m, 1600m, 5k, and 10k events. Timestamped and dated for posterity.',
-    paragraphs: [],
-    misc: {
-      '400': [
-        // {
-        //   date: 'December 2020',
-        //   minutes: 6,
-        //   seconds: 13,
-        //   miliseconds: 78
-        // },
-      ],
-      '800': [
-        // {
-        //   date: 'December 2020',
-        //   minutes: 6,
-        //   seconds: 13,
-        //   miliseconds: 78
-        // },
-      ],
-      '1600': [
-        {
-          date: 'December 2020',
-          minutes: 6,
-          seconds: 13,
-          miliseconds: 78
-        },
-      ],
-      '5000': [],
-      '10000': [],
-    }
+    quote: 'Failing at investing is like failing in relationships. It’s more a matter of character than intelligence.',
+    source: 'The Intelligent Investor Introduction',
+    link: 'wikipedia intelligent investor'
   },
-]
-
+  {
+    quote: 'Blessed is he who expects nothing, for he shall enjoy everything.',
+    source: 'The Intelligent Investor Introduction',
+    link: 'wikipedia intelligent investor'
+  },
+  {
+    quote: '',
+    source: '',
+    link: ''
+  },
+];
