@@ -1,20 +1,53 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<rss version="2.0">
 
-<channel>
-  <title>Anthony Calderaro: Writings</title>
-  <link>https://calderarrow.me</link>
-  <description>An RSS Feed of writings by Anthony Calderaro</description>
-  <item>
-    <title>RSS Tutorial</title>
-    <link>https://www.w3schools.com/xml/xml_rss.asp</link>
-    <description>New RSS tutorial on W3Schools</description>
-  </item>
-  <item>
-    <title>XML Tutorial</title>
-    <link>https://www.w3schools.com/xml</link>
-    <description>New XML tutorial on W3Schools</description>
-  </item>
-</channel>
-
-</rss>
+  <?xml version="1.0" encoding="UTF-8" ?>
+  <rss version="2.0">
+  
+  <channel>
+    <title>Writings by Anthony Calderaro</title>
+    <link>https://calderarrow.me</link>
+    <description>An RSS feed of all my writings.</description>
+    
+        <item>
+          <title>Developing Emotional Discipline</title>
+          <link>https://calderarrow.me/writings/emotional-discipline</link>
+        </item>
+      
+        <item>
+          <title>Book Review: Frederick Douglass</title>
+          <link>https://calderarrow.me/writings/fd</link>
+        </item>
+      
+        <item>
+          <title>rich</title>
+          <link>https://calderarrow.me/writings/get-rich</link>
+        </item>
+      
+        <item>
+          <title>Book Review: The Intelligent Investor</title>
+          <link>https://calderarrow.me/writings/intelligent-investor</link>
+        </item>
+      
+        <item>
+          <title>Options</title>
+          <link>https://calderarrow.me/writings/stockoptions</link>
+        </item>
+      
+        <item>
+          <title>tax code</title>
+          <link>https://calderarrow.me/writings/taxcode</link>
+        </item>
+      
+        <item>
+          <title>Test</title>
+          <link>https://calderarrow.me/writings/test</link>
+        </item>
+      
+        <item>
+          <title>3 Years To FinTech</title>
+          <link>https://calderarrow.me/writings/3years</link>
+        </item>
+      
+  </channel>
+  
+  </rss>
+  
