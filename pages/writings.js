@@ -23,6 +23,7 @@ export default ({ allPostsData }) => {
 
   useEffect(() => {
     const searchString = searchText.toLowerCase().trim();
+    console.log('allPostsData', allPostsData)
     setFilteredPosts(
       allPostsData.filter(({ title, categories }) => (
         title.toLowerCase().indexOf(searchString) > -1 || 
