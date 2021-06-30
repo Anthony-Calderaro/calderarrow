@@ -29,7 +29,7 @@ export const footerIcons = [
   },
   {
     icon: faRss,
-    link: '/rss',
+    link: '/rss.xml',
   },
 ];
 
