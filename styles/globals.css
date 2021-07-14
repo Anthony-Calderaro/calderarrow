@@ -25,6 +25,7 @@ main {
   flex-direction: column;
   max-width: 650px;
   width: 100%;
+  padding: 0 12px;
   min-height: 80vh; /* Todo: Fix so not fixed */
 }
 
@@ -47,4 +48,9 @@ light: 156,163,175*/
 
 .container.dark svg {
   fill: white;
+}
+
+.icon {
+  height: 18x;
+  width: 18px;
 }

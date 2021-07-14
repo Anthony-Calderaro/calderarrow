@@ -4,7 +4,7 @@ import { faFile } from '@fortawesome/free-regular-svg-icons'
 import { faTwitter, faGithub } from '@fortawesome/free-brands-svg-icons'
 
 export function createFontAwesomeIcon(icon) {
-  return <FontAwesomeIcon icon={icon} />
+  return <FontAwesomeIcon className='icon' icon={icon} />
 }
 
 export const themeIcons = {
@@ -41,7 +41,8 @@ export const homePageLinks = {
   },
   dlvfr: {
     link: 'https://www.dlvfrd.org/',
-    text: 'volunteer EMT',
+    text: 'volunteer',
+    // text: 'volunteer EMT',
     target: '_blank',
   },
   cpa: {

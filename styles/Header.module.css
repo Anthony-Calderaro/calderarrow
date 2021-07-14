@@ -1,7 +1,7 @@
 .headerContainer {
   display: flex;
   justify-content: space-around;
-  width: 1000px;
+  font-size: 14px;
   height: 10vh;
   font-weight: 500;
 }
@@ -25,7 +25,7 @@
 
 .link {
   padding: 12px 0;
-  margin: 0 24px;
+  margin: 0 6px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -48,7 +48,11 @@
   margin: 10px 0;
 }
 
-.moon {
-  color: rgb(31, 41, 55);
-  transform: rotate(240deg);
+@media screen and (min-width: 1000px) {
+  .link {
+    margin: 0 24px;
+  }
+  .headerContainer {
+    width: 1000px;
+  }
 }

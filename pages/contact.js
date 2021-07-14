@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import styles from '../styles/Home.module.css';
 
-export default function Projects() {
+export default function Contact() {
   return (
     <div>
       Coming soon. Haha!
