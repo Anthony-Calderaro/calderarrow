@@ -20,6 +20,7 @@ function MyApp({ Component, pageProps }) {
     <div>
       <Head>
         <link rel="shortcut icon" type="image/png" href="hs.png" />
+        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css" />
         <title>{pageTitle}</title>
       </Head>
 

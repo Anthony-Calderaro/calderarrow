@@ -18,11 +18,11 @@ export default function Home() {
 
   return (
     <div className={styles.home_container}>
-      <h1>Hi, I'm Anthony! 👋</h1>
+      <p className={styles.main_header}>Hi, I'm Anthony! 👋</p>
       <p>I'm a <HomePageLink linkObject={homePageLinks.software} />, <HomePageLink linkObject={homePageLinks.dlvfr} />, and <HomePageLink linkObject={homePageLinks.cpa}/></p>
       <p>I'm passionate about financial technology and currently work as a software engineer at <HomePageLink linkObject={homePageLinks.employer} /></p>
       <p>This is my public page where I post <HomePageLink linkObject={homePageLinks.writings} />, <HomePageLink linkObject={homePageLinks.projects} />, and things <HomePageLink linkObject={homePageLinks.quotes} /> that I find interesting.</p>
-      <p>For our collective wellbeing, please know that the views expressed are my own, I am not your accountant, <HomePageLink linkObject={homePageLinks.ymmv} />, et cetera, et cetera.</p>
+      <p>The things I say here are coming from Anthony, the regular dude, not Anthony the accountant and not Anthony the dude who works for ${'COMPANY'}. The things I say here are my own, read at your own risk, <HomePageLink linkObject={homePageLinks.ymmv} />, et cetera, et cetera.</p>
 
     </div>
   );

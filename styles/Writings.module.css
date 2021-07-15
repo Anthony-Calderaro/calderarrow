@@ -37,7 +37,7 @@
 
 .post {
   display: flex;
-  font-size: 24px; 
+  font-size: 16px; 
   font-weight: 600;
   justify-content: space-between;
 }
@@ -52,3 +52,8 @@
   margin-right: 4px;
 }
 
+@media (min-width: 1000px) {
+  .post {
+    font-size: 24px; 
+  }
+}

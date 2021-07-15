@@ -33,7 +33,6 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   background: white;
   color: black;
 }
@@ -53,4 +52,10 @@ light: 156,163,175*/
 .icon {
   height: 18x;
   width: 18px;
+}
+
+@media (min-width: 1000px) {
+  .container {
+    align-items: center;
+  }
 }
