@@ -11,7 +11,7 @@
 }
 
 .heading {
-  font-size: 18px;
+  font-size: 13px;
   margin: 0;
 }
 
@@ -37,7 +37,7 @@
 
 .post {
   display: flex;
-  font-size: 16px; 
+  font-size: 14px;
   font-weight: 600;
   justify-content: space-between;
   line-height: 12px;
@@ -54,6 +54,9 @@
 }
 
 @media (min-width: 1000px) {
+  .heading {
+    font-size: 18px;
+  }
   .post {
     font-size: 24px; 
   }
