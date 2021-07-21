@@ -22,7 +22,7 @@ export default function Home() {
       <p>I'm a <HomePageLink linkObject={homePageLinks.software} />, <HomePageLink linkObject={homePageLinks.dlvfr} />, and <HomePageLink linkObject={homePageLinks.cpa}/></p>
       <p>I'm passionate about financial technology and currently work as a software engineer at <HomePageLink linkObject={homePageLinks.employer} /></p>
       <p>This is my public page where I post <HomePageLink linkObject={homePageLinks.writings} />, <HomePageLink linkObject={homePageLinks.projects} />, and things <HomePageLink linkObject={homePageLinks.quotes} /> that I find interesting.</p>
-      <p>The things I say here are coming from Anthony, the regular dude, not Anthony the accountant and not Anthony the dude who works for ${'COMPANY'}. The things I say here are my own, read at your own risk, <HomePageLink linkObject={homePageLinks.ymmv} />, et cetera, et cetera.</p>
+      <p>The things I say here are my own. Read at your own risk, <HomePageLink linkObject={homePageLinks.ymmv} />, et cetera, et cetera.</p>
 
     </div>
   );

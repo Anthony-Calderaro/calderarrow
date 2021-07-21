@@ -39,7 +39,7 @@
 }
 
 .headshot div {
-  height: 32px;
+  /* height: 32px; */
   width: 32px;
 }
 
@@ -52,12 +52,17 @@
   margin: 10px 0;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 650px) {
   .link {
     padding: 12px 0;
     margin: 0 24px;
   }
   .headerContainer {
-    width: 1000px;
+    width: 800px;
+    font-size: 20px;
+  }
+  
+  .headshot div {
+    width: 48px;
   }
 }

@@ -26,6 +26,7 @@ main {
   max-width: 650px;
   width: 100%;
   padding: 0 12px;
+  margin: auto;
   min-height: 80vh; /* Todo: Fix so not fixed */
 }
 
@@ -50,11 +51,12 @@ light: 156,163,175*/
 }
 
 .icon {
-  height: 18x;
-  width: 18px;
+  /* height: 18x; */
+  width: 20px;
+  
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 600px) {
   .container {
     align-items: center;
   }
