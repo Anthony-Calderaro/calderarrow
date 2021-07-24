@@ -38,25 +38,21 @@ main {
   color: black;
 }
 
-.container.dark {
+.dark {
   background: rgb(34, 35, 35) !important;
   color: #fafbfc !important;
-  /* Todo: 156,163,175 for lighter text */
-  /*Dark  Todo: Text color: 156,163,175 
-light: 156,163,175*/
 }
 
-.container.dark svg {
+.dark svg {
   fill: white;
 }
 
 .icon {
   /* height: 18x; */
   width: 20px;
-  
 }
 
-@media (min-width: 600px) {
+@media (min-width: 650px) {
   .container {
     align-items: center;
   }

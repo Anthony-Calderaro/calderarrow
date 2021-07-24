@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
 
 import Footer from '../components/Footer';
@@ -16,6 +16,16 @@ function MyApp({ Component, pageProps }) {
 
   const pageTitle = postData ? postData.title : `${pathname.charAt(1).toUpperCase() + pathname.slice(2)}`;
 
+  useEffect(() => {
+    // Todo: I'm having a rough night and can't figure out a better way to do it right now but maybe an intern will refactor it one day.
+    const bodyElement = document.querySelector("body");
+    if (lightTheme) {
+      bodyElement.classList.remove('dark'), [lightTheme]
+    } else {
+      bodyElement.classList.add('dark'), [lightTheme]
+    }
+  });
+ 
   return (
     <div>
       <Head>

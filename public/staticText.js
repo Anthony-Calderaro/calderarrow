@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faRss, faMoon } from '@fortawesome/free-solid-svg-icons'
+import { faRss, faMoon, faHome } from '@fortawesome/free-solid-svg-icons'
 import { faFile } from '@fortawesome/free-regular-svg-icons'
 import { faTwitter, faGithub } from '@fortawesome/free-brands-svg-icons'
 
@@ -21,6 +21,11 @@ export const footerIcons = [
     icon: faTwitter,
     link: 'https://twitter.com/calderarrow',
     target: '_blank'
+  },
+  {
+    icon: faHome,
+    link: '/',
+    // target: ''
   },
   {
     icon: faGithub,
