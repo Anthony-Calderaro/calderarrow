@@ -18,12 +18,11 @@ export default function Home() {
 
   return (
     <div className={styles.home_container}>
-      <p className={styles.main_header}>Hi, I'm Anthony! 👋</p>
       <p>I'm a <HomePageLink linkObject={homePageLinks.software} />, <HomePageLink linkObject={homePageLinks.dlvfr} />, and <HomePageLink linkObject={homePageLinks.cpa}/></p>
-      <p>I'm passionate about financial technology and currently work as a software engineer at <HomePageLink linkObject={homePageLinks.employer} /></p>
-      <p>This is my public page where I post <HomePageLink linkObject={homePageLinks.writings} />, <HomePageLink linkObject={homePageLinks.projects} />, and things <HomePageLink linkObject={homePageLinks.quotes} /> that I find interesting.</p>
-      <p>The things I say here are my own. Read at your own risk, <HomePageLink linkObject={homePageLinks.ymmv} />, et cetera, et cetera.</p>
-
+      <p>I used to work in the wonderful world of public accounting. I tried writing software to <HomePageLink linkObject={homePageLinks.automate} />, and I've been immersed in software develpment ever since.</p>
+      <p>Currently, I work on building financial technology at <HomePageLink linkObject={homePageLinks.employer} /></p>
+      {/* <p>I'm passionate about financial technology and currently work as a software engineer at </p> */}
+      <p>This is my public page where I <s>shout into the void</s> <HomePageLink linkObject={homePageLinks.writings} /> and try to make the world a better place.&#8482;</p>
     </div>
   );
 }

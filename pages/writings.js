@@ -23,7 +23,7 @@ export default ({ allPostsData }) => {
 
   useEffect(() => {
     const searchString = searchText.toLowerCase().trim();
-    console.log('allPostsData', allPostsData)
+
     setFilteredPosts(
       allPostsData.filter(({ title, categories }) => (
         title.toLowerCase().indexOf(searchString) > -1 || 
@@ -37,7 +37,7 @@ export default ({ allPostsData }) => {
       <div className={writingsStyles.writing_container}>
         <span className={writingsStyles.heading}>Showing {filteredPosts.length} of {allPostsData.length}</span>
         <input onChange={e => setSearchText(e.target.value)} value={searchText} />
-        <span className={writingsStyles.viewToggle} onClick={() => toggleCardView(!cardView)}>{cardView ? <ListView /> : <CardView />}</span>
+        <span className={writingsStyles.viewToggle} tabindex="0" onKeyPress={() => toggleCardView(!cardView)} onClick={() => toggleCardView(!cardView)}>{cardView ? <ListView /> : <CardView />}</span>
       </div>
       <ul className={writingsStyles.ul}> 
         {filteredPosts.map(({ id, date, title, wordCount, categories }) => (

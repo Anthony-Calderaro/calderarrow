@@ -76,12 +76,14 @@
   font-size: 1.5rem;
 }
 
+.home_container {
+  padding-top: 24px;
+}
+
 .home_container p {
   line-height: 24px;
 }
-.main_header {
-  font-size: 26px;
-}
+
 
 .logo {
   height: 1em;
@@ -91,11 +93,5 @@
   .grid {
     width: 100%;
     flex-direction: column;
-  }
-}
-
-@media (min-width: 650px) {
-  .main_header {
-    font-size: 32px;
   }
 }

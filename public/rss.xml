@@ -44,9 +44,21 @@
         </item>
       
         <item>
+          <title>Quotes</title>
+          <link>https://calderarrow.me/writings/quotes</link>
+          <guid isPermaLink="false">quotes</guid>
+        </item>
+      
+        <item>
           <title>3 Years To FinTech</title>
           <link>https://calderarrow.me/writings/3years</link>
           <guid isPermaLink="false">3years</guid>
+        </item>
+      
+        <item>
+          <title>Automating the Boring Stuff</title>
+          <link>https://calderarrow.me/writings/atbs</link>
+          <guid isPermaLink="false">atbs</guid>
         </item>
       
     

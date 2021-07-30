@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faRss, faMoon, faHome } from '@fortawesome/free-solid-svg-icons'
+import { faRss, faPencilAlt, faMoon, faHome } from '@fortawesome/free-solid-svg-icons'
 import { faFile } from '@fortawesome/free-regular-svg-icons'
 import { faTwitter, faGithub } from '@fortawesome/free-brands-svg-icons'
 
@@ -28,15 +28,16 @@ export const footerIcons = [
     // target: ''
   },
   {
-    icon: faGithub,
-    link: 'https://github.com/Anthony-Calderaro',
-    target: '_blank'
+    icon: faPencilAlt,
+    link: '/writings',
   },
   {
     icon: faRss,
     link: '/rss.xml',
   },
 ];
+
+export const headerLinks = ['writings', 'projects', 'contact'];
 
 export const homePageLinks = {
   software: {
@@ -49,6 +50,10 @@ export const homePageLinks = {
     text: 'volunteer',
     // text: 'volunteer EMT',
     target: '_blank',
+  },
+  automate: {
+    link: '/writings/automate',
+    text: 'automate my job',
   },
   cpa: {
     link: 'https://cpaportal.boa.virginia.gov/Verification/',
@@ -67,15 +72,7 @@ export const homePageLinks = {
   },
   writings: {
     link: '/writings',
-    text: `things I've written`
-  },
-  projects: {
-    link: '/projects',
-    text: 'things I work on'
-  },
-  quotes: {
-    link: '/quotes',
-    text: 'other people said'
+    text: `write about things `
   },
 };
 
