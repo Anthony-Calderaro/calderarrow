@@ -18,7 +18,7 @@ export default ({ allPostsData }) => {
       e.preventDefault();
       setSearchText(category)
     }
-    return categories.map(category => <span onClick={(e) => categoryClick(e, category)}>#{category}</span>)
+    return categories.map(category => <span tabindex="0" onKeyPress={(e) => categoryClick(e, category)} onClick={(e) => categoryClick(e, category)}>#{category}</span>)
   };
 
   useEffect(() => {

@@ -62,7 +62,7 @@ export const homePageLinks = {
   },
   employer: {
     link: 'https://www.capitalone.com/',
-    text: 'Capital One.',
+    text: 'Capital One',
     target: '_blank',
   },
   ymmv: {
@@ -72,7 +72,7 @@ export const homePageLinks = {
   },
   writings: {
     link: '/writings',
-    text: `write about things `
+    text: `shout into the void `
   },
 };
 
