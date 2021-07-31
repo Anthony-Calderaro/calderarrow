@@ -1,12 +1,13 @@
 ---
 title: 'Book Review: Frederick Douglass'
-date: 'June 2021'
-categories: ['book review', 'freedom']
+date: 202106
+categories: ['books', 'freedom']
 wordCount: 1000
 ---
 
 ### Book Review: Frederick Douglass
 
+June 2021
 
 The book is only 100 pages long, easily enough to read. I believe I will read it every Juneteenth until I find a more poignant book which conveys so much for so few words. 
 

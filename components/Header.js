@@ -28,7 +28,7 @@ const Header = ({ theme, toggleTheme }) => {
         {headerLinks.map((category, i) => <LinkCategory active={pathname.includes(category)} category={category} key={i} />)}
       </div> */}
 
-      <div className={headerStyles.iconContainer} onClick={toggleTheme}>{sunOrMoonIcon}</div>
+      <div className={headerStyles.iconContainer} tabIndex='0' onKeyPress={toggleTheme} onClick={toggleTheme}>{sunOrMoonIcon}</div>
 
     </div>
   );

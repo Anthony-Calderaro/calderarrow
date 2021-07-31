@@ -8,6 +8,12 @@
     <description>An RSS feed of all my writings.</description>
     
         <item>
+          <title>Happiness and Happy Distractions</title>
+          <link>https://calderarrow.me/writings/happiness</link>
+          <guid isPermaLink="false">happiness</guid>
+        </item>
+      
+        <item>
           <title>Developing Emotional Discipline</title>
           <link>https://calderarrow.me/writings/emotional-discipline</link>
           <guid isPermaLink="false">emotional-discipline</guid>
@@ -20,7 +26,7 @@
         </item>
       
         <item>
-          <title>rich</title>
+          <title>Rich</title>
           <link>https://calderarrow.me/writings/get-rich</link>
           <guid isPermaLink="false">get-rich</guid>
         </item>
@@ -32,9 +38,9 @@
         </item>
       
         <item>
-          <title>Options</title>
-          <link>https://calderarrow.me/writings/stockoptions</link>
-          <guid isPermaLink="false">stockoptions</guid>
+          <title>The Many Names of Luck</title>
+          <link>https://calderarrow.me/writings/luck</link>
+          <guid isPermaLink="false">luck</guid>
         </item>
       
         <item>
@@ -44,9 +50,9 @@
         </item>
       
         <item>
-          <title>Quotes</title>
-          <link>https://calderarrow.me/writings/quotes</link>
-          <guid isPermaLink="false">quotes</guid>
+          <title>Options</title>
+          <link>https://calderarrow.me/writings/stockoptions</link>
+          <guid isPermaLink="false">stockoptions</guid>
         </item>
       
         <item>
@@ -56,9 +62,27 @@
         </item>
       
         <item>
-          <title>Automating the Boring Stuff</title>
-          <link>https://calderarrow.me/writings/atbs</link>
-          <guid isPermaLink="false">atbs</guid>
+          <title>It is harder to live for something</title>
+          <link>https://calderarrow.me/writings/maskon</link>
+          <guid isPermaLink="false">maskon</guid>
+        </item>
+      
+        <item>
+          <title>My Introduction to Software Development</title>
+          <link>https://calderarrow.me/writings/automate</link>
+          <guid isPermaLink="false">automate</guid>
+        </item>
+      
+        <item>
+          <title>Living 10 years in 5</title>
+          <link>https://calderarrow.me/writings/10yearsin5</link>
+          <guid isPermaLink="false">10yearsin5</guid>
+        </item>
+      
+        <item>
+          <title>Quotes</title>
+          <link>https://calderarrow.me/writings/quotes</link>
+          <guid isPermaLink="false">quotes</guid>
         </item>
       
     

@@ -1,13 +1,13 @@
 ---
 title: 'Book Review: The Intelligent Investor'
-date: 'June 2021'
-categories: ['book review', 'finance', 'investing']
+date: 202106
+categories: ['books', 'finance', 'investing']
 wordCount: 1000
 ---
 
-links
-
 ### Book Review: The Intelligent Investor
+
+June 2021
 
 Written by [Benjamin Graham](), The Intelligent Investor serves as the foundation upon with several high-profile investors have beaten the market by a significant margin, returning somewhere around 15-25% more than the S&P 500. To do so over a brief period could be attributed to luck, but the repeated, decades-long success of Graham's value-investor disciples made me believe there must be something more scientific about investing. When reading through Warren Buffett's Berkshire Hathaway letters, he has brought up his [appreciation]() of Graham's lessons on [numerous occassions](). If the most successful investor in history is telling the world that he learned from this Benjamin Graham fellow, it seems stupid not to see what the man is about.
 
