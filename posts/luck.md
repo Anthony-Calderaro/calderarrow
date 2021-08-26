@@ -3,6 +3,7 @@ title: 'The Many Names of Luck'
 date: 202105
 categories: ['luck']
 wordCount: 132
+wip: true
 ---
 
 ### The Many Names of Luck

@@ -3,6 +3,7 @@ title: 'It is harder to live for something'
 date: 201909
 categories: ['career', 'tech']
 wordCount: 321
+wip: true
 ---
 
 ### It is harder to live for something

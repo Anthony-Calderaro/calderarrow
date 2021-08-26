@@ -3,6 +3,7 @@ title: 'My Introduction to Software Development'
 date: 201808
 categories: ['career', 'tech']
 wordCount: 123
+wip: true
 ---
 
 ### Automating the Boring Stuff

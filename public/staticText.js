@@ -72,7 +72,7 @@ export const homePageLinks = {
   },
   writings: {
     link: '/writings',
-    text: `shout into the void `
+    text: `talk with myself`
   },
 };
 

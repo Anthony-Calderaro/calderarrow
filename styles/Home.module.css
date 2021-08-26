@@ -1,15 +1,20 @@
 .blogLink {
   color: #3b82f6;
   font-weight: 500;
+  border-bottom: 1px solid #3b82f6;
 }
 
 .blogLink:hover {
-  border-bottom: 1px solid #3b82f6;
+  color: #00823E;
 }
 
 .title a {
   color: #0070f3;
   text-decoration: none;
+}
+
+.main_header {
+  font-size: 26px;
 }
 
 .title a:hover,
@@ -93,5 +98,11 @@
   .grid {
     width: 100%;
     flex-direction: column;
+  }
+}
+
+@media (min-width: 650px) {
+  .main_header {
+    font-size: 32px;
   }
 }

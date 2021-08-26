@@ -3,6 +3,7 @@ title: 'Book Review: Frederick Douglass'
 date: 202106
 categories: ['books', 'freedom']
 wordCount: 1000
+wip: true
 ---
 
 ### Book Review: Frederick Douglass

@@ -19,11 +19,6 @@
   width: 32px;
 }
 
-.main_header {
-  font-size: 26px;
-  margin-left: 10px;
-}
-
 .linkContainer,
 .iconContainer {
   display: flex;
@@ -61,9 +56,5 @@
   
   .headshot div {
     width: 48px;
-  }
-
-  .main_header {
-    font-size: 32px;
   }
 }

@@ -3,6 +3,7 @@ title: '3 Years To FinTech'
 date: 202102
 categories: ['life', 'money']
 wordCount: 3000
+wip: true
 ---
 
 ### 3 years to FinTech
@@ -92,4 +93,7 @@ For me, FinTech presents an amazing opportunity to do good in the world. Every i
 What a long, strange journey it’s been.
 
 P.S. Capital One is hiring! Let me know if you’re interested and I’d love to help you any way I can.
+
+
+
 

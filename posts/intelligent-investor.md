@@ -3,6 +3,7 @@ title: 'Book Review: The Intelligent Investor'
 date: 202106
 categories: ['books', 'finance', 'investing']
 wordCount: 1000
+wip: true
 ---
 
 ### Book Review: The Intelligent Investor

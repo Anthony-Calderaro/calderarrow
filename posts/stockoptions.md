@@ -3,6 +3,7 @@ title: 'Options'
 date: 202103
 categories: ['books', 'freedom']
 wordCount: 1000
+wip: true
 ---
 
 # Stock Options

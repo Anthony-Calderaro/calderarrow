@@ -3,6 +3,7 @@ title: 'Rich'
 date: 202106
 categories: ['books', 'freedom']
 wordCount: 1000
+wip: true
 ---
 
 ### Riches
