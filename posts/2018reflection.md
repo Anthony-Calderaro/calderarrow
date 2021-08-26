@@ -46,6 +46,12 @@ I asked a few of the admissions directors if I could take courses during the sum
 finished mid-end of september, started work in october. I was making almost 30% more than i was making as an accountant.
 
 
+### Conclusion
+First time i really took agency of my life. College felt like the next step, working felt like a way to fund the things i actually wanted to do with my life. Writing software was challenging, engaging, and had the potential to be impactful. Making the leap into this field also went against most of the advice I had received from my mentors, friends, and family, but at the time i remember i had such a sense of clarity about the decision. It felt like I had understood something they were missing, and I was unable to properly express what it was. 
+
+People often see this as a career switch, and in some ways it is. But it's still focused at the same goal i had since college: make the world better. As a freshman, i thought that would be through politics. Now, I see it through building technology to make financial services more accessible. I'll do anything to accomplish that goal. 
+
+
 I thought I’d be able to leverage my background most effectively in developing financial technology. 
 
 
