@@ -1,14 +1,14 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faRss, faPencilAlt, faMoon, faHome } from '@fortawesome/free-solid-svg-icons'
+import { faRss, faPencilAlt, faHome, faAdjust } from '@fortawesome/free-solid-svg-icons'
 import { faFile } from '@fortawesome/free-regular-svg-icons'
-import { faTwitter, faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faTwitter } from '@fortawesome/free-brands-svg-icons'
 
-export function createFontAwesomeIcon(icon) {
-  return <FontAwesomeIcon className='icon' icon={icon} />
+export function createFontAwesomeIcon(icon, optionalClass = '') {
+  return <FontAwesomeIcon className={`icon ${optionalClass}`} icon={icon} />
 }
 
 export const themeIcons = {
-  light: faMoon,
+  light: faAdjust,
 }
 
 export const footerIcons = [

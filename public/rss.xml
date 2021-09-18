@@ -8,27 +8,33 @@
     <description>An RSS feed of all my writings.</description>
     
         <item>
+          <title>The browser as a search engine</title>
+          <link>https://calderarrow.me/writings/nogoogle</link>
+          <guid isPermaLink="false">nogoogle</guid>
+        </item>
+      
+        <item>
+          <title>Awareness v Action</title>
+          <link>https://calderarrow.me/writings/awareness</link>
+          <guid isPermaLink="false">awareness</guid>
+        </item>
+      
+        <item>
+          <title>The Future of Remote Work</title>
+          <link>https://calderarrow.me/writings/remotework</link>
+          <guid isPermaLink="false">remotework</guid>
+        </item>
+      
+        <item>
           <title>Happiness and Happy Distractions</title>
           <link>https://calderarrow.me/writings/happiness</link>
           <guid isPermaLink="false">happiness</guid>
         </item>
       
         <item>
-          <title>Developing Emotional Discipline</title>
-          <link>https://calderarrow.me/writings/emotional-discipline</link>
-          <guid isPermaLink="false">emotional-discipline</guid>
-        </item>
-      
-        <item>
-          <title>Book Review: Frederick Douglass</title>
-          <link>https://calderarrow.me/writings/fd</link>
-          <guid isPermaLink="false">fd</guid>
-        </item>
-      
-        <item>
-          <title>Rich</title>
-          <link>https://calderarrow.me/writings/get-rich</link>
-          <guid isPermaLink="false">get-rich</guid>
+          <title>On Nepotism</title>
+          <link>https://calderarrow.me/writings/nepotism</link>
+          <guid isPermaLink="false">nepotism</guid>
         </item>
       
         <item>
@@ -38,15 +44,39 @@
         </item>
       
         <item>
-          <title>The Many Names of Luck</title>
-          <link>https://calderarrow.me/writings/luck</link>
-          <guid isPermaLink="false">luck</guid>
+          <title>Rich</title>
+          <link>https://calderarrow.me/writings/get-rich</link>
+          <guid isPermaLink="false">get-rich</guid>
+        </item>
+      
+        <item>
+          <title>Book Review: Frederick Douglass</title>
+          <link>https://calderarrow.me/writings/fd</link>
+          <guid isPermaLink="false">fd</guid>
+        </item>
+      
+        <item>
+          <title>Developing Emotional Discipline</title>
+          <link>https://calderarrow.me/writings/emotional-discipline</link>
+          <guid isPermaLink="false">emotional-discipline</guid>
+        </item>
+      
+        <item>
+          <title>Becoming a Developer</title>
+          <link>https://calderarrow.me/writings/2018reflection</link>
+          <guid isPermaLink="false">2018reflection</guid>
         </item>
       
         <item>
           <title>tax code</title>
           <link>https://calderarrow.me/writings/taxcode</link>
           <guid isPermaLink="false">taxcode</guid>
+        </item>
+      
+        <item>
+          <title>The Many Names of Luck</title>
+          <link>https://calderarrow.me/writings/luck</link>
+          <guid isPermaLink="false">luck</guid>
         </item>
       
         <item>

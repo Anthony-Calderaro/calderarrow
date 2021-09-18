@@ -25,7 +25,7 @@ function MyApp({ Component, pageProps }) {
       bodyElement.classList.add('dark'), [lightTheme]
     }
   });
- 
+
   return (
     <div>
       <Head>
@@ -36,7 +36,7 @@ function MyApp({ Component, pageProps }) {
 
       <div className={`container ${lightTheme ? '' : 'dark'}`}>
 
-        <Header theme={lightTheme} toggleTheme={() => toggleTheme(!lightTheme)} />
+        <Header toggleTheme={() => toggleTheme(!lightTheme)} />
 
         <main>
           <Component {...pageProps} />

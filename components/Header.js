@@ -1,11 +1,11 @@
 import Link from 'next/link';
 import Image from 'next/image'
 
+import { themeIcons, createFontAwesomeIcon } from '../public/staticText';
+
 import headerStyles from '../styles/Header.module.css';
 
-const Header = ({ theme, toggleTheme }) => {
-
-  const sunOrMoonIcon = theme ? <span className='icon'>🔆</span> : <span className='icon'>🌙</span>;
+const Header = ({ toggleTheme }) => {
 
   return (
     <div className={headerStyles.headerContainer}>
@@ -18,7 +18,7 @@ const Header = ({ theme, toggleTheme }) => {
         </Link>
       </div>
 
-      <div className={headerStyles.iconContainer} tabIndex='0' onKeyPress={toggleTheme} onClick={toggleTheme}>{sunOrMoonIcon}</div>
+      <div className={headerStyles.iconContainer} tabIndex='0' onKeyPress={toggleTheme} onClick={toggleTheme}>{createFontAwesomeIcon(themeIcons.light)}</div>
 
     </div>
   );
