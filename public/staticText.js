@@ -13,13 +13,12 @@ export const themeIcons = {
 
 export const footerIcons = [
   {
-    icon: faFile,
-    link: 'https://gist.github.com/Anthony-Calderaro/6c41f8429a9dd395bf59362037c34d99',
-    target: '_blank'
+    icon: faPencilAlt,
+    link: '/writings',
   },
   {
-    icon: faTwitter,
-    link: 'https://twitter.com/calderarrow',
+    icon: faFile,
+    link: 'https://gist.github.com/Anthony-Calderaro/6c41f8429a9dd395bf59362037c34d99',
     target: '_blank'
   },
   {
@@ -28,8 +27,9 @@ export const footerIcons = [
     // target: ''
   },
   {
-    icon: faPencilAlt,
-    link: '/writings',
+    icon: faTwitter,
+    link: 'https://twitter.com/calderarrow',
+    target: '_blank'
   },
   {
     icon: faRss,
@@ -72,7 +72,7 @@ export const homePageLinks = {
   },
   writings: {
     link: '/writings',
-    text: `talk with myself`
+    text: `think about things`
   },
 };
 

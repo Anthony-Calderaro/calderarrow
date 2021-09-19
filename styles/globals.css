@@ -39,8 +39,8 @@ main {
 }
 
 .dark {
-  background: rgb(34, 35, 35) !important;
-  color: #fafbfc !important;
+  background: #121212 !important;
+  color: white !important;
 }
 
 .dark svg {
