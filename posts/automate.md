@@ -1,7 +1,7 @@
 ---
-title: 'My Introduction to Software Development'
+title: "My Introduction to Software Development"
 date: 201808
-categories: ['career', 'tech']
+categories: ["career", "tech"]
 wordCount: 123
 wip: true
 ---

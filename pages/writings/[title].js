@@ -1,7 +1,7 @@
 import { getAllPostTitles, getPostData } from '../../lib/posts.js'
 
 export default function Post({ postData }) {
-  return <div dangerouslySetInnerHTML={{ __html: postData.postContent }} />
+  return <div className='essay' dangerouslySetInnerHTML={{ __html: postData.postContent }} />
 }
 
 export async function getStaticPaths() {

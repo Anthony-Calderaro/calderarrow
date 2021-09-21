@@ -1,14 +1,14 @@
 ---
-title: 'Quotes'
-date: 199301
-categories: ['quotes']
+title: "Quotes"
+date: 202002
+categories: ["quotes"]
 wordCount: 1234
 wip: false
 ---
 
 # Quotes
 
-An ongoing list of quotes which I find interesting, inspiring, or insightful. 
+An ongoing list of quotes which I find interesting, inspiring, or insightful.
 
 "A fool takes offense where none is intended. An even greater fool takes offense where it is intended."
 
@@ -19,6 +19,7 @@ An ongoing list of quotes which I find interesting, inspiring, or insightful.
 "Buried deep within you, beneath all the years of pain and anger, there is something that has never been nurtured: the potential to make yourself a better man. And that is what it is to be human. To make yourself more than you are." Captain Jean-Luc Picard
 
 "12 Fucking Rules for Success:
+
 1. Do the FUCKING work. Don’t be lazy.
 2. Stop FUCKING waiting. It’s time to start.
 3. Rely on yourself. The universe doesn’t give a FUCK.
@@ -31,6 +32,7 @@ An ongoing list of quotes which I find interesting, inspiring, or insightful.
 10. Stop putting toxic shit in your body. It’s FUCKING disgusting.
 11. Stop being a FUCKING people pleaser. It’s sad. I even feel sorry for you. 😩
 12. Stop doing the same FUCKING Jong and shit will change!"
+
 - unknown
 
 "“If you are depressed you are living in the past.
@@ -41,7 +43,7 @@ If you are at peace you are living in the present.”
 
 "See randomness" - Paul Graham
 
-"“When evening has come, I return to my house and go into my study. At the door I take off my clothes of the day, covered with mud and mire, and I put on my regal and courtly garments; and decently reclothed, I enter the ancient courts of ancient men, where, received by them lovingly, I feed on the food that alone is mine and that I was born for. There I am not ashamed to speak with them and to ask them the reason for their actions; and they in their humanity reply to me. And for the space of four hours I feel no boredom, I forget every pain, I do not fear poverty, death does not frighten me. I deliver myself entirely to them." - Niccolò Machiavelli 
+"“When evening has come, I return to my house and go into my study. At the door I take off my clothes of the day, covered with mud and mire, and I put on my regal and courtly garments; and decently reclothed, I enter the ancient courts of ancient men, where, received by them lovingly, I feed on the food that alone is mine and that I was born for. There I am not ashamed to speak with them and to ask them the reason for their actions; and they in their humanity reply to me. And for the space of four hours I feel no boredom, I forget every pain, I do not fear poverty, death does not frighten me. I deliver myself entirely to them." - Niccolò Machiavelli
 
 "The overconfident are the most vulnerable." - https://scryfall.com/card/ulg/73/about-face
 

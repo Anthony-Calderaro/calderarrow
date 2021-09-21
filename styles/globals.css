@@ -51,6 +51,25 @@ main {
   width: 20px;
 }
 
+.essay a {
+  color: #3b82f6;
+  padding-bottom: 2px;
+  border-bottom: 1px solid #3b82f6;
+}
+
+.essay blockquote {
+  margin: 0;
+  padding-left: 15px;
+  border-left: 5px solid #4d8b31;
+  font-style: italic;
+}
+
+/* .essay a:hover {
+  color: blue;
+  padding-bottom: 2px;
+  border-bottom: 1px solid blue;
+} */
+
 @media (min-width: 650px) {
   .container {
     align-items: center;
