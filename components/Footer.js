@@ -6,10 +6,10 @@ import { footerIcons, createFontAwesomeIcon } from '../public/staticText';
 import footerStyles from '../styles/Footer.module.css';
 
 const IconLink = ({ iconDetails }) => {
-  const { icon, link, target } = iconDetails;
+  const { icon, link, target, ariaLabel } = iconDetails;
   return (
     <Link href={`${link}`}>
-      <a target={target && target} rel='noreferrer'>
+      <a ariaLabel={ariaLabel} target={target && target} rel='noreferrer'>
         {createFontAwesomeIcon(icon)}
       </a>
     </Link>

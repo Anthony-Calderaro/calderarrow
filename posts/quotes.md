@@ -8,15 +8,15 @@ wip: false
 
 # Quotes
 
-An ongoing list of quotes which I find interesting, inspiring, or insightful.
+An ongoing list of quotes which I find interesting, inspiring, or insightful. If any are misattributed, <a href="mailto:acalderaro@protonmail.com">please let me know.</a>
 
-"A fool takes offense where none is intended. An even greater fool takes offense where it is intended."
-
-"A ship in harbor is safe, but that's not what ships are built for." - John A. Shedd
+> A ship in harbor is safe, but that's not what ships are built for. [John A. Shedd](https://quoteinvestigator.com/2013/12/09/safe-harbor/)
 
 "IT is possible to commit not mistakes and still lose. That is not weakness, that is life." Captain Jean-Luc Picard
 
 "Buried deep within you, beneath all the years of pain and anger, there is something that has never been nurtured: the potential to make yourself a better man. And that is what it is to be human. To make yourself more than you are." Captain Jean-Luc Picard
+
+> A fool takes offense where none is intended. An even greater fool takes offense where it is intended. [Brigham Young](https://en.wikipedia.org/wiki/Brigham_Young)
 
 "12 Fucking Rules for Success:
 

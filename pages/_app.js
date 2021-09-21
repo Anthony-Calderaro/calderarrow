@@ -14,7 +14,37 @@ function MyApp({ Component, pageProps }) {
 
   const [lightTheme, toggleTheme] = useState(true);
 
-  const pageTitle = postData ? postData.title : `${pathname.charAt(1).toUpperCase() + pathname.slice(2)}`;
+  const getPageTitle = () => {
+    console.log(pathname)
+    if (postData) {
+      return `${postData.title} | By Anthony Calderaro`;
+    } else if (pathname === '/writings') {
+      return 'Witings by Anthony Calderaro.';
+    } else {
+      return 'The home page for Anthony Calderaro.';
+    }
+  }
+
+  const getMetaTags = () => {
+    let description, keywords;
+    if (postData) {
+      description = `${postData.title}`;
+      keywords = `${postData.categories.join(', ')}`;
+    } else if (pathname === '/writings') {
+      description = 'A searchable listing of all writings by Anthony Calderaro';
+      keywords = 'Anthony, Calderaro, Writings, Essays, Posts';
+    } else {
+      description = 'calderarrow.me is the #1 resource for all things Anthony Calderaro.';
+      keywords = 'Anthony, Calderaro, Contact, Dork, Nerd, Geek';
+    }
+    return (
+      <>
+        <meta name="description" content={description} />
+        <meta name="keywords" content={keywords} />
+        <meta name="author" content="Anthony Calderaro" />
+      </>
+    )
+  }
 
   useEffect(() => {
     // Todo: I'm having a rough night and can't figure out a better way to do it right now but maybe an intern will refactor it one day.
@@ -31,7 +61,9 @@ function MyApp({ Component, pageProps }) {
       <Head>
         <link rel="shortcut icon" type="image/png" href="hs.png" />
         <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css" />
-        <title>{pageTitle}</title>
+        <title>{getPageTitle()}</title>
+        <meta charset="UTF-8" />
+        {getMetaTags()}
       </Head>
 
       <div className={`container ${lightTheme ? '' : 'dark'}`}>

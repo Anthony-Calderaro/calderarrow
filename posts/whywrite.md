@@ -2,7 +2,7 @@
 title: "Why Write?"
 date: 202001
 categories: ["writing", "meta", "family"]
-wordCount: 0
+wordCount: 965
 wip: false
 ---
 

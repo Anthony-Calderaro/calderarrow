@@ -12,7 +12,7 @@ const Header = ({ toggleTheme }) => {
 
       <div className={headerStyles.linkContainer}>
         <Link href='/'>
-          <a className={headerStyles.headshot}>
+          <a ariaLabel='self portrait' className={headerStyles.headshot}>
             <Image src='/hs.png' alt='A Picture of Me!' height={48} width={48} />
           </a>
         </Link>
