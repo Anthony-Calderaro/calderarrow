@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faRss, faPencilAlt, faHome, faAdjust } from '@fortawesome/free-solid-svg-icons'
 import { faFile } from '@fortawesome/free-regular-svg-icons'
-import { faTwitter } from '@fortawesome/free-brands-svg-icons'
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
 
 export function createFontAwesomeIcon(icon, optionalClass = '') {
   return <FontAwesomeIcon className={`icon ${optionalClass}`} icon={icon} />
@@ -30,10 +30,10 @@ export const footerIcons = [
     // target: ''
   },
   {
-    icon: faTwitter,
-    link: 'https://twitter.com/calderarrow',
+    icon: faGithub,
+    link: 'https://github.com/Anthony-Calderaro',
     target: '_blank',
-    ariaLabel: 'twitter'
+    ariaLabel: 'GitHub'
   },
   {
     icon: faRss,
@@ -83,7 +83,7 @@ export const homePageLinks = {
   },
   writings: {
     link: '/writings',
-    text: `think about things`,
+    text: `talk to myself`,
     ariaLabel: "writings"
   },
 };
