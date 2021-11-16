@@ -1,11 +1,11 @@
 .blogLink {
-  color: #3b82f6;
+  color: #3740ff;
   font-weight: 500;
-  border-bottom: 1px solid #3b82f6;
+  border-bottom: 1px solid #3740ff;
 }
 
 .blogLink:hover {
-  color: #00823E;
+  color: #00823e;
 }
 
 .title a {
@@ -88,7 +88,6 @@
 .home_container p {
   line-height: 24px;
 }
-
 
 .logo {
   height: 1em;

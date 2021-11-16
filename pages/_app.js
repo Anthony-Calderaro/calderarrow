@@ -28,8 +28,8 @@ function MyApp({ Component, pageProps }) {
   const getMetaTags = () => {
     let description, keywords;
     if (postData) {
-      description = `${postData.title}`;
-      keywords = `${postData.categories.join(', ')}`;
+      description = `${postData.title && postData.title}`;
+      keywords = `${postData.categories.length > 1 && postData.categories.join(', ')}`;
     } else if (pathname === '/writings') {
       description = 'A searchable listing of all writings by Anthony Calderaro';
       keywords = 'Anthony, Calderaro, Writings, Essays, Posts';

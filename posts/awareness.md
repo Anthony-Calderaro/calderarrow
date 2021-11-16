@@ -1,5 +1,5 @@
 ---
-title: 'Awareness v Action'
+title: "Awareness v Action"
 date: 202506
 categories: []
 wordCount: 12345
