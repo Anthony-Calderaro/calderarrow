@@ -9,7 +9,7 @@ const IconLink = ({ iconDetails }) => {
   const { icon, link, target, ariaLabel } = iconDetails;
   return (
     <Link href={`${link}`}>
-      <a ariaLabel={ariaLabel} target={target && target} rel='noreferrer'>
+      <a href={`${link}`} ariaLabel={ariaLabel} target={target && target} rel='noreferrer'>
         {createFontAwesomeIcon(icon)}
       </a>
     </Link>

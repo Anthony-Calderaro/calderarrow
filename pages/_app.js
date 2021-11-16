@@ -61,6 +61,7 @@ function MyApp({ Component, pageProps }) {
       <Head>
         <link rel="shortcut icon" type="image/png" href="hs.png" />
         <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css" />
+        <html lang='en'></html>
         <title>{getPageTitle()}</title>
         <meta charset="UTF-8" />
         {getMetaTags()}
