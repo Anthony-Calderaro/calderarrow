@@ -37,7 +37,6 @@ const formatReadingTime = wordCount => {
 };
 
 export default ({ allPostsData }) => {
-  console.log(allPostsData)
   const [filteredPosts, setFilteredPosts] = useState(allPostsData);
   const [searchText, setSearchText] = useState('');
   const [cardView, toggleCardView] = useState(false);
@@ -65,7 +64,7 @@ export default ({ allPostsData }) => {
     <section>
       <div className={writingsStyles.writing_container}>
         <span className={writingsStyles.heading}>Showing {filteredPosts.length} of {allPostsData.length}</span>
-        <input onChange={e => setSearchText(e.target.value)} value={searchText} />
+        <input type='text' onChange={e => setSearchText(e.target.value)} value={searchText} />
         <span className={writingsStyles.viewToggle} tabIndex="0" onKeyPress={() => toggleCardView(!cardView)} onClick={() => toggleCardView(!cardView)}>{cardView ? <ListView /> : <CardView />}</span>
       </div>
       <ul className={writingsStyles.ul}>

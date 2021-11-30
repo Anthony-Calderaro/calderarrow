@@ -15,7 +15,6 @@ function MyApp({ Component, pageProps }) {
   const [lightTheme, toggleTheme] = useState(true);
 
   const getPageTitle = () => {
-    console.log(pathname)
     if (postData) {
       return `${postData.title} | By Anthony Calderaro`;
     } else if (pathname === '/writings') {
