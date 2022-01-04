@@ -1,8 +1,8 @@
 ---
 title: "Quotes"
-date: 202002
-categories: ["quotes"]
-wordCount: 1234
+date: 'January 1993'
+categories: ['inspiration']
+wordCount: 850
 wip: false
 ---
 
@@ -80,3 +80,15 @@ An ongoing list of quotes which I find interesting, inspiring, and insightful. I
 > [Thou shalt not be a victim.
 > Thou shalt not be a perpetrator.
 > Above all, thou shalt not be a bystander.](https://en.wikipedia.org/wiki/United_States_Holocaust_Memorial_Museum)
+
+> [Lifting as we clumb.](naba.org)
+
+> [Seek with ardor and attend with diligence](https://en.wikipedia.org/wiki/Abigail_Adams)
+
+> Be neither needed nor intimidated.
+
+> Democracy at any cost.
+
+> No is a complete sentence and requires no explanation.
+
+> [Greed just wants sunlight -- it doesn't care how high up it is when it gets it. But below, the hungry underdog _burns_ for sunlight and will spend 100 hours a week trying to get it. When the breakthrough comes, the underdog bursts up through the canopy into the open sky and spreads its leaves out wide. Suddenly, the trees that had been on top are blocked from the sun. Greed is then replaced by the much more powerful drive of _survival_.](waitbutwhy)

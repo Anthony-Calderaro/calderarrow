@@ -36,10 +36,10 @@
   border-bottom: 1px solid transparent;
 }
 
-.link:hover,
+/* .link:hover,
 .active {
   border-bottom: 1px solid #d39f10;
-}
+} */
 
 .iconContainer {
   padding: 0 15px;

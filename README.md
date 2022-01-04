@@ -4,6 +4,11 @@ Built with [Preact](https://preactjs.com/) and [Next](https://nextjs.org/) (beca
 
 If you're looking for my résumé, you can find it [here](https://gist.github.com/Anthony-Calderaro/6c41f8429a9dd395bf59362037c34d99)
 
+Resume page w/ Contact info
+
+Essay List:
+public-accounting
+
 <!-- Todo: Accessibility
   1. More detailed description meta tags
   2. handle null content for the writigns

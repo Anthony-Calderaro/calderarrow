@@ -1,6 +1,6 @@
 ---
 title: 'Becoming a Developer'
-date: 202106
+date: 'June 2021'
 categories: ['software', 'career']
 wordCount: 1000
 wip: false

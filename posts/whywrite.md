@@ -1,6 +1,6 @@
 ---
 title: "Why Write?"
-date: 202001
+date: 'January 2020'
 categories: ["writing", "meta", "family"]
 wordCount: 965
 wip: false

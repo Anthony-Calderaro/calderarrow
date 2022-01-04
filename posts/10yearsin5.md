@@ -1,6 +1,6 @@
 ---
 title: 'Living 10 years in 5'
-date: 200204
+date: 'April 2002'
 categories: ['life', 'money']
 wordCount: 123
 wip: true
