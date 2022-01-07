@@ -7,7 +7,10 @@ If you're looking for my résumé, you can find it [here](https://gist.github.co
 Resume page w/ Contact info
 
 Essay List:
-public-accounting
+
+Error Page
+<!-- Todo: Use GIMP tool to make an arrow favicon -->
+
 
 <!-- Todo: Accessibility
   1. More detailed description meta tags

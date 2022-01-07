@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { useState, useEffect } from 'react';
 
-import { getSortedPostsData } from '../lib/posts.js'
+import { getSortedPostsData } from '../utilities/posts.js'
 
 import writingsStyles from '../styles/Writings.module.css'
 
@@ -10,14 +10,14 @@ const CardView = () => <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 2
 
 const formatReadingTime = wordCount => {
   const numberOfMinutes = Math.ceil(wordCount / 200);
-  const minOrMins = numberOfMinutes === 1 ? 'min' : 'mins';
+  const minOrMins = numberOfMinutes === 1  ? 'min' : 'mins';
   return `${numberOfMinutes} ${minOrMins}`;
 };
 
 export default ({ allPostsData }) => {
   const [filteredPosts, setFilteredPosts] = useState(allPostsData);
   const [searchText, setSearchText] = useState('');
-  const [cardView, toggleCardView] = useState(false);
+  const [cardView, toggleCardView] = useState(true);
 
   const makeCategoryTags = (categories) => {
     const categoryClick = (e, category) => {
@@ -42,7 +42,8 @@ export default ({ allPostsData }) => {
     <section>
       <div className={writingsStyles.writing_container}>
         <span className={writingsStyles.heading}>Showing {filteredPosts.length} of {allPostsData.length}</span>
-        <input type='text' onChange={e => setSearchText(e.target.value)} value={searchText} />
+        <input id='search' type='text' onChange={e => setSearchText(e.target.value)} value={searchText} />
+        <label for='search' description='Search Writings' />
         <span className={writingsStyles.viewToggle} tabIndex="0" onKeyPress={() => toggleCardView(!cardView)} onClick={() => toggleCardView(!cardView)}>{cardView ? <ListView /> : <CardView />}</span>
       </div>
       <ul className={writingsStyles.ul}>

@@ -8,6 +8,18 @@
   max-width: 650px;
 }
 
+.header_navigation {
+  margin: 0 12px;
+  font-size: 18px;
+  border-bottom: 1px solid transparent;
+}
+
+.header_navigation:hover {
+  border-bottom: 1px solid #3740ff;
+  color: #3740ff;
+  cursor: pointer;
+}
+
 .headshot {
   padding: 12px 0 12px 12px;
   margin: 0px;

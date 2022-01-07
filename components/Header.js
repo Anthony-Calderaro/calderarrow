@@ -11,11 +11,10 @@ const Header = ({ toggleTheme }) => {
     <div className={headerStyles.headerContainer}>
 
       <div className={headerStyles.linkContainer}>
-        <Link href='/'>
-          <a ariaLabel='self portrait' className={headerStyles.headshot}>
-            <Image src='/hs.png' alt='A Picture of Me!' height={48} width={48} />
-          </a>
-        </Link>
+        <Link href='/'><a className={headerStyles.header_navigation}>Home</a></Link>
+        <Link href='/writings'><a className={headerStyles.header_navigation}>Writings</a></Link>
+        <Link href='/writings/contact'><a className={headerStyles.header_navigation}>Contact</a></Link>
+        <Link href='/rss.xml'><a className={headerStyles.header_navigation}>RSS</a></Link>
       </div>
 
       <div className={headerStyles.iconContainer} tabIndex='0' onKeyPress={toggleTheme} onClick={toggleTheme}>{createFontAwesomeIcon(themeIcons.light)}</div>

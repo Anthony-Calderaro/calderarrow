@@ -45,16 +45,15 @@ export const footerIcons = [
 export const headerLinks = ['writings', 'projects', 'contact'];
 
 export const homePageLinks = {
-  software: {
-    link: 'https://github.com/Anthony-Calderaro',
-    text: 'software developer',
+  cpa: {
+    link: 'https://cpaportal.boa.virginia.gov/Verification/',
+    text: 'certified public accountant',
     target: '_blank',
-    ariaLabel: "Anthony Calderaro's Github"
+    ariaLabel: "Virginia CPA lookup"
   },
   dlvfr: {
     link: 'https://www.dlvfrd.org/',
-    text: 'volunteer',
-    // text: 'volunteer EMT',
+    text: 'volunteer EMT',
     target: '_blank',
     ariaLabel: "Dunn Loring Volunteer Fire and Rescue Department"
   },
@@ -63,11 +62,11 @@ export const homePageLinks = {
     text: 'automate my job',
     ariaLabel: "automate my job"
   },
-  cpa: {
-    link: 'https://cpaportal.boa.virginia.gov/Verification/',
-    text: 'Certified Public Accountant.',
+  software: {
+    link: 'https://github.com/Anthony-Calderaro',
+    text: 'software engineer',
     target: '_blank',
-    ariaLabel: "Virginia CPA lookup"
+    ariaLabel: "Anthony Calderaro's Github"
   },
   employer: {
     link: 'https://www.capitalone.com/',

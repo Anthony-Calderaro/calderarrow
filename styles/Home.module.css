@@ -3,10 +3,6 @@
   font-weight: 500;
   border-bottom: 1px solid #3740ff;
 }
-/* 
-.blogLink:hover {
-  color: #00823e;
-} */
 
 .title a {
   color: #0070f3;
@@ -79,18 +75,6 @@
 .card h3 {
   margin: 0 0 1rem 0;
   font-size: 1.5rem;
-}
-
-.home_container {
-  padding-top: 24px;
-}
-
-.home_container p {
-  line-height: 24px;
-}
-
-.logo {
-  height: 1em;
 }
 
 .hand_wave {

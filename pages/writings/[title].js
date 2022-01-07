@@ -1,4 +1,4 @@
-import { getAllPostTitles, getPostData } from '../../lib/posts.js'
+import { getAllPostTitles, getPostData } from '../../utilities/posts.js'
 
 export default function Post({ postData }) {
   return <div className='essay' dangerouslySetInnerHTML={{ __html: postData.postContent }} />

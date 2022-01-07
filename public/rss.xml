@@ -9,14 +9,8 @@
     
         <item>
           <title>Zealots and Fanatics</title>
-          <link>https://calderarrow.me/writings/zealots&fanatics</link>
-          <guid isPermaLink="false">zealots&fanatics</guid>
-        </item>
-      
-        <item>
-          <title>The browser as a search engine</title>
-          <link>https://calderarrow.me/writings/nogoogle</link>
-          <guid isPermaLink="false">nogoogle</guid>
+          <link>https://calderarrow.me/writings/zealots</link>
+          <guid isPermaLink="false">zealots</guid>
         </item>
       
         <item>
@@ -26,21 +20,15 @@
         </item>
       
         <item>
-          <title>People I Want To Read About</title>
-          <link>https://calderarrow.me/writings/biographies</link>
-          <guid isPermaLink="false">biographies</guid>
+          <title>Becoming a Developer</title>
+          <link>https://calderarrow.me/writings/cryptoconcerns</link>
+          <guid isPermaLink="false">cryptoconcerns</guid>
         </item>
       
         <item>
-          <title>Three Years to FinTech</title>
-          <link>https://calderarrow.me/writings/fintech</link>
-          <guid isPermaLink="false">fintech</guid>
-        </item>
-      
-        <item>
-          <title>Awareness v Action</title>
-          <link>https://calderarrow.me/writings/awareness</link>
-          <guid isPermaLink="false">awareness</guid>
+          <title>University Endowments</title>
+          <link>https://calderarrow.me/writings/endowments</link>
+          <guid isPermaLink="false">endowments</guid>
         </item>
       
         <item>
@@ -50,15 +38,45 @@
         </item>
       
         <item>
+          <title>Three Years to FinTech</title>
+          <link>https://calderarrow.me/writings/fintech</link>
+          <guid isPermaLink="false">fintech</guid>
+        </item>
+      
+        <item>
+          <title>Now</title>
+          <link>https://calderarrow.me/writings/now</link>
+          <guid isPermaLink="false">now</guid>
+        </item>
+      
+        <item>
+          <title>The browser as a search engine</title>
+          <link>https://calderarrow.me/writings/nogoogle</link>
+          <guid isPermaLink="false">nogoogle</guid>
+        </item>
+      
+        <item>
+          <title>People I Want To Read About</title>
+          <link>https://calderarrow.me/writings/biographies</link>
+          <guid isPermaLink="false">biographies</guid>
+        </item>
+      
+        <item>
+          <title>Awareness v Action</title>
+          <link>https://calderarrow.me/writings/awareness</link>
+          <guid isPermaLink="false">awareness</guid>
+        </item>
+      
+        <item>
           <title>Happiness and Happy Distractions</title>
           <link>https://calderarrow.me/writings/happiness</link>
           <guid isPermaLink="false">happiness</guid>
         </item>
       
         <item>
-          <title>Book Review: The Intelligent Investor</title>
-          <link>https://calderarrow.me/writings/intelligent-investor</link>
-          <guid isPermaLink="false">intelligent-investor</guid>
+          <title>On Nepotism</title>
+          <link>https://calderarrow.me/writings/nepotism</link>
+          <guid isPermaLink="false">nepotism</guid>
         </item>
       
         <item>
@@ -68,21 +86,15 @@
         </item>
       
         <item>
-          <title>Developing Emotional Discipline</title>
-          <link>https://calderarrow.me/writings/emotional-discipline</link>
-          <guid isPermaLink="false">emotional-discipline</guid>
-        </item>
-      
-        <item>
           <title>Book Review: Frederick Douglass</title>
           <link>https://calderarrow.me/writings/fd</link>
           <guid isPermaLink="false">fd</guid>
         </item>
       
         <item>
-          <title>On Nepotism</title>
-          <link>https://calderarrow.me/writings/nepotism</link>
-          <guid isPermaLink="false">nepotism</guid>
+          <title>Developing Emotional Discipline</title>
+          <link>https://calderarrow.me/writings/emotional-discipline</link>
+          <guid isPermaLink="false">emotional-discipline</guid>
         </item>
       
         <item>
@@ -104,31 +116,25 @@
         </item>
       
         <item>
-          <title>Purpose</title>
-          <link>https://calderarrow.me/writings/purpose</link>
-          <guid isPermaLink="false">purpose</guid>
-        </item>
-      
-        <item>
           <title>Grandpa</title>
           <link>https://calderarrow.me/writings/grandpa</link>
           <guid isPermaLink="false">grandpa</guid>
         </item>
       
         <item>
-          <title>Becoming a Developer</title>
-          <link>https://calderarrow.me/writings/2018reflection</link>
-          <guid isPermaLink="false">2018reflection</guid>
+          <title>It is harder to live for something</title>
+          <link>https://calderarrow.me/writings/maskon</link>
+          <guid isPermaLink="false">maskon</guid>
         </item>
       
         <item>
-          <title>Public Accounting is a Great Career</title>
-          <link>https://calderarrow.me/writings/public-accounting</link>
-          <guid isPermaLink="false">public-accounting</guid>
+          <title>Purpose</title>
+          <link>https://calderarrow.me/writings/purpose</link>
+          <guid isPermaLink="false">purpose</guid>
         </item>
       
         <item>
-          <title>Why Write?</title>
+          <title>Why Write</title>
           <link>https://calderarrow.me/writings/whywrite</link>
           <guid isPermaLink="false">whywrite</guid>
         </item>
@@ -140,9 +146,9 @@
         </item>
       
         <item>
-          <title>Now</title>
-          <link>https://calderarrow.me/writings/now</link>
-          <guid isPermaLink="false">now</guid>
+          <title>Contact</title>
+          <link>https://calderarrow.me/writings/contact</link>
+          <guid isPermaLink="false">contact</guid>
         </item>
       
         <item>
@@ -158,9 +164,9 @@
         </item>
       
         <item>
-          <title>It is harder to live for something</title>
-          <link>https://calderarrow.me/writings/maskon</link>
-          <guid isPermaLink="false">maskon</guid>
+          <title>Book Review: The Intelligent Investor</title>
+          <link>https://calderarrow.me/writings/intelligent-investor</link>
+          <guid isPermaLink="false">intelligent-investor</guid>
         </item>
       
     

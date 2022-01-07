@@ -11,7 +11,7 @@ function MyApp({ Component, pageProps }) {
   const router = useRouter();
   const { pathname } = router;
   const { postData } = pageProps;
-
+  console.log('PageProps: ', Component)
   const [lightTheme, toggleTheme] = useState(true);
 
   const getPageTitle = () => {

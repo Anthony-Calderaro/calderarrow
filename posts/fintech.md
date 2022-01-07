@@ -1,16 +1,16 @@
 ---
 title: "Three Years to FinTech"
 date: 'March 2021'
-categories: ["life", "fintech", "decision-making"]
+categories: ["life", "fintech"]
 wordCount: 3000
 wip: false
 ---
 
 March 2021
 
-# Three Years to FinTech
+## Three Years to FinTech
 
-My job for most of college &mdash; and the profession where I began my career &mdash; was [public accounting](/writings/public-accounting). I did a handful of internships in corporate finance and regulatory accounting, but public accounting ended up being a great opportunity to really put the academic theory to practice. Accounting is quite systematic, but as no two accounting systems are the same, it hasn't yet been completely automated. The bulk of my job was serving as an intermediary between these various systems and the other members of our audit team. 
+My job for most of college &mdash; and the profession where I began my career &mdash; was public accounting. I did a handful of internships in corporate finance and regulatory accounting, but public accounting ended up being a great opportunity to really put the academic theory to practice. Accounting is quite systematic, but as no two accounting systems are the same, it hasn't yet been completely automated. The bulk of my job was serving as an intermediary between these various systems and the other members of our audit team. 
 
 - Download a report.
 - Check if there are any new updates. 
