@@ -8,6 +8,12 @@
     <description>An RSS feed of all my writings.</description>
     
         <item>
+          <title>Resume</title>
+          <link>https://calderarrow.me/writings/resume</link>
+          <guid isPermaLink="false">resume</guid>
+        </item>
+      
+        <item>
           <title>Zealots and Fanatics</title>
           <link>https://calderarrow.me/writings/zealots</link>
           <guid isPermaLink="false">zealots</guid>
