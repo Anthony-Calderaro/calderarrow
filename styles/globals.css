@@ -75,8 +75,14 @@ hr {
   fill: white;
 }
 
-@media (min-width: 650px) {
+@media (min-width: 650px) and (max-width: 880px) {
   .container {
     align-items: center;
+  }
+}
+
+@media (min-width: 880px) {
+  main {
+    max-width: 880px;
   }
 }
