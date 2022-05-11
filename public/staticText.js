@@ -19,9 +19,8 @@ export const footerIcons = [
   },
   {
     icon: faFile,
-    link: 'https://gist.github.com/Anthony-Calderaro/6c41f8429a9dd395bf59362037c34d99',
-    target: '_blank',
-    ariaLabel: 'Github'
+    link: '/writings/resume',
+    ariaLabel: 'resume'
   },
   {
     icon: faHome,
