@@ -11,8 +11,6 @@ wip: true
 anthonyj@gwu.edu  
 Washington, DC
 
-[Github](https://www.github.com/anthony-calderaro) | [LinkedIn](https://www.linkedin.com/in/anthonyjamescalderaro)
-
 ## Employment
 __Capital One__ | _Software Engineer_ | Tysons Corner, VA (Remote during COVID-19) | March 2021 - Present
 
