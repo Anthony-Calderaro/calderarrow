@@ -2,7 +2,7 @@
 title: "Fitness 2022"
 date: "December 2022"
 categories: ["fitness"]
-wordCount: 650
+wordCount: 600
 wip: false
 ---
 
@@ -12,30 +12,34 @@ wip: false
 
 After getting my EMT license in early 2022, I decided that if I really wanted to pursue being a firefighter, I needed raw strength. I had decent stamina from all the running I did, but that wouldn't translate into raw power when throwing ladders or racking hoses. I decided to incorporate more functional exercises into my workout routine, primarily by adding weight lifting, dynamic movements, and additional resistence to body-weight exercises like running. Overall, I made decent progress in my lifts, and I'm working on getting back to my highschool race-pace.
 
-|   **Lifts**    | Early 2022 | Late 2022 |
-| :------------: | :--------: | :-------: |
-|     Weight     |  155 lbs   |  165 lbs  |
-|     Bench      |  105 lbs   |  135 lbs  |
-|     Squat      |  135 lbs   |  155 lbs  |
-| Military Press |   50 lbs   |  75 lbs   |
-|      RDL       |   65 lbs   |  95 lbs   |
+#### Lifting Progress (lbs):
 
-| **Runs** |      2022 Best      |      Personal Best       |
-| :------: | :-----------------: | :----------------------: |
-|   800m   |  00:02:35 (March)   |  00:02:09 (April 2011)   |
-|  1600m   |  00:06:13 (April)   |  00:05:35 (April 2011)   |
-|    5k    | 00:23:54 (February) | 00:21:38 (October 2021)  |
-|   10k    | 00:51:36 (February) | 00:46:48 (November 2021) |
-|   Half   |      00:00:00       |            -             |
-|   CPAT   |      00:00:00       |            -             |
+- Weight: 155 &rarr; 165
+- Bench: 105 &rarr; 135
+- Squat: 135 &rarr; 155
+- Military Press: 50 &rarr; 75
+- RDL: 65 &rarr; 95
+
+#### Running Progress:
+
+- 800m: 00:02:35 (March) [PB: 00:02:09 in April 2011]
+- 1600m: 00:06:13 (April) [PB: 00:05:35 in April 2011]
+- 5k: 00:23:54 (February) [PB: 00:21:38 in October 2021]
+- 10k: 00:51:36 (February) [PB: 00:46:48 in November 2021]
+<!-- - Half: 00:00:00                  -             |
+- CPAT: 00:00:00 - | -->
 
 #### Notes:
 
-- For my strength training, I tried to increase the weight or reps per set each time I worked out that muscle group. I would start at 6 reps per set, then do 7 reps per set the following week, then 8, then drop back down to 6 reps per set, but increase the weight. I was able to follow this pattern consistently, as expected with new gym attendence, but I expect a slower rate of progress during 2023 until my diet improves.
-- It seems like 10-20 sets per muscle group per week seems to be a sweet spot for optimal output, but I found modest growth even with 5-10 sets per week, but I'm unsure whether that was due to frequency of training, the progressive overload, or something else entirely.
-- My cardio strength isn’t that much slower than my peak, although my sprinting isn’t what it used to be, especially in the 800m. I will try to incorporate more hill charges and stair climbing in 2023.
-- The [CPAT](https://www.fairfaxcounty.gov/fire-ems/written-exam-and-candidate-physical-abilities-test-cpat) is a fun, task-oriented event that I can use to measure overall fire-fitness. I’d like to continue testing myself once or twice a year to see how I progress.
-- I severely underestimated how valuable consistency and balance are in strength training. I started to notice the most progress when I started being more consistent with hitting every muscle group rather than focusing on one more than others. It seems that maintaining the frequency of training yielded better results than maintaining the intensity, but I assume this will flip once I start to plateau.
+For my strength training, I tried to increase the weight or reps per set each time I worked out that muscle group. I would start at 6 reps per set, then do 7 reps per set the following week, then 8, then drop back down to 6 reps per set, but increase the weight. I was able to follow this pattern consistently, as expected with new gym attendence, but I expect a slower rate of progress during 2023 until my diet improves.
+
+It seems like 10-20 sets per muscle group per week seems to be a sweet spot for optimal output, but I found modest growth even with 5-10 sets per week, but I'm unsure whether that was due to frequency of training, the progressive overload, or something else entirely.
+
+My cardio strength isn’t that much slower than my peak, although my sprinting isn’t what it used to be, especially in the 800m. I will try to incorporate more hill charges and stair climbing in 2023.
+
+The [CPAT](https://www.fairfaxcounty.gov/fire-ems/written-exam-and-candidate-physical-abilities-test-cpat) is a fun, task-oriented event that I can use to measure overall fire-fitness. I’d like to continue testing myself once or twice a year to see how I progress.
+
+I severely underestimated how valuable consistency and balance are in strength training. I started to notice the most progress when I started being more consistent with hitting every muscle group rather than focusing on one more than others. It seems that maintaining the frequency of training yielded better results than maintaining the intensity, but I assume this will flip once I start to plateau.
 
 #### Closing Thoughts
 

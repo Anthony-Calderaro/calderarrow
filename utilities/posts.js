@@ -32,7 +32,11 @@ export function getSortedPostsData() {
   })
 
   // The date property is a string containiing the month and year. The last 4 characters are the year.
-  return allPostsData.filter(post => !post.wip).sort((a, b) => a.date.slice(-4) < b.date.slice(-4) ? 1 : -1)
+  return allPostsData.filter(post => !post.wip).sort((a, b) => {
+    const date1 = new Date(a.date);
+    const date2 = new Date(b.date);
+    return date1 < date2 ? 1 : -1;
+  })
 }
 
 export function getAllPostTitles() {
