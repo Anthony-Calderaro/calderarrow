@@ -51,6 +51,8 @@ An ongoing list of quotes which I find interesting, inspiring, and insightful. I
 
 > So now I am blessed that the Lord shines on me. Does that mean I get to [do more stuff, or less?](<https://en.wikipedia.org/wiki/Have_a_Little_Faith_(book)>)
 
+> Lord help me kill all my demons / I [look in the mirror](https://open.spotify.com/track/66hLgDd6kk3GfzLej7t2eH?si=63d172a7ddf147f2), I see them.
+
 > [Hatred](https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=442175) outlives the hateful
 
 > [Speak little. Do much.](https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=391883)
@@ -94,3 +96,13 @@ An ongoing list of quotes which I find interesting, inspiring, and insightful. I
 
 > Greed just wants sunlight -- it doesn't care how high up it is when it gets it.  
 > But below, the hungry underdog _burns_ for sunlight and will spend 100 hours a week trying to get it. When the breakthrough comes, the underdog bursts up through the canopy into the open sky and spreads its leaves out wide. Suddenly, the trees that had been on top are blocked from the sun. Greed is then replaced by the much more powerful drive of [survival](https://waitbutwhy.com/2015/06/how-tesla-will-change-your-life.html).
+
+> Rust: “I tell you Marty I been up in that room looking out those windows every night here just thinking, it’s just one story. The oldest.”  
+> Marty: “What’s that?”  
+> Rust: “Light versus dark.”  
+> Marty: “Well, I know we ain’t in Alaska, but it appears to me that the dark has a lot more territory.”  
+> Rust: “You’re looking at it wrong, the sky thing.”  
+> Marty: “How’s that?”  
+> Rust: “Well, once there was only dark. You ask me, the [light’s winning](<https://en.wikipedia.org/wiki/True_Detective_(season_1)>).”
+
+> I'd wish you luck, but as you'll come to learn, you don't need it.

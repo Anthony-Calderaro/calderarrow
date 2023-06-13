@@ -24,7 +24,7 @@ Below is the speech I had written for Kevin and Danielle, two of my closest and 
 
 > As a groomsmen, I felt it was my job to make sure Kevin arrived on time to his special day, which is why I told him it started at 5 last night. Amazingly, he still managed to show up late today.
 
-> But you know what? No matter how late he is, he will -- eventually -- show up. I may never know when Kevin will arrive, but one thing I know for certain is that Kevin will always show up.
+> But you know what? No matter how late he is, he will &ndash; eventually &ndash; show up. I may never know when Kevin will arrive, but one thing I know for certain is that Kevin will always show up.
 
 > Usually people need to be counseled against getting married too quickly. You guys must have spoken with a whole lot of counselors.
 
