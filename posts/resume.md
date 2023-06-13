@@ -1,6 +1,6 @@
 ---
 title: "Resume"
-date: "May 2023"
+date: 20230501
 categories: ["resume"]
 wordCount: 650
 wip: true

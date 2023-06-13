@@ -1,6 +1,6 @@
 ---
 title: "Ben's Groomsman Speech"
-date: "May 2021"
+date: 20210501
 categories: ["speech", "friends"]
 wordCount: 700
 wip: true

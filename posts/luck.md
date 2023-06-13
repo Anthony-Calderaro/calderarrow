@@ -1,7 +1,7 @@
 ---
-title: 'The Many Names of Luck'
-date: 202105
-categories: ['luck']
+title: "The Many Names of Luck"
+date: 20210501
+categories: ["luck"]
 wordCount: 132
 wip: true
 ---

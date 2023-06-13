@@ -1,6 +1,6 @@
 ---
 title: "Fitness 2022"
-date: "December 2022"
+date: 20221231
 categories: ["fitness"]
 wordCount: 600
 wip: false

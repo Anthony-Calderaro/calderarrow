@@ -1,6 +1,6 @@
 ---
 title: "Sorry"
-date: 202306
+date: 20230601
 categories: ["advice"]
 wordCount: 1000
 wip: true

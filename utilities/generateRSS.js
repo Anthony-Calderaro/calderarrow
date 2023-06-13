@@ -23,7 +23,6 @@ const matter = require('gray-matter');
   });
 
   writings.sort((a, b) => a.date < b.date ? 1 : -1);
-
   const xmlString = `<?xml version="1.0" encoding="UTF-8" ?>
   <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   
@@ -34,14 +33,13 @@ const matter = require('gray-matter');
     <description>An RSS feed of all my writings.</description>
     ${writings.map(({ title, id }) => {
       return `
-        <item>
+        <item key="${id}">
           <title>${title}</title>
           <link>${`https://calderarrow.me/writings/${id}`}</link>
           <guid isPermaLink="false">${id}</guid>
         </item>
       `;
     }).join('')}
-    
   </channel>
   
   </rss>

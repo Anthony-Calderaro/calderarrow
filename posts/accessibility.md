@@ -1,14 +1,14 @@
 ---
-title: 'Accessibility'
-date: 'April 2002'
-categories: ['life', 'money']
+title: "Accessibility"
+date: 20020401
+categories: ["life", "money"]
 wordCount: 123
 wip: true
 ---
 
 Asthma => accessible oxygen
 EMT => accessible medical services
-Electric grid => electric 
+Electric grid => electric
 Tesla superchargers => electric cars
 
 Accessibility is the way.
@@ -21,4 +21,4 @@ Lighthouse scores are maxxed out
 I use eslinter and ally
 Everything can be navigated with keyboard only
 
-I haven't tested using voice commands, but drop me a note if there's anything missing. 
+I haven't tested using voice commands, but drop me a note if there's anything missing.

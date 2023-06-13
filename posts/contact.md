@@ -1,6 +1,6 @@
 ---
 title: "Contact"
-date: "January 1993"
+date: 19930124
 categories: ["contact"]
 wordCount: 100
 wip: true

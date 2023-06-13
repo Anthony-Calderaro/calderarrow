@@ -1,6 +1,6 @@
 ---
 title: "Three Years to FinTech"
-date: 'March 2021'
+date: 20210301
 categories: ["life", "fintech"]
 wordCount: 3000
 wip: false
@@ -10,17 +10,17 @@ March 2021
 
 ## Three Years to FinTech
 
-My job for most of college &mdash; and the profession where I began my career &mdash; was public accounting. I did a handful of internships in corporate finance and regulatory accounting, but public accounting ended up being a great opportunity to really put the academic theory to practice. Accounting is quite systematic, but as no two accounting systems are the same, it hasn't yet been completely automated. The bulk of my job was serving as an intermediary between these various systems and the other members of our audit team. 
+My job for most of college &mdash; and the profession where I began my career &mdash; was public accounting. I did a handful of internships in corporate finance and regulatory accounting, but public accounting ended up being a great opportunity to really put the academic theory to practice. Accounting is quite systematic, but as no two accounting systems are the same, it hasn't yet been completely automated. The bulk of my job was serving as an intermediary between these various systems and the other members of our audit team.
 
 - Download a report.
-- Check if there are any new updates. 
+- Check if there are any new updates.
 - Document your findings
 
 It felt like the kind of work that a computer could do &mdash; work that a computer _should_ do. I wasn't sure if it was possible, but if it were, I knew I'd save a ton of time.
 
-During the Spring of 2017, I got the opporunity to subcontract on a federal audit with a larger firm whose office was across the street from us. The large auditors were required to bring on a certain number of local accountants, and our firm had partnered with them for over a decade to send a few of our auditors over to help with the year-end audits of whatever federal clients they had. I applied, and I was able to join the federal audit of their federal client: the US Department of Commerce and Patent and Trademark Office. The year end schedule was particularly grueling, as our contract explicitly required a minimum amount of butts-in-seat-hours each week, regardless of how much work was available. I spent my downtime learning how to program. 
+During the Spring of 2017, I got the opporunity to subcontract on a federal audit with a larger firm whose office was across the street from us. The large auditors were required to bring on a certain number of local accountants, and our firm had partnered with them for over a decade to send a few of our auditors over to help with the year-end audits of whatever federal clients they had. I applied, and I was able to join the federal audit of their federal client: the US Department of Commerce and Patent and Trademark Office. The year end schedule was particularly grueling, as our contract explicitly required a minimum amount of butts-in-seat-hours each week, regardless of how much work was available. I spent my downtime learning how to program.
 
-The first task I worked on involved web scraping, email, and working with spreadsheets and PDFs. It was procedural, straightforward, and boring, so naturally I felt drawn to [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/). I opened the table of contents and saw several chapters which were directly related to my task, and since the HTML version of the book was available for free, it was enough for me to get started. 
+The first task I worked on involved web scraping, email, and working with spreadsheets and PDFs. It was procedural, straightforward, and boring, so naturally I felt drawn to [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/). I opened the table of contents and saw several chapters which were directly related to my task, and since the HTML version of the book was available for free, it was enough for me to get started.
 
 The task took me about four or five minutes to do manually, so the first time my program ran, I assumed it would take a similar amount of time. After running my script for the first time, I went to grab coffee, but before I reached the break room my phone got a notification that the case files were updated with my report. I reviewed it to make sure everything was correct, and then signed off the audit procedure. It took less than 15 seconds.
 
@@ -32,13 +32,13 @@ Before I found Automate the Boring Stuff, I discovered lots of resources for peo
 
 There were several universities in the [DMV area](https://en.wikipedia.org/wiki/Washington_metropolitan_area) which I was considering. Most of the programs were structured as 60 credits over 2 years, or 15 credits per semester. But because I lacked a technical academic background, there was an extra semester's worth of prerequeistes I would need to complete. I had about 18 months of savings and I was willing to quit work and devote myself entirely to my studies. I wanted to take 20-25 credits a semester and complete this in about 12 months, which would give me a few months to find a job. I spoke with the admissions directors of these programs and asked if I could load up on credits to complete the program quicker, but none of these programs allowed me to take such a large classload, so a graduate degree would take at least two years. Add up the forgone wages and tuition, and this became a six-figure financial decision. Before I committed, I wanted to explore other options.
 
-My roommate at the time happened to be making a career switch of his own, and was in the middle of a programming bootcamp that summer. I asked if I could sit in on one of his classes, and saw that it was 8 hours every day, which was about how much time I was hoping to spend if I were taking a 25 credit workload in school. His program was about 15 weeks long and exclusively taught JavaScript, a language he said was good for developing web applications, which was what he was interested in doing. 
+My roommate at the time happened to be making a career switch of his own, and was in the middle of a programming bootcamp that summer. I asked if I could sit in on one of his classes, and saw that it was 8 hours every day, which was about how much time I was hoping to spend if I were taking a 25 credit workload in school. His program was about 15 weeks long and exclusively taught JavaScript, a language he said was good for developing web applications, which was what he was interested in doing.
 
-I started to consider what programming languages I needed to learn. I had started with Python and enjoyed the ease with which I could automate manual tasks, but I liked the idea of working with web applications so that I could connect different systems and make them accessible to anyone from any device. I looked through the career pages of companies I was interested in working with and made a listing of the technologies they listed in their job postings. 
+I started to consider what programming languages I needed to learn. I had started with Python and enjoyed the ease with which I could automate manual tasks, but I liked the idea of working with web applications so that I could connect different systems and make them accessible to anyone from any device. I looked through the career pages of companies I was interested in working with and made a listing of the technologies they listed in their job postings.
 
 It seemed like 4 languages were prevelant across the companies: JavaScript for web apps, Java for mobile development and banking systems, C++ for high performance trading, and Python for data science and analysis. I decided that if I could find a program to teach me 2 or 3 of these, I would be in a good position to get a job after graduating. My roommate's program taught one language over 15 weeks, so it seemed like an ideal program for me would be closer to 30 weeks.
 
-I happened to read [this post](https://news.ycombinator.com/item?id=15011033) on Hacker News about a programming bootcamp which seemed to meet my criteria: 8 hours a day, 26 weeks long, and they taught JavaScript, Python, and C++. Most importantly, they had an [Income Share Agreement](https://en.wikipedia.org/wiki/Income_share_agreement) which,  while more expensive than debt, gave me a risk-free guarentee that I’d be learning the skills needed to actually develop professional software &mdash; something that wasn’t guarantee with a traditional university degree. The worst case scenario would be 6 months of foregone wages to learn something new, and then I would go back to public accounting and not owe a penny. And unlike most student loans, I only had to repay the ISA while I was employed. The premium was steep, but the flexibility more than made up for it.
+I happened to read [this post](https://news.ycombinator.com/item?id=15011033) on Hacker News about a programming bootcamp which seemed to meet my criteria: 8 hours a day, 26 weeks long, and they taught JavaScript, Python, and C++. Most importantly, they had an [Income Share Agreement](https://en.wikipedia.org/wiki/Income_share_agreement) which, while more expensive than debt, gave me a risk-free guarentee that I’d be learning the skills needed to actually develop professional software &mdash; something that wasn’t guarantee with a traditional university degree. The worst case scenario would be 6 months of foregone wages to learn something new, and then I would go back to public accounting and not owe a penny. And unlike most student loans, I only had to repay the ISA while I was employed. The premium was steep, but the flexibility more than made up for it.
 
 ---
 
@@ -46,11 +46,11 @@ I completed the precourse application in November, which was also a positive sig
 
 I always went to my parents and grandparents for advice &mdash; they are sort of my personal board of directors. 99.99% of the time, I’m missing something obvious and their advice is right on the money. They're normally able to see the inconsistencies and biases in my thinking, but this was the first time I really felt like they were the ones missing something obvious.
 
-> There’s less money in IT.  
+> There’s less money in IT.
 
-> You’ve already got an accounting degree, why do you want to get into technology?  
+> You’ve already got an accounting degree, why do you want to get into technology?
 
-> It’s risky.  
+> It’s risky.
 
 > You should get an MBA.
 
@@ -86,6 +86,6 @@ While I was looking at apartments in Seattle, I got a call from the second excep
 
 At Capital One, I get to work on fascinating financial technology at a scale I could never have imagined three years ago. FinTech is actually an amazing opportunity to do good in the world. Every individual is involved in a global financial system, and technology provides a way to make this system more transparent, accessible, and affordable. Software enables us to interact and transact with each other whenever we want, however we want. Over time, software will whittle down the barriers between people, and expand the wealth of everyone, not just a select few.
 
-Some of these changes occur suddenly and completely revolutionize the way financial services are performed, whereas other changes will be slow and incremental. But regardless of how FinTech changes the world, it will change the world in a meaningful, tangible way.It's not open heart surgery, but it's also not optimizing ad impressions. It lies somewhere in between, and if I can spend my professional career working toward moving the needle forward, I would be content to retire knowing I played a part in something good. I contributed. I made a difference. 
+Some of these changes occur suddenly and completely revolutionize the way financial services are performed, whereas other changes will be slow and incremental. But regardless of how FinTech changes the world, it will change the world in a meaningful, tangible way.It's not open heart surgery, but it's also not optimizing ad impressions. It lies somewhere in between, and if I can spend my professional career working toward moving the needle forward, I would be content to retire knowing I played a part in something good. I contributed. I made a difference.
 
 I’m so incredibly privileged to be here.

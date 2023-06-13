@@ -1,6 +1,6 @@
 ---
-title: "Kevin & Danielle"
-date: "August 2022"
+title: "Kevin &amp; Danielle"
+date: 20220801
 categories: ["speech", "friends"]
 wordCount: 645
 wip: true

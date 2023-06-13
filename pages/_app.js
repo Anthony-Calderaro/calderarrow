@@ -11,7 +11,6 @@ function MyApp({ Component, pageProps }) {
   const router = useRouter();
   const { pathname } = router;
   const { postData } = pageProps;
-  console.log('PageProps: ', Component)
   const [lightTheme, toggleTheme] = useState(true);
 
   const getPageTitle = () => {
@@ -59,10 +58,8 @@ function MyApp({ Component, pageProps }) {
     <div>
       <Head>
         <link rel="shortcut icon" type="image/png" href="hs.png" />
-        {/* <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css" /> */}
-        <html lang='en'></html>
         <title>{getPageTitle()}</title>
-        <meta charset="UTF-8" />
+        <meta charSet="UTF-8" />
         {getMetaTags()}
       </Head>
 

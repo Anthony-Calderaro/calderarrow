@@ -1,6 +1,6 @@
 ---
 title: "Quotes"
-date: "January 1993"
+date: 19930124
 categories: ["inspiration"]
 wordCount: 850
 wip: false

@@ -1,6 +1,6 @@
 ---
 title: "Why Write"
-date: 'January 2020'
+date: 20200801
 categories: ["writing", "family"]
 wordCount: 1000
 wip: false
@@ -12,7 +12,7 @@ August 2020
 
 I was 8 years old the first time I used a word processor. I had to write an essay on the [eight key concepts](https://fivemoodovalues.wordpress.com/philosophy/eight-key-concepts/) of the local martial arts studio I attended in a [Southern Illinois]. I remember liking how adaptive the screen was compared to pen and pencil. My mistakes felt less permanent, and I had an unlimited supply of highlighters, erasers, and colored pens. I was able to focus more on writing and less on preparing to write.
 
-I maintained a journal in one form or another for most of my childhood, but I stopped writing regularly around high school. I was more interested in reading, sports, and enjoying time with my friends. I also wasn’t interesting enough to write about anything. At 27 years old, I’m still not that interesting. 
+I maintained a journal in one form or another for most of my childhood, but I stopped writing regularly around high school. I was more interested in reading, sports, and enjoying time with my friends. I also wasn’t interesting enough to write about anything. At 27 years old, I’m still not that interesting.
 
 > So why write?
 
@@ -26,7 +26,7 @@ I thought about making voice or video recordings, but I realized I would end up 
 
 ---
 
-> If you're so interested in talking with your kids, why write publicly? 
+> If you're so interested in talking with your kids, why write publicly?
 
 Good question. I considered writing privately and giving my kids a usb or repository with a bunch of word documents for them to read, but decided against it. At the risk of sounding self-absorbed, there's a chance I may have a useful nugget of insight every now and then. If so, I’d like to share it with as many people as possible, not just my kids. I learned a lot from people who wrote things and made them freely available. If I can pay it forward, I should.
 
@@ -40,5 +40,6 @@ Also, making this a project for my family is a choice which will be reflected in
 
 Ultimately, my goal is to give them a better life than I had &mdash; and I've had a damn good life so far. That’s the metric I will use to guage my success as a parent. It's my only [KPI](https://www.wikipedia.org/key_performance_indicator). My guiding north star.
 
---- 
+---
+
 > We don't inherit the Earth from our ancestors &mdash; we borrow it from our children.

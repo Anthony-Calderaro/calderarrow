@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { useState, useEffect } from 'react';
 
 import { getSortedPostsData } from '../utilities/posts.js'
+import { formatDatesForSearching } from '../utilities/dates.js';
 
 import writingsStyles from '../styles/Writings.module.css'
 
@@ -24,7 +25,7 @@ export default ({ allPostsData }) => {
       e.preventDefault();
       setSearchText(category)
     }
-    return categories.map(category => <span tabindex="0" onKeyPress={(e) => categoryClick(e, category)} onClick={(e) => categoryClick(e, category)}>#{category}</span>)
+    return categories.map((category, i) => <span key={i} tabIndex="0" onKeyDown={(e) => categoryClick(e, category)} onClick={(e) => categoryClick(e, category)}>#{category}</span>)
   };
 
   useEffect(() => {
@@ -43,23 +44,21 @@ export default ({ allPostsData }) => {
       <div className={writingsStyles.writing_container}>
         <span className={writingsStyles.heading}>Showing {filteredPosts.length} of {allPostsData.length}</span>
         <input id='search' type='text' onChange={e => setSearchText(e.target.value)} value={searchText} />
-        <label for='search' description='Search Writings' />
-        <span className={writingsStyles.viewToggle} tabIndex="0" onKeyPress={() => toggleCardView(!cardView)} onClick={() => toggleCardView(!cardView)}>{cardView ? <ListView /> : <CardView />}</span>
+        <label htmlFor='search' description='Search Writings' />
+        <span className={writingsStyles.viewToggle} tabIndex="0" onKeyDown={() => toggleCardView(!cardView)} onClick={() => toggleCardView(!cardView)}>{cardView ? <ListView /> : <CardView />}</span>
       </div>
       <ul className={writingsStyles.ul}>
         {filteredPosts.map(({ id, date, title, wordCount, categories }) => (
           <li key={id}>
             <Link href={`/writings/${id}`}>
-              <a>
-                <div className={writingsStyles.post}>
-                  <span>{title}</span>
-                  <span>{date}</span>
-                </div>
-                {cardView && <div className={writingsStyles.post_details}>
-                  <div>{makeCategoryTags(categories)}</div>
-                  <span>{formatReadingTime(wordCount)}</span>
-                </div>}
-              </a>
+              <div className={writingsStyles.post}>
+                <span>{title}</span>
+                <span>{formatDatesForSearching(date)}</span>
+              </div>
+              {cardView && <div className={writingsStyles.post_details}>
+                <div>{makeCategoryTags(categories)}</div>
+                <span>{formatReadingTime(wordCount)}</span>
+              </div>}
             </Link>
           </li>
         ))}
