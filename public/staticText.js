@@ -37,7 +37,8 @@ export const footerIcons = [
   {
     icon: faRss,
     link: '/rss.xml',
-    ariaLabel: 'rss'
+    ariaLabel: 'rss',
+    target: '#'
   },
 ];
 
