@@ -8,10 +8,8 @@ import footerStyles from '../styles/Footer.module.css';
 const IconLink = ({ iconDetails }) => {
   const { icon, link, target, ariaLabel } = iconDetails;
   return (
-    <Link href={`${link}`}>
-      <a aria-label={ariaLabel} target={target && target} rel='noreferrer'>
-        {createFontAwesomeIcon(icon)}
-      </a>
+    <Link href={`${link}`} aria-label={ariaLabel} target={target && target} rel='noreferrer'>
+      {createFontAwesomeIcon(icon)}
     </Link>
   )
 }

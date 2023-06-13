@@ -7,10 +7,8 @@ import styles from '../styles/Home.module.css';
 const HomePageLink = ({ linkObject }) => {
   const { link, text, target, ariaLabel } = linkObject;
   return (
-    <Link href={link}>
-      <a target={target && target} ariaLabel={ariaLabel} rel='noreferrer' className={styles.blogLink}>
-        {text}
-      </a>
+    <Link href={link} target={target && target} aria-label={ariaLabel} rel='noreferrer' className={styles.blogLink}>
+      {text}
     </Link>
   )
 }

@@ -1,6 +1,3 @@
-const preact = require('preact');
-const withPreact = require('next-plugin-preact');
-
 // https://nextjs.org/docs/advanced-features/security-headers
 const securityHeaders = [
   {
@@ -32,14 +29,15 @@ const securityHeaders = [
     value: '' // Todo: Add 
   },
 ];
-module.exports = withPreact({
-  experimental: {
-    modern: true,
-  },
+const nextConfig = {
   pageExtensions: ['js', 'jsx', 'md', 'mdx'],
   webpack: (config, { dev, isServer }) => {
     require('./utilities/generateRSS');
     return config;
+  },
+  i18n: {
+    locales: ["en"],
+    defaultLocale: "en",
   },
   async headers() {
     return [
@@ -50,4 +48,6 @@ module.exports = withPreact({
       },
     ]
   },
-});
+};
+
+module.exports = nextConfig;
