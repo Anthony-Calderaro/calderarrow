@@ -14,7 +14,7 @@
     "@fortawesome/free-solid-svg-icons": "^5.15.1",
     "@fortawesome/react-fontawesome": "^0.1.14",
     "gray-matter": "^4.0.3",
-    "next": "^11.1.2",
+    "next": "^13.4.5",
     "next-plugin-preact": "^3.0.6",
     "preact": "^10.5.14",
     "preact-render-to-string": "^5.1.19",
