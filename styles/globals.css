@@ -44,9 +44,9 @@ main {
 }
 
 .essay a {
-  color: #3740ff;
+  color: #9095ff;
   padding-bottom: 2px;
-  border-bottom: 1px solid #3740ff;
+  border-bottom: 1px solid #9095ff;
 }
 
 .essay blockquote {
@@ -57,13 +57,19 @@ main {
 }
 
 .dark {
-  background: #121212;
+  background: rgb(32, 33, 36);
   color: white;
 }
 
 .dark p a {
   color: #9095ff;
   border-bottom: 1px solid #9095ff;
+}
+
+/* Target Header Elements .header_navigation */
+.dark div div a:hover {
+  border-bottom: 1px solid #9095ff;
+  color: #9095ff;
 }
 
 hr {
