@@ -20,18 +20,6 @@
         </item>
       
         <item>
-          <title>Why Write</title>
-          <link>https://calderarrow.me/writings/whywrite</link>
-          <guid isPermaLink="false">whywrite</guid>
-        </item>
-      
-        <item>
-          <title>Quotes</title>
-          <link>https://calderarrow.me/writings/quotes</link>
-          <guid isPermaLink="false">quotes</guid>
-        </item>
-      
-        <item>
           <title>A First Principles Approach to Money</title>
           <link>https://calderarrow.me/writings/money</link>
           <guid isPermaLink="false">money</guid>
@@ -56,15 +44,15 @@
         </item>
       
         <item>
-          <title>The Future of Remote Work</title>
-          <link>https://calderarrow.me/writings/remotework</link>
-          <guid isPermaLink="false">remotework</guid>
-        </item>
-      
-        <item>
           <title>Happiness and Happy Distractions</title>
           <link>https://calderarrow.me/writings/happiness</link>
           <guid isPermaLink="false">happiness</guid>
+        </item>
+      
+        <item>
+          <title>On Nepotism</title>
+          <link>https://calderarrow.me/writings/nepotism</link>
+          <guid isPermaLink="false">nepotism</guid>
         </item>
       
         <item>
@@ -80,6 +68,12 @@
         </item>
       
         <item>
+          <title>Kevin & Danielle</title>
+          <link>https://calderarrow.me/writings/kevin-and-danielle</link>
+          <guid isPermaLink="false">kevin-and-danielle</guid>
+        </item>
+      
+        <item>
           <title>University Endowments</title>
           <link>https://calderarrow.me/writings/endowments</link>
           <guid isPermaLink="false">endowments</guid>
@@ -89,6 +83,18 @@
           <title>Becoming a Developer</title>
           <link>https://calderarrow.me/writings/cryptoconcerns</link>
           <guid isPermaLink="false">cryptoconcerns</guid>
+        </item>
+      
+        <item>
+          <title>Why Write</title>
+          <link>https://calderarrow.me/writings/whywrite</link>
+          <guid isPermaLink="false">whywrite</guid>
+        </item>
+      
+        <item>
+          <title>Quotes</title>
+          <link>https://calderarrow.me/writings/quotes</link>
+          <guid isPermaLink="false">quotes</guid>
         </item>
       
         <item>
@@ -110,9 +116,9 @@
         </item>
       
         <item>
-          <title>On Nepotism</title>
-          <link>https://calderarrow.me/writings/nepotism</link>
-          <guid isPermaLink="false">nepotism</guid>
+          <title>The Future of Remote Work</title>
+          <link>https://calderarrow.me/writings/remotework</link>
+          <guid isPermaLink="false">remotework</guid>
         </item>
       
         <item>
