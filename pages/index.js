@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import useSWR from 'swr'
 import { homePageLinks } from '../public/staticText';
-
+import { useEffect } from 'react';
 import styles from '../styles/Home.module.css';
 
 const fetcher = url => fetch(url).then(r => r.json());
