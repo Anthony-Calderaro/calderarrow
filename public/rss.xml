@@ -19,6 +19,12 @@
           <guid isPermaLink="false">sorry</guid>
         </item>
       
+        <item key="languages">
+          <title>You are better off paying taxes</title>
+          <link>https://calderarrow.me/writings/languages</link>
+          <guid isPermaLink="false">languages</guid>
+        </item>
+      
         <item key="resume">
           <title>Resume</title>
           <link>https://calderarrow.me/writings/resume</link>
@@ -29,6 +35,12 @@
           <title>Fitness 2022</title>
           <link>https://calderarrow.me/writings/fitness-2022</link>
           <guid isPermaLink="false">fitness-2022</guid>
+        </item>
+      
+        <item key="fast-and-slow">
+          <title>Feature Toggles For Speed</title>
+          <link>https://calderarrow.me/writings/fast-and-slow</link>
+          <guid isPermaLink="false">fast-and-slow</guid>
         </item>
       
         <item key="kevin-and-danielle">
@@ -164,7 +176,7 @@
         </item>
       
         <item key="maskon">
-          <title>It is harder to live for something</title>
+          <title>To Help Others, First Help Yourself</title>
           <link>https://calderarrow.me/writings/maskon</link>
           <guid isPermaLink="false">maskon</guid>
         </item>

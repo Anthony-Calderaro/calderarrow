@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faRss, faPencilAlt, faHome, faAdjust } from '@fortawesome/free-solid-svg-icons'
-import { faFile } from '@fortawesome/free-regular-svg-icons'
+import { faRss, faPencilAlt, faHome, faAdjust, faMusic } from '@fortawesome/free-solid-svg-icons'
+// import { faFile } from '@fortawesome/free-regular-svg-icons'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 
 export function createFontAwesomeIcon(icon, optionalClass = '') {
@@ -18,10 +18,15 @@ export const footerIcons = [
     ariaLabel: 'writings'
   },
   {
-    icon: faFile,
-    link: '/writings/resume',
-    ariaLabel: 'resume'
+    icon: faMusic,
+    link: '/writings/listening',
+    ariaLabel: 'writings'
   },
+  // {
+  //   icon: faFile,
+  //   link: '/writings/resume',
+  //   ariaLabel: 'resume'
+  // },
   {
     icon: faHome,
     link: '/',
@@ -37,6 +42,7 @@ export const footerIcons = [
   {
     icon: faRss,
     link: '/rss.xml',
+    target: '_blank',
     ariaLabel: 'rss',
     target: '#'
   },

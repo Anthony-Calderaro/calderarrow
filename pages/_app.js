@@ -68,7 +68,7 @@ function MyApp({ Component, pageProps }) {
         <Header toggleTheme={() => toggleTheme(!lightTheme)} />
 
         <main>
-          <Component {...pageProps} />
+          <Component {...pageProps} lightTheme={lightTheme} />
         </main>
         {/* Todo: This probably looks bad on mobile. If so, move it to the end of whatever main content there is. */}
         <Footer />
