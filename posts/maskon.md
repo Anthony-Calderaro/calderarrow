@@ -1,14 +1,16 @@
 ---
-title: "It is harder to live for something"
+title: "To Help Others, First Help Yourself"
 date: 20190901
 categories: ["career", "tech"]
 wordCount: 321
 wip: true
 ---
 
-### It is harder to live for something
+<!-- Steptember 2019 -->
 
-Steptember 2019
+## To Help Others, First Help Yourself
+
+<!-- It's because once you're situated, you can help people for the rest of your life. If you try to help everyone else, you're limited to a single breath. -->
 
 <!--
 People say they'd die for something or someone. This is easy. They die once, it can be immediate, and their sacrifice has a high perceived value.

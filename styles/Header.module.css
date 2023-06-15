@@ -12,12 +12,17 @@
   margin: 0 12px;
   font-size: 18px;
   border-bottom: 1px solid transparent;
+  text-transform: capitalize;
 }
 
 .header_navigation:hover {
   border-bottom: 1px solid #3740ff;
   color: #3740ff;
-  cursor: pointer;
+}
+
+.header_navigation.dark:hover {
+  color: #9095ff;
+  border-bottom: 1px solid #9095ff;
 }
 
 .headshot {

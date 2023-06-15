@@ -19,8 +19,8 @@ export const footerIcons = [
   },
   {
     icon: faMusic,
-    link: '/writings/listening',
-    ariaLabel: 'writings'
+    link: '/music',
+    ariaLabel: 'music'
   },
   // {
   //   icon: faFile,

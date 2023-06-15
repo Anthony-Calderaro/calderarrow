@@ -66,11 +66,6 @@ main {
   border-bottom: 1px solid #9095ff;
 }
 
-/* Target Header Elements .header_navigation */
-.dark div div a:hover {
-  border-bottom: 1px solid #9095ff;
-  color: #9095ff;
-}
 
 hr {
   width: 50%;

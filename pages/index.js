@@ -7,15 +7,8 @@ import styles from '../styles/Home.module.css';
 const fetcher = url => fetch(url).then(r => r.json());
 
 const HomePageLink = ({ linkObject }) => {
-  // const { data, error } = useSWR('/api/hello', fetcher);
-  const fetcher = async () => fetch('/api/hello').then(res => res.json()).then(r => r)
-  // useEffect(async () => {
-  //   const xx = await fetcher();
-  //   console.log('xx: ', xx);
-  // }, []);
-  // console.log('data: ', data);
-  // console.log('error: ', error);
-
+  const { data, error } = useSWR('/api/hello', fetcher);
+  console.log('data: ', data);
   const { link, text, target, ariaLabel } = linkObject;
   return (
     <Link href={link} target={target && target} aria-label={ariaLabel} rel='noreferrer' className={styles.blogLink}>

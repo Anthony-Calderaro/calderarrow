@@ -65,13 +65,13 @@ function MyApp({ Component, pageProps }) {
 
       <div className={`container ${lightTheme ? '' : 'dark'}`}>
 
-        <Header toggleTheme={() => toggleTheme(!lightTheme)} />
+        <Header toggleTheme={() => toggleTheme(!lightTheme)} lightTheme={lightTheme} />
 
         <main>
           <Component {...pageProps} lightTheme={lightTheme} />
         </main>
         {/* Todo: This probably looks bad on mobile. If so, move it to the end of whatever main content there is. */}
-        <Footer />
+        <Footer lightTheme={lightTheme} />
 
       </div>
     </div>
