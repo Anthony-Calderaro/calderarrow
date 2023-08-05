@@ -13,6 +13,30 @@
           <guid isPermaLink="false">awareness</guid>
         </item>
       
+        <item key="meetings">
+          <title>How much does this meeting cost?</title>
+          <link>https://calderarrow.me/writings/meetings</link>
+          <guid isPermaLink="false">meetings</guid>
+        </item>
+      
+        <item key="warehouses">
+          <title>A Strange Love of Warehouses</title>
+          <link>https://calderarrow.me/writings/warehouses</link>
+          <guid isPermaLink="false">warehouses</guid>
+        </item>
+      
+        <item key="video-games">
+          <title>Video Games</title>
+          <link>https://calderarrow.me/writings/video-games</link>
+          <guid isPermaLink="false">video-games</guid>
+        </item>
+      
+        <item key="office">
+          <title>On Microsoft Office</title>
+          <link>https://calderarrow.me/writings/office</link>
+          <guid isPermaLink="false">office</guid>
+        </item>
+      
         <item key="sorry">
           <title>Sorry</title>
           <link>https://calderarrow.me/writings/sorry</link>
@@ -143,6 +167,12 @@
           <title>Options</title>
           <link>https://calderarrow.me/writings/stockoptions</link>
           <guid isPermaLink="false">stockoptions</guid>
+        </item>
+      
+        <item key="immediate-feedback">
+          <title>Immediate Feedback</title>
+          <link>https://calderarrow.me/writings/immediate-feedback</link>
+          <guid isPermaLink="false">immediate-feedback</guid>
         </item>
       
         <item key="fintech">
