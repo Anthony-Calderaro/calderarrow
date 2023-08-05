@@ -106,3 +106,27 @@ An ongoing list of quotes which I find interesting, inspiring, and insightful. I
 > Rust: “Well, once there was only dark. You ask me, the [light’s winning](<https://en.wikipedia.org/wiki/True_Detective_(season_1)>).”
 
 > I'd wish you luck, but as you'll come to learn, you don't need it.
+
+> Self control makes the man. A man without discipline is a boy full of reactions, rather than a man of good actions.
+
+> How unintentionally cruel it can be to make someone else responsible for your sense of self worth.
+
+> [Cura personalis.](https://en.wikipedia.org/wiki/Cura_personalis)
+
+> The struggle is guaranteed, the success is not.
+
+> There is no greater burden than [choosing who to save](https://scryfall.com/card/ons/39/harsh-mercy)
+
+> We are fortunate to have bad days.
+
+> I see now that the circumstances of one's birth is irrelevent,it is what you do with the [gift of life](https://www.imdb.com/title/tt0190641/quotes/) that determines who you are.
+
+> Home isn't where you rest. It's [what you fight for](https://scryfall.com/card/ddf/27/crusade).
+
+> Setessa is not the city of my birth, but it is the place I fight for, and the place I’m willing to die for. Does that not make it [my home](https://scryfall.com/card/bng/138/setessan-oathsworn)?
+
+> He didn't have a word for home, but he knew [it was something to be defended](https://scryfall.com/card/mbs/72/ogre-resister).
+
+> By tradition, we don’t speak for two days after battle. If [our deeds](https://scryfall.com/card/ddg/5/knight-of-meadowgrain) won't speak for themselves, what else could be said?
+
+> Everyone deserves a [chance to live](https://scryfall.com/card/ons/32/grassland-crusader). My job is to make sure they get it.
