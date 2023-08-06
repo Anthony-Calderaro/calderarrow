@@ -130,3 +130,5 @@ An ongoing list of quotes which I find interesting, inspiring, and insightful. I
 > By tradition, we don’t speak for two days after battle. If [our deeds](https://scryfall.com/card/ddg/5/knight-of-meadowgrain) won't speak for themselves, what else could be said?
 
 > Everyone deserves a [chance to live](https://scryfall.com/card/ons/32/grassland-crusader). My job is to make sure they get it.
+
+> I know that I often sit up at night to [watch for you](https://en.m.wikisource.org/wiki/The_Anabasis_of_Alexander/Book_VII/Chapter_IX), that you may be able to sleep
