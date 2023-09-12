@@ -132,3 +132,5 @@ An ongoing list of quotes which I find interesting, inspiring, and insightful. I
 > Everyone deserves a [chance to live](https://scryfall.com/card/ons/32/grassland-crusader). My job is to make sure they get it.
 
 > I know that I often sit up at night to [watch for you](https://en.m.wikisource.org/wiki/The_Anabasis_of_Alexander/Book_VII/Chapter_IX), that you may be able to sleep
+
+> The power to [endure harm](https://scryfall.com/card/chr/4/blood-of-the-martyr) outlives the power to inflict it.

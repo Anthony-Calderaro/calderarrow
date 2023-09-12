@@ -13,7 +13,9 @@ Washington, DC
 
 ## Employment
 
-**Capital One** | _Software Engineer_ | Tysons Corner, VA (Remote during COVID-19) | March 2021 - Present
+**Capital One** | _Senior Software Engineer_ | McLean, VA | August 2023 - Present
+
+**Capital One** | _Software Engineer_ | McLean, VA (Remote during COVID-19) | March 2021 - July 2023
 
 **US Tax Court** | _Information Technology Specialist_ | Washington, DC (Remote during COVID-19) | January 2021 - February, 2021
 
