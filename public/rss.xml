@@ -13,6 +13,12 @@
           <guid isPermaLink="false">awareness</guid>
         </item>
       
+        <item key="imposter">
+          <title>Imposter Syndrome</title>
+          <link>https://calderarrow.me/writings/imposter</link>
+          <guid isPermaLink="false">imposter</guid>
+        </item>
+      
         <item key="meetings">
           <title>How much does this meeting cost?</title>
           <link>https://calderarrow.me/writings/meetings</link>
