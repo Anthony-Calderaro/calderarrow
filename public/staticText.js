@@ -59,7 +59,7 @@ export const homePageLinks = {
   },
   dlvfr: {
     link: 'https://www.dlvfrd.org/',
-    text: 'volunteer EMT',
+    text: 'volunteer Fire Fighter',
     target: '_blank',
     ariaLabel: "Dunn Loring Volunteer Fire and Rescue Department"
   },

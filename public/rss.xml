@@ -241,6 +241,18 @@
           <guid isPermaLink="false">contact</guid>
         </item>
       
+        <item key="presidential-biographies">
+          <title>Presidential Biographies</title>
+          <link>https://calderarrow.me/writings/presidential-biographies</link>
+          <guid isPermaLink="false">presidential-biographies</guid>
+        </item>
+      
+        <item key="2023">
+          <title>2023 Retrospective</title>
+          <link>https://calderarrow.me/writings/2023</link>
+          <guid isPermaLink="false">2023</guid>
+        </item>
+      
         <item key="coachability">
           <title>Coachability</title>
           <link>https://calderarrow.me/writings/coachability</link>
