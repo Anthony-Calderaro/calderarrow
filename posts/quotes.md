@@ -162,3 +162,5 @@ An ongoing list of quotes which I find interesting, inspiring, and insightful. I
 > That’s the way it is. Good days. And bad days. Up days. Down days. Sad days. Happy days. But never a boring day on this job. You do what God has called you to do. You show up...You get on the rig and you go out and you do the job – No matter how big [or small](https://www.patheos.com/blogs/deaconsbench/2014/09/fr-mychal-judges-last-homily-91001/) the call. You have no idea what God is calling you to. But he needs you. He needs me. He needs all of us. What great people. We love the job. We all do. What a blessing that is. A difficult, difficult job and God calls you to it. And then He gives you a love for it so that a difficult job will be well done.
 
 > We shall [pay any price, bear any burden](https://en.wikipedia.org/wiki/Kennedy_Doctrine), meet any hardship, support any friend, oppose any foe, in order to assure the survival and the success of liberty
+
+> Forgiveness is not forgetting, forgiveness is [remembering without anger](https://en.wikipedia.org/wiki/Celia_Cruz).
