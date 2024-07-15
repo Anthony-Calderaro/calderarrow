@@ -134,3 +134,29 @@ An ongoing list of quotes which I find interesting, inspiring, and insightful. I
 > I know that I often sit up at night to [watch for you](https://en.m.wikisource.org/wiki/The_Anabasis_of_Alexander/Book_VII/Chapter_IX), that you may be able to sleep
 
 > The power to [endure harm](https://scryfall.com/card/chr/4/blood-of-the-martyr) outlives the power to inflict it.
+
+> When you kill an American officer, the Geneva Convention becomes the Geneva suggestion.
+
+> Turn [100 Hours](https://rhysticstudies.substack.com/p/some-maxims) into 10 minutes
+
+> Whoever loves much, performs much, and can accomplish much, and what is [done in love is done well](https://www.vincentvangogh.org/quotes.jsp).
+
+> Nothing is wanting with you, but attention, dilligence and steady application, [Nature has not been deficient](https://founders.archives.gov/documents/Adams/04-03-02-0207). These are times in which a Genious would wish to live. It is not in the still calm of life, or the repose of a pacific station, that great characters are formed. Would Cicero have shone so distinguished an orater, if he had not been roused, kindled and enflamed by the Tyranny of Catiline, Millo, Verres and Mark Anthony. The Habits of a vigorous mind are formed in contending with difficulties. All History will convince you of this, and that wisdom and penetration are the fruits of experience, not the Lessons of retirement and leisure. Great necessities call out great virtues. When a mind is raised, and animated by scenes that engage the Heart, then those qualities which would otherways lay dormant, wake into Life, and form the Character of the Hero and the Statesman.
+
+> I only know [I have enough](https://en.wikipedia.org/wiki/Ry%C5%8Dan-ji).
+
+> I have no enemies, and [no hatred](https://en.wikipedia.org/wiki/I_Have_No_Enemies).
+
+> He is not qualified by nature or education to shine in courts. His abilities are undoubtedly equal to the mechanical parts of his business as ambassador; but this is not enough. He cannot dance, drink, game, flatter, promised dress, swear with the gentlemen, and small talk and flirt with the ladies. [Jonathan Sewall regarding John Adams](https://en.wikipedia.org/wiki/Jonathan_Sewall) -- although this description could easily apply to me.
+
+> He is a great man who uses earthenware dishes as if they were silver, but he is equally great who uses silver as if it were earthenware. It is the sign of an unstable mind not to be able to [endure riches](https://www.lettersfromastoic.net/).
+
+> The [present](https://www.lettersfromastoic.net/) alone can make no man wretched.
+
+> You are empathetic because you have strength to spare.
+
+> You will never be criticized by someone doing more than you.
+
+> As He died to make men holy, let us [die to make men free](https://en.wikipedia.org/wiki/Battle_Hymn_of_the_Republic)
+
+> That’s the way it is. Good days. And bad days. Up days. Down days. Sad days. Happy days. But never a boring day on this job. You do what God has called you to do. You show up...You get on the rig and you go out and you do the job – No matter how big [or small](https://www.patheos.com/blogs/deaconsbench/2014/09/fr-mychal-judges-last-homily-91001/) the call. You have no idea what God is calling you to. But he needs you. He needs me. He needs all of us. What great people. We love the job. We all do. What a blessing that is. A difficult, difficult job and God calls you to it. And then He gives you a love for it so that a difficult job will be well done.

@@ -7,10 +7,22 @@
     <link>https://calderarrow.me/rss.xml</link>
     <description>An RSS feed of all my writings.</description>
     
+        <item key="financeishuman">
+          <title>undefined</title>
+          <link>https://calderarrow.me/writings/financeishuman</link>
+          <guid isPermaLink="false">financeishuman</guid>
+        </item>
+      
         <item key="awareness">
           <title>Awareness v Action</title>
           <link>https://calderarrow.me/writings/awareness</link>
           <guid isPermaLink="false">awareness</guid>
+        </item>
+      
+        <item key="2023">
+          <title>2023 Retrospective</title>
+          <link>https://calderarrow.me/writings/2023</link>
+          <guid isPermaLink="false">2023</guid>
         </item>
       
         <item key="imposter">
@@ -247,12 +259,6 @@
           <guid isPermaLink="false">presidential-biographies</guid>
         </item>
       
-        <item key="2023">
-          <title>2023 Retrospective</title>
-          <link>https://calderarrow.me/writings/2023</link>
-          <guid isPermaLink="false">2023</guid>
-        </item>
-      
         <item key="coachability">
           <title>Coachability</title>
           <link>https://calderarrow.me/writings/coachability</link>
@@ -275,6 +281,18 @@
           <title>Developing Emotional Discipline</title>
           <link>https://calderarrow.me/writings/emotional-discipline</link>
           <guid isPermaLink="false">emotional-discipline</guid>
+        </item>
+      
+        <item key="accountinglikecs">
+          <title>What are we accounting for?</title>
+          <link>https://calderarrow.me/writings/accountinglikecs</link>
+          <guid isPermaLink="false">accountinglikecs</guid>
+        </item>
+      
+        <item key="accounting">
+          <title>What are we accounting for?</title>
+          <link>https://calderarrow.me/writings/accounting</link>
+          <guid isPermaLink="false">accounting</guid>
         </item>
       
         <item key="10yearsin5">
