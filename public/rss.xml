@@ -7,12 +7,6 @@
     <link>https://calderarrow.me/rss.xml</link>
     <description>An RSS feed of all my writings.</description>
     
-        <item key="financeishuman">
-          <title>undefined</title>
-          <link>https://calderarrow.me/writings/financeishuman</link>
-          <guid isPermaLink="false">financeishuman</guid>
-        </item>
-      
         <item key="awareness">
           <title>Awareness v Action</title>
           <link>https://calderarrow.me/writings/awareness</link>

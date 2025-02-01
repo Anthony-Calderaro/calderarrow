@@ -117,14 +117,16 @@ An ongoing list of quotes which I find interesting, inspiring, and insightful. I
 
 > There is no greater burden than [choosing who to save](https://scryfall.com/card/ons/39/harsh-mercy)
 
-> We are fortunate to have bad days.
+> We are [fortunate](https://calderarrow.me) to have bad days.
+
+> [Make](https://calderarrow.me) your own luck.
 
 > I see now that the circumstances of one's birth is irrelevent,it is what you do with the [gift of life](https://www.imdb.com/title/tt0190641/quotes/) that determines who you are.
 
 > Home isn't where you rest. It's [what you fight for](https://scryfall.com/card/ddf/27/crusade).
 
 > Setessa is not the city of my birth, but it is the place I fight for, and the place I’m willing to die for. Does that not make it [my home](https://scryfall.com/card/bng/138/setessan-oathsworn)?
-
+<!-- Magic TCG -->
 > He didn't have a word for home, but he knew [it was something to be defended](https://scryfall.com/card/mbs/72/ogre-resister).
 
 > By tradition, we don’t speak for two days after battle. If [our deeds](https://scryfall.com/card/ddg/5/knight-of-meadowgrain) won't speak for themselves, what else could be said?
@@ -134,6 +136,8 @@ An ongoing list of quotes which I find interesting, inspiring, and insightful. I
 > I know that I often sit up at night to [watch for you](https://en.m.wikisource.org/wiki/The_Anabasis_of_Alexander/Book_VII/Chapter_IX), that you may be able to sleep
 
 > The power to [endure harm](https://scryfall.com/card/chr/4/blood-of-the-martyr) outlives the power to inflict it.
+
+> I have seen the true path. I will not warm myself by the fire — I will [become the flame](https://scryfall.com/card/ice/284/diabolic-vision).
 
 > When you kill an American officer, the Geneva Convention becomes the Geneva suggestion.
 
@@ -164,3 +168,13 @@ An ongoing list of quotes which I find interesting, inspiring, and insightful. I
 > We shall [pay any price, bear any burden](https://en.wikipedia.org/wiki/Kennedy_Doctrine), meet any hardship, support any friend, oppose any foe, in order to assure the survival and the success of liberty
 
 > Forgiveness is not forgetting, forgiveness is [remembering without anger](https://en.wikipedia.org/wiki/Celia_Cruz).
+
+> He saw the moon low in the sky now. The moon there, and the light of the moon caused by what? By the sun, of course. And what lights the sun? [It's own fire](https://en.wikipedia.org/wiki/Fahrenheit_451). 
+
+> The most important single thing we had to pound into ourselves is that [we were not important](https://en.wikipedia.org/wiki/Fahrenheit_451), we mustn't be pedants; we were not to feel superior to anyone else in the world.
+
+> Second place is the [first loser](https://en.wikipedia.org/wiki/Enzo_Ferrari)
+
+> Worry is just [wasted time](https://en.wikipedia.org/wiki/The_Way_of_Kings).
+
+> He wrapped himself in [the responsibility he had taken](https://en.wikipedia.org/wiki/The_Way_of_Kings), the responsibility for these men. He held to it like a climber clung to his last handhold as he dangled from a cliff side. He would find a way to protect them.

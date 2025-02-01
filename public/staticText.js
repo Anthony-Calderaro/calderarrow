@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faRss, faPencilAlt, faHome, faAdjust, faMusic } from '@fortawesome/free-solid-svg-icons'
+import { faRss, faPencilAlt, faHome, faAdjust, faMoon, faMusic, faSun } from '@fortawesome/free-solid-svg-icons'
 // import { faFile } from '@fortawesome/free-regular-svg-icons'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 
@@ -8,7 +8,9 @@ export function createFontAwesomeIcon(icon, optionalClass = '') {
 }
 
 export const themeIcons = {
-  light: faAdjust,
+  light: faSun,
+  dark: faMoon
+  // light: faAdjust,
 }
 
 export const footerIcons = [

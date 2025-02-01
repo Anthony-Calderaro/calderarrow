@@ -44,7 +44,7 @@ const Header = ({ toggleTheme, lightTheme }) => {
         {headerLinks.map((headerDetails, i) => <HeaderLink key={i} headerDetails={headerDetails} lightTheme={lightTheme} />)}
       </div>
 
-      <div className={headerStyles.iconContainer} tabIndex='0' onKeyUp={(e) => handleKeyUp(e)} onClick={toggleTheme}>{createFontAwesomeIcon(themeIcons.light)}</div>
+      <div className={headerStyles.iconContainer} tabIndex='0' onKeyUp={(e) => handleKeyUp(e)} onClick={toggleTheme}>{createFontAwesomeIcon(lightTheme ? themeIcons.light : themeIcons.dark)}</div>
 
     </div>
   );
