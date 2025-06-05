@@ -1,6 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faRss, faPencilAlt, faHome, faAdjust, faMoon, faMusic, faSun } from '@fortawesome/free-solid-svg-icons'
-// import { faFile } from '@fortawesome/free-regular-svg-icons'
+import { faRss, faPencilAlt, faLightbulb, faHome, faMusic } from '@fortawesome/free-solid-svg-icons'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 
 export function createFontAwesomeIcon(icon, optionalClass = '') {
@@ -8,9 +7,8 @@ export function createFontAwesomeIcon(icon, optionalClass = '') {
 }
 
 export const themeIcons = {
-  light: faSun,
-  dark: faMoon
-  // light: faAdjust,
+  dark: faLightbulb,
+  light: faLightbulb,
 }
 
 export const footerIcons = [
@@ -61,7 +59,7 @@ export const homePageLinks = {
   },
   dlvfr: {
     link: 'https://www.dlvfrd.org/',
-    text: 'volunteer Fire Fighter',
+    text: 'volunteer fire fighter',
     target: '_blank',
     ariaLabel: "Dunn Loring Volunteer Fire and Rescue Department"
   },
@@ -95,20 +93,41 @@ export const homePageLinks = {
   },
 };
 
-export const quotes = [
-  {
-    quote: 'Failing at investing is like failing in relationships. It’s more a matter of character than intelligence.',
-    source: 'The Intelligent Investor Introduction',
-    link: 'wikipedia intelligent investor'
+export const sortByMapping = {
+  0: {
+    key: "date",
+    isAscending: true
   },
-  {
-    quote: 'Blessed is he who expects nothing, for he shall enjoy everything.',
-    source: 'The Intelligent Investor Introduction',
-    link: 'wikipedia intelligent investor'
+  1: {
+    key: "date",
+    isAscending: false
   },
-  {
-    quote: 'Kierkegard said life can be understood backward but must be lived forwards',
-    source: '',
-    link: ''
+  2: {
+    key: "wordCount",
+    isAscending: true
   },
-];
+  3: {
+    key: "wordCount",
+    isAscending: false
+  },
+}
+
+export const postTags = [
+  "family",
+  "fintech",
+  "fitness",
+  "inspiration",
+  "life",
+  "review",
+  "writing",
+]
+
+export const tagColors = {
+  [postTags[0]]: "lightgreen",
+  [postTags[1]]: "lightblue",
+  [postTags[2]]: "lightcyan",
+  [postTags[3]]: "lightcoral",
+  [postTags[4]]: "lightgoldenrodyellow",
+  [postTags[5]]: "lightsalmon",
+  [postTags[6]]: "lightsteelblue",
+}

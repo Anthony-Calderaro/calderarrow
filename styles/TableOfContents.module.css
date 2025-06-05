@@ -1,0 +1,39 @@
+.toc_container {
+  width: 100%;
+  margin: 0 auto;
+  background: rgb(245, 245, 245); 
+  border: 1px solid rgb(238, 238, 238);
+  border-radius: 8px;
+  padding: 8px;
+  cursor: zoom-out;
+}
+
+.toc_container.collapsed {
+  cursor: zoom-in;
+}
+
+.toc_container svg {
+  margin-right: 4px;
+}
+/* Todo: Use Dedicated style class */
+.toc_container h4 {
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.toc_container h4 {
+  margin: 0;
+}
+
+.toc_container a:hover {
+  border-bottom: 1px solid black;
+  padding-bottom: 3px;
+}
+
+.expanded_contents {
+  display: block;
+}
+.hide {
+  display: none;
+}

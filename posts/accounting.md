@@ -1,6 +1,6 @@
 ---
 title: "What are we accounting for?"
-date: 202106
+date: 20210601
 categories: ["books", "freedom"]
 wordCount: 1000
 wip: true

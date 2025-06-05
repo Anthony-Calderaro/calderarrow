@@ -13,6 +13,12 @@
           <guid isPermaLink="false">awareness</guid>
         </item>
       
+        <item key="values">
+          <title>Good Values, Bad Values</title>
+          <link>https://calderarrow.me/writings/values</link>
+          <guid isPermaLink="false">values</guid>
+        </item>
+      
         <item key="2023">
           <title>2023 Retrospective</title>
           <link>https://calderarrow.me/writings/2023</link>
@@ -61,10 +67,22 @@
           <guid isPermaLink="false">languages</guid>
         </item>
       
+        <item key="coachability">
+          <title>Coachability</title>
+          <link>https://calderarrow.me/writings/coachability</link>
+          <guid isPermaLink="false">coachability</guid>
+        </item>
+      
         <item key="resume">
           <title>Resume</title>
           <link>https://calderarrow.me/writings/resume</link>
           <guid isPermaLink="false">resume</guid>
+        </item>
+      
+        <item key="2022">
+          <title>A review of 2022</title>
+          <link>https://calderarrow.me/writings/2022</link>
+          <guid isPermaLink="false">2022</guid>
         </item>
       
         <item key="fitness-2022">
@@ -145,10 +163,28 @@
           <guid isPermaLink="false">get-rich</guid>
         </item>
       
+        <item key="emotional-discipline">
+          <title>Developing Emotional Discipline</title>
+          <link>https://calderarrow.me/writings/emotional-discipline</link>
+          <guid isPermaLink="false">emotional-discipline</guid>
+        </item>
+      
         <item key="cryptoconcerns">
           <title>Becoming a Developer</title>
           <link>https://calderarrow.me/writings/cryptoconcerns</link>
           <guid isPermaLink="false">cryptoconcerns</guid>
+        </item>
+      
+        <item key="accountinglikecs">
+          <title>What are we accounting for?</title>
+          <link>https://calderarrow.me/writings/accountinglikecs</link>
+          <guid isPermaLink="false">accountinglikecs</guid>
+        </item>
+      
+        <item key="accounting">
+          <title>What are we accounting for?</title>
+          <link>https://calderarrow.me/writings/accounting</link>
+          <guid isPermaLink="false">accounting</guid>
         </item>
       
         <item key="taxcode">
@@ -235,6 +271,12 @@
           <guid isPermaLink="false">accessibility</guid>
         </item>
       
+        <item key="10yearsin5">
+          <title>Living 10 years in 5</title>
+          <link>https://calderarrow.me/writings/10yearsin5</link>
+          <guid isPermaLink="false">10yearsin5</guid>
+        </item>
+      
         <item key="quotes">
           <title>Quotes</title>
           <link>https://calderarrow.me/writings/quotes</link>
@@ -253,46 +295,10 @@
           <guid isPermaLink="false">presidential-biographies</guid>
         </item>
       
-        <item key="coachability">
-          <title>Coachability</title>
-          <link>https://calderarrow.me/writings/coachability</link>
-          <guid isPermaLink="false">coachability</guid>
-        </item>
-      
-        <item key="2022">
-          <title>A review of 2022</title>
-          <link>https://calderarrow.me/writings/2022</link>
-          <guid isPermaLink="false">2022</guid>
-        </item>
-      
         <item key="fd">
           <title>Book Review: Frederick Douglass</title>
           <link>https://calderarrow.me/writings/fd</link>
           <guid isPermaLink="false">fd</guid>
-        </item>
-      
-        <item key="emotional-discipline">
-          <title>Developing Emotional Discipline</title>
-          <link>https://calderarrow.me/writings/emotional-discipline</link>
-          <guid isPermaLink="false">emotional-discipline</guid>
-        </item>
-      
-        <item key="accountinglikecs">
-          <title>What are we accounting for?</title>
-          <link>https://calderarrow.me/writings/accountinglikecs</link>
-          <guid isPermaLink="false">accountinglikecs</guid>
-        </item>
-      
-        <item key="accounting">
-          <title>What are we accounting for?</title>
-          <link>https://calderarrow.me/writings/accounting</link>
-          <guid isPermaLink="false">accounting</guid>
-        </item>
-      
-        <item key="10yearsin5">
-          <title>Living 10 years in 5</title>
-          <link>https://calderarrow.me/writings/10yearsin5</link>
-          <guid isPermaLink="false">10yearsin5</guid>
         </item>
       
   </channel>

@@ -63,6 +63,9 @@
   margin: 10px 0;
 }
 
+.test {
+  width: 14px;
+}
 @media (min-width: 650px) and (max-width: 880px) {
   .link {
     padding: 12px 0;

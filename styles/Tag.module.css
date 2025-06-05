@@ -1,0 +1,18 @@
+.tag_container {
+  margin: 0;
+  display: flex;
+  list-style-type: none;
+  text-transform: capitalize;
+  padding: 0;
+  background: rgb(245, 245, 245); 
+  border: 1px solid rgb(238, 238, 238);
+  color: rgb(108, 108, 108);
+  padding: 0 14px;
+  font-size: 14px;
+  border-radius: 8px;
+  letter-spacing: 0.5px;
+}
+.tag_container:hover {
+  cursor: pointer;
+  background-color: rgb(235, 235, 235);
+}

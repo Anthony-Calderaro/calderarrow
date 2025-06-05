@@ -1,4 +1,4 @@
-27s_Law---
+---
 title: "A Strange Love of Warehouses"
 date: 20230623
 categories: ["career", "accounting"]
