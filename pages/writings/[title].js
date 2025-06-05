@@ -52,7 +52,7 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params }) {
   const postData = await getPostData(params.title) // Fetch necessary data for the blog post
-  if (!paths) {
+  if (!postData) {
     return <div>Loading...</div>
   }
   return {
