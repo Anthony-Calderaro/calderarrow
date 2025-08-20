@@ -1,4 +1,4 @@
-/* Todo: Add variables usingsass */
+/* Todo: Move to Globals.scss*/
 :root {
   --button-background-light: rgb(245, 245, 245); 
   --button-background-border-light: 1px solid rgb(238, 238, 238);
@@ -83,16 +83,3 @@ hr {
   fill: white;
 }
 
-/* Todo: Should this be 650? */
-@media (min-width: 650px) and (max-width: 880px) {
-  .container {
-    align-items: center;
-  }
-}
-
-/* Todo: Should this be 720? */
-@media (min-width: 880px) { 
-  main {
-    max-width: 720px;
-  }
-}
