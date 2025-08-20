@@ -52,7 +52,7 @@ function MyApp({ Component, pageProps }) {
     } else {
       bodyElement.classList.add('dark'), [lightTheme]
     }
-  });
+  }, [lightTheme]);
 
   return (
     <div>

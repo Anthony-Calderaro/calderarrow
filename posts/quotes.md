@@ -8,7 +8,7 @@ wip: false
 
 <!-- &ndash; -->
 
-Check out the static text quote s too!
+<!-- todo: Check out the static text quote s too! -->
 
 # Quotes
 
@@ -155,7 +155,9 @@ An ongoing list of quotes which I find interesting, inspiring, and insightful. I
 
 > I have no enemies, and [no hatred](https://en.wikipedia.org/wiki/I_Have_No_Enemies).
 
-> He is not qualified by nature or education to shine in courts. His abilities are undoubtedly equal to the mechanical parts of his business as ambassador; but this is not enough. He cannot dance, drink, game, flatter, promised dress, swear with the gentlemen, and small talk and flirt with the ladies. [Jonathan Sewall regarding John Adams](https://en.wikipedia.org/wiki/Jonathan_Sewall) -- although this description could easily apply to me.
+> He is not qualified by nature or education to shine in courts. His abilities are undoubtedly equal to the mechanical parts of his business as ambassador; but this is not enough. He cannot dance, drink, game, flatter, promised dress, swear with the gentlemen, and small talk and flirt with the ladies. [Jonathan Sewall regarding John Adams](https://en.wikipedia.org/wiki/Jonathan_Sewall) (although this description could easily apply to me.)
+
+<!-- Todo: Footnote this -->
 
 > He is a great man who uses earthenware dishes as if they were silver, but he is equally great who uses silver as if it were earthenware. It is the sign of an unstable mind not to be able to [endure riches](https://www.lettersfromastoic.net/).
 
@@ -193,17 +195,17 @@ An ongoing list of quotes which I find interesting, inspiring, and insightful. I
 
 > In God we trust. All others bring [test coverage](https://calderarrow.me)
 
-> He broke us right good, didn't he, sir?
-> Yes.
-> Turns out though, [men can be reforged](https://en.wikipedia.org/wiki/Words_Of_Radiance). I wouldn't have thought that.
+> He broke us right good, didn't he, sir?  
+> Yes.  
+> Turns out though, [men can be reforged](https://en.wikipedia.org/wiki/Words_Of_Radiance).
 
 > Strength does not make one capable of rule; it [makes one capable of service.](https://en.wikipedia.org/wiki/The_Way_Of_Kings)
 
-> Care, but not too much. Take responsibility, but don't blame yourself. [Protect, save, help](<(https://en.wikipedia.org/wiki/The_Way_Of_Kings)>) — but know when to give up.
+> Care, but not too much. Take responsibility, but don't blame yourself. [Protect, save, help](https://en.wikipedia.org/wiki/The_Way_Of_Kings) — but know when to give up.
 
 > A man who could live through damnation...and [still inspire others](https://en.wikipedia.org/wiki/The_Way_Of_Kings) was a man I wanted under my command.
 
-> Better [Ash](<(https://calderarrow.me)>) than Dust
+> Better ash than dust
 
 <!-- > You don't go to the gym to find your strengths. You go to find your weaknesses. Dr Mike, Renaissance aperiodization -->
 

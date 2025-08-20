@@ -24,17 +24,18 @@ const Footnotes = () => {
 
 
 export default function Post({ postData }) {
+  // Todo: Work on the toc
   return (
     <>
 
-      <h1>Post Title</h1>
+      {/* <h1>Post Title</h1>
       <p  style={{ fontSize: 18}}>Post Description</p>
       <div style={{ color: "gray", fontSize: 14}}>Date · Time · Wordcount | ViewCount | translations | Audio Recording</div>
-      <TableOfContents />
+      <TableOfContents /> */}
       <div className='essay' dangerouslySetInnerHTML={{ __html: postData.postContent }} />
-      <Footnotes />
-      <Tag />
-      <BottomNavigation />
+      {/* <Footnotes /> */}
+      {/* <Tag /> */}
+      {/* <BottomNavigation /> */}
     </>
   )
 }
