@@ -6,58 +6,54 @@ wordCount: 650
 wip: true
 ---
 
+_A PDF is available [here](https://drive.google.com/file/d/1RAeiz2yp2ZhiCcjPDaGkJ8eGx8EJlGdY/view?usp=sharing)_
+
 ## Employment
 
-**Capital One** | _Senior Software Engineer_ | McLean, VA | August 2023 - Present
-- Worked on full-stack intent as part of the Customer Line Management platform, building features to support credit line increases, decreases, and transfers
+**Senior Software Engineer** | _Capital One_ | McLean, VA (Remote during COVID-19) | March 2021 - Present
+- Built and maintained full-stack features on the Customer Line Management platform, enabling dynamic credit line
+increases, decreases, and transfers using TypeScript with React, Angular, and Vue
+- Transformed multi-week batch processes into a near real-time streaming architecture, improving responsiveness
+of credit line offers using Python
+- Led teams of 2-3 engineers across multiple projects to deliver automation tooling with Playwright, internal dev
+platforms with Next.js, and integrating ephemeral testing with Jest into Jenkins pipelines
+- Designed and implemented frontend UIs (TypeScript & Angular) and backend APIs (Node, Python, Java) for the
+“Confirm Purchasing Power” feature, generating $200M+ in additional customer spend in 2023
+- Reviewed ~20% of all pull requests across the Card Tech organization and established frontend platform
+standards on Capital One's core customer-facing web app (35M+ users)
 
-**Capital One** | _Software Engineer_ | McLean, VA (Remote during COVID-19) | March 2021 - July 2023
-- Built the frontend UI and backend APIs to power the confirm purchasing power experience for millions of customers worldwide
-- Served as a platform approver for the primary customer web application used by millions of users
+**Software Engineer** | _US Tax Court_ | Washington, DC (Remote during COVID-19) | January 2021 - February, 2021
+- Delivered new features and bug fixes for [DAWSON](https://dawson.ustaxcourt.gov/), the U.S. Tax Court’s case management platform using React and TypeScript
+- Automated support ticket triage with bespoke Python scripts for handling hundreds of daily inbound requests
 
-**US Tax Court** | _Information Technology Specialist_ | Washington, DC (Remote during COVID-19) | January 2021 - February, 2021
+**Application Developer** | _Blue Raster_ | Arlington, VA | October 2018 - October 2020
+- Collaborated cross-functionally with GIS analysts, designers, and PMs to develop responsive, data-driven
+geospatial web applications for public health, environment, and transportation clients using React, Redux, and
+React-Router
+- Built Python scripts for the Pennsylvania Dept. of Health which enabled real-time COVID-19 data monitoring
+across hundreds of hospitals statewide
 
-- Contributed new features and bug fixes to the full-stack development of [DAWSON](https://dawson.ustaxcourt.gov/), the US Tax Court's new case management system launched in late 2020
-- Interfaced directly with end users by providing technical support, troubleshooting, and triaging tickets for the development team
-- Created Python scripts to automate support ticket triage and user management via AWS and Zendesk APIs
-
-**Blue Raster** | _Application Developer_ | Arlington, VA | October 2018 - October 2020
-
-- Worked cross functionally with GIS analysts, graphic designers, and project managers to develop responsive geospatial web
-  applications for organizations such as Cushman & Wakefield, [U.S. Department of Agriculture](https://www.usna.usda.gov/abe/), Stimson Center, World Health Organization, World Resources Institute, and World Wildlife Fund
-- Leveraged cloud infrastructure like AWS and Heroku to continuously deploy, monitor, and improve applications
-- Subcontracted with the Center for Disease Control to develop automation scripts for the Pennsylvania Department of Health to assist with their monitoring of key COVID data across hundreds of hospitals statewide
-
-**Marcum LLP (formerly Raffa)** | _Staff Auditor II_ | Washington, D.C. | September 2016 - March 2018
-
+**Staff Auditor II** | _Marcum LLP_ | Washington, D.C. | September 2016 - March 2018
 - Collaborated with the audit team to test various areas of client financial statements to support the conclusion of our audit reports
 - Assisted the tax team with preparing and filing corporate and individual tax returns
 - Researched and proposed various tax strategies for corporate and individual clients
 
 ## Education
 
-**Lambda School** | March 2018 - September 2018  
-Completed a 7 month software development program to become proficient with JavaScript and Python.
+**George Mason University**: M.S. in Computer Science (In Progress, Expected 2027)
+- Focus: Machine Learning & Artificial Intelligence
+**Bloom Institute of Technology**: (2018)
+- 7-month full-time immersive in JavaScript, Python, and full-stack web development
+**George Washington University**: M.S. & B.S. in Accountancy (2016)
+- Certified Public Accountant ([Virginia License #50534](https://cpaportal.boa.virginia.gov/Verification/))
 
-**George Washington University** | Washington, DC  
- Masters of Accountancy 2016  
- Bachelor of Accountancy 2015
+## Technical Skills & Knowledge
+**Frontend**: Typescript, React, Angular, Vue, Next.js, Redux, Jest, CSS/SASS, Responsive Web Design, Playwright
+**Backend**: Node.js, Python (Boto3, Pyspark), Java (Spring Boot, JUnit)
+**Cloud/Tools**: AWS, CI/CD (Jenkins), Git, Playwright, REST APIs, Unit Testing, Performance Testing
+**Data/ML**: Tensorflow, Pandas, Jupyter Notebooks, SQL (PostgreSQL, MySQL), NoSQL (DynamoDB, MongoDB)
 
-## Certifications
-
-**Certified Public Accountant** | [Virginia](https://cpaportal.boa.virginia.gov/Verification/)
-
-**AWS Solutions Architect (Associate)** | Expires August 2024
-
-<!-- __AWS Developer (Associate)__ | Expires March 2023   -->
-
-## Skills
-
-**PYTHON**: ESRI Python API, Jupyter Notebooks  
-**JAVASCRIPT**: Angular, ESRI JS API, Highcharts, Immutable, Jest, Next, Node, React, Redux, Typescript, Vue  
-**WEB DEVELOPMENT**: Accessibility best practices, Agile methodologies, Babel, Cloud providers (AWS/Azure/GCP), CI/CD,
-CSS Pre-Processors (SASS, LESS, Stylus), Git Version Control (Github/Gitlab), Responsive Web Design, REST APIs, Serverless Deployment, Webpack, Web Analytics
 
 ## Volunteering
 
-**Dunn Loring Volunteer Fire & Rescue** | _Volunteer EMT_ | Dunn Loring, Virginia | January 2020 - Present
+**Volunteer Firefighter & EMT_** | _[Dunn Loring Volunteer Fire & Rescue](https://www.dlvfrd.org/)_ | Dunn Loring, Virginia | January 2020 - Present
