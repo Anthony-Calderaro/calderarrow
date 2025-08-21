@@ -16,6 +16,8 @@ An ongoing list of quotes which I find interesting, inspiring, and insightful. I
 
 > A ship in harbor is safe, but that's not what ships are [built for](https://quoteinvestigator.com/2013/12/09/safe-harbor/).
 
+>I need [ammunition](https://apnews.com/article/russia-ukraine-business-europe-united-nations-kyiv-6ccba0905f1871992b93712d3585f548), not a ride
+
 > It is possible to commit not mistakes and still lose. That is [not weakness](https://en.wikipedia.org/wiki/Jean-Luc_Picard), that is life.
 
 > Buried deep within you, beneath all the years of pain and anger, there is something that has never been nurtured: the potential to make yourself a better man. And that is what it is to be human. To [make yourself more](https://en.wikipedia.org/wiki/Jean-Luc_Picard) than you are.
@@ -86,7 +88,7 @@ An ongoing list of quotes which I find interesting, inspiring, and insightful. I
 > Thou shalt not be a perpetrator.  
 > Above all, thou shalt not be a [bystander.](https://en.wikipedia.org/wiki/United_States_Holocaust_Memorial_Museum)
 
-> [Lifting](https://nabainc.org/about/) as we clumb.
+> [Lifting](https://nabainc.org/about/) as we climb.
 
 > [Seek with ardor](https://en.wikipedia.org/wiki/Abigail_Adams) and attend with diligence
 
@@ -94,7 +96,7 @@ An ongoing list of quotes which I find interesting, inspiring, and insightful. I
 
 > [Live free](https://en.wikipedia.org/wiki/Live_Free_or_Die) or die.
 
-> No is a complete sentence and requires no explanation.
+> "No" is a complete sentence and requires no explanation.
 
 > Greed just wants sunlight -- it doesn't care how high up it is when it gets it.  
 > But below, the hungry underdog _burns_ for sunlight and will spend 100 hours a week trying to get it. When the breakthrough comes, the underdog bursts up through the canopy into the open sky and spreads its leaves out wide. Suddenly, the trees that had been on top are blocked from the sun. Greed is then replaced by the much more powerful drive of [survival](https://waitbutwhy.com/2015/06/how-tesla-will-change-your-life.html).
@@ -220,3 +222,5 @@ An ongoing list of quotes which I find interesting, inspiring, and insightful. I
 > Know that I often sit up at night to watch for you, that [you may be able to sleep.](https://en.m.wikisource.org/wiki/The_Anabasis_of_Alexander/Book_VII/Chapter_IX)
 
 > I will [strive with all my soul](https://en.m.wikisource.org/wiki/John_Adams) to be something more than persons who have had less advantages than myself.
+  
+> A richer people could give more but they could never give [as much](https://scryfall.com/card/c21/97/oblation)
