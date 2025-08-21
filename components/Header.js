@@ -1,7 +1,9 @@
 import Link from 'next/link';
 import Image from 'next/image'
 
-import { themeIcons, createFontAwesomeIcon } from '../public/staticText';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
+import { themeIcons } from '../public/staticText';
 
 import headerStyles from '../styles/Header.module.css';
 
@@ -17,10 +19,6 @@ const headerLinks = [
   {
     label: 'contact',
     link: '/writings/contact',
-  },
-  {
-    label: 'RSS',
-    link: '/rss.xml',
   }
 ];
 
@@ -44,7 +42,10 @@ const Header = ({ toggleTheme, lightTheme }) => {
         {headerLinks.map((headerDetails, i) => <HeaderLink key={i} headerDetails={headerDetails} lightTheme={lightTheme} />)}
       </div>
 
-      <div className={headerStyles.iconContainer} tabIndex='0' onKeyUp={(e) => handleKeyUp(e)} onClick={toggleTheme}>{createFontAwesomeIcon(lightTheme ? themeIcons.light : themeIcons.dark)}</div>
+{/* Todo: Dark Mode */}
+      {/* <div className={headerStyles.iconContainer} tabIndex='0' onKeyUp={(e) => handleKeyUp(e)} onClick={toggleTheme}>
+        <FontAwesomeIcon className={headerStyles.test} icon={lightTheme ? themeIcons.light : themeIcons.dark} />
+      </div> */}
 
     </div>
   );

@@ -8,6 +8,8 @@ wip: false
 
 <!-- &ndash; -->
 
+<!-- todo: Check out the static text quote s too! -->
+
 # Quotes
 
 An ongoing list of quotes which I find interesting, inspiring, and insightful. If any are misattributed, please [let me know](/writings/contact).
@@ -126,7 +128,9 @@ An ongoing list of quotes which I find interesting, inspiring, and insightful. I
 > Home isn't where you rest. It's [what you fight for](https://scryfall.com/card/ddf/27/crusade).
 
 > Setessa is not the city of my birth, but it is the place I fight for, and the place I’m willing to die for. Does that not make it [my home](https://scryfall.com/card/bng/138/setessan-oathsworn)?
+
 <!-- Magic TCG -->
+
 > He didn't have a word for home, but he knew [it was something to be defended](https://scryfall.com/card/mbs/72/ogre-resister).
 
 > By tradition, we don’t speak for two days after battle. If [our deeds](https://scryfall.com/card/ddg/5/knight-of-meadowgrain) won't speak for themselves, what else could be said?
@@ -151,7 +155,9 @@ An ongoing list of quotes which I find interesting, inspiring, and insightful. I
 
 > I have no enemies, and [no hatred](https://en.wikipedia.org/wiki/I_Have_No_Enemies).
 
-> He is not qualified by nature or education to shine in courts. His abilities are undoubtedly equal to the mechanical parts of his business as ambassador; but this is not enough. He cannot dance, drink, game, flatter, promised dress, swear with the gentlemen, and small talk and flirt with the ladies. [Jonathan Sewall regarding John Adams](https://en.wikipedia.org/wiki/Jonathan_Sewall) -- although this description could easily apply to me.
+> He is not qualified by nature or education to shine in courts. His abilities are undoubtedly equal to the mechanical parts of his business as ambassador; but this is not enough. He cannot dance, drink, game, flatter, promised dress, swear with the gentlemen, and small talk and flirt with the ladies. [Jonathan Sewall regarding John Adams](https://en.wikipedia.org/wiki/Jonathan_Sewall) (although this description could easily apply to me.)
+
+<!-- Todo: Footnote this -->
 
 > He is a great man who uses earthenware dishes as if they were silver, but he is equally great who uses silver as if it were earthenware. It is the sign of an unstable mind not to be able to [endure riches](https://www.lettersfromastoic.net/).
 
@@ -169,7 +175,7 @@ An ongoing list of quotes which I find interesting, inspiring, and insightful. I
 
 > Forgiveness is not forgetting, forgiveness is [remembering without anger](https://en.wikipedia.org/wiki/Celia_Cruz).
 
-> He saw the moon low in the sky now. The moon there, and the light of the moon caused by what? By the sun, of course. And what lights the sun? [It's own fire](https://en.wikipedia.org/wiki/Fahrenheit_451). 
+> He saw the moon low in the sky now. The moon there, and the light of the moon caused by what? By the sun, of course. And what lights the sun? [It's own fire](https://en.wikipedia.org/wiki/Fahrenheit_451).
 
 > The most important single thing we had to pound into ourselves is that [we were not important](https://en.wikipedia.org/wiki/Fahrenheit_451), we mustn't be pedants; we were not to feel superior to anyone else in the world.
 
@@ -178,3 +184,39 @@ An ongoing list of quotes which I find interesting, inspiring, and insightful. I
 > Worry is just [wasted time](https://en.wikipedia.org/wiki/The_Way_of_Kings).
 
 > He wrapped himself in [the responsibility he had taken](https://en.wikipedia.org/wiki/The_Way_of_Kings), the responsibility for these men. He held to it like a climber clung to his last handhold as he dangled from a cliff side. He would find a way to protect them.
+
+> Failing at investing is like failing in relationships. It’s more a matter of [character than intelligence.](https://en.wikipedia.org/wiki/The_Intelligent_Investor)
+
+> Blessed is he who [expects nothing](https://en.wikipedia.org/wiki/The_Intelligent_Investor), for he shall enjoy everything.
+
+> Life can be understood backward but [must be lived forwards.](https://en.wikipedia.org/wiki/Kierkegaard)
+
+> I don't care [who gets the money](<https://en.wikipedia.org/wiki/The_Testament_(Grisham_novel)>). But I do care very much who doesn't get it.
+
+> In God we trust. All others bring [test coverage](https://calderarrow.me)
+
+> He broke us right good, didn't he, sir?  
+> Yes.  
+> Turns out though, [men can be reforged](https://en.wikipedia.org/wiki/Words_Of_Radiance).
+
+> Strength does not make one capable of rule; it [makes one capable of service.](https://en.wikipedia.org/wiki/The_Way_Of_Kings)
+
+> Care, but not too much. Take responsibility, but don't blame yourself. [Protect, save, help](https://en.wikipedia.org/wiki/The_Way_Of_Kings) — but know when to give up.
+
+> A man who could live through damnation...and [still inspire others](https://en.wikipedia.org/wiki/The_Way_Of_Kings) was a man I wanted under my command.
+
+> Better ash than dust
+
+<!-- > You don't go to the gym to find your strengths. You go to find your weaknesses. Dr Mike, Renaissance aperiodization -->
+
+> If no lawyer within earshot of the President is willing to give him that advice, then I expect you will eventually find someone who is enough of a fool, or enough of a coward, to file your motion. [But it was never going to be me.](https://en.wikipedia.org/wiki/Hagan_Scotten)
+
+> [Authority](https://calderarrow.me) is easier to move than information.
+
+> [Non Nobis Solum](https://en.m.wikipedia.org/wiki/Non_nobis_solum)
+
+> My second prescription for misery is to learn everything you possibly can from your own experience, minimizing what you learn vicariously from the good and bad experiences of others, living and dead. This prescription is a sure-shot [producer of misery](https://www.stripe.press/poor-charlies-almanack/book?progress=-2019.40%) and second-rate achievement.
+
+> Know that I often sit up at night to watch for you, that [you may be able to sleep.](https://en.m.wikisource.org/wiki/The_Anabasis_of_Alexander/Book_VII/Chapter_IX)
+
+> I will [strive with all my soul](https://en.m.wikisource.org/wiki/John_Adams) to be something more than persons who have had less advantages than myself.

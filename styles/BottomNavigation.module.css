@@ -1,0 +1,27 @@
+.bottom_navigation_container {
+  background: rgb(245, 245, 245); 
+  border: 1px solid rgb(238, 238, 238);
+  display: flex;
+  border-radius: 8px;
+}
+
+.navigation_button {
+  flex: 1;
+  padding: 2px 8px;
+  border-radius: 8px;
+}
+
+.navigation_button:hover {
+  background-color: rgb(235, 235, 235);
+  
+  cursor: pointer;
+}
+
+.next {
+  text-align: right;
+}
+.navigation_text_color { 
+  color: rgb(108, 108, 108);
+  font-size: 13px;
+  letter-spacing: 1px;
+}

@@ -1,0 +1,14 @@
+$tablet-width: 650px; 
+$laptop-width: 720px; 
+
+@media (min-width: $tablet-width) and (max-width: $laptop-width) {
+  .container {
+    align-items: center;
+  }
+}
+@media (min-width: $laptop-width) { 
+  main {
+    max-width: $laptop-width;
+  }
+}
+
