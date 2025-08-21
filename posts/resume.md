@@ -40,20 +40,20 @@ across hundreds of hospitals statewide
 
 ## Education
 
-**George Mason University**: M.S. in Computer Science (In Progress, Expected 2027)
-- Focus: Machine Learning & Artificial Intelligence
-**Bloom Institute of Technology**: (2018)
-- 7-month full-time immersive in JavaScript, Python, and full-stack web development
-**George Washington University**: M.S. & B.S. in Accountancy (2016)
+**George Mason University**: M.S. in Computer Science (In Progress, Expected 2027)  
+- Focus: Machine Learning & Artificial Intelligence  
+**Bloom Institute of Technology**: (2018)  
+- 7-month full-time immersive in JavaScript, Python, and full-stack web development  
+**George Washington University**: M.S. & B.S. in Accountancy (2016)  
 - Certified Public Accountant ([Virginia License #50534](https://cpaportal.boa.virginia.gov/Verification/))
 
 ## Technical Skills & Knowledge
-**Frontend**: Typescript, React, Angular, Vue, Next.js, Redux, Jest, CSS/SASS, Responsive Web Design, Playwright
-**Backend**: Node.js, Python (Boto3, Pyspark), Java (Spring Boot, JUnit)
-**Cloud/Tools**: AWS, CI/CD (Jenkins), Git, Playwright, REST APIs, Unit Testing, Performance Testing
-**Data/ML**: Tensorflow, Pandas, Jupyter Notebooks, SQL (PostgreSQL, MySQL), NoSQL (DynamoDB, MongoDB)
+**Frontend**: Typescript, React, Angular, Vue, Next.js, Redux, Jest, CSS/SASS, Responsive Web Design, Playwright  
+**Backend**: Node.js, Python (Boto3, Pyspark), Java (Spring Boot, JUnit)  
+**Cloud/Tools**: AWS, CI/CD (Jenkins), Git, Playwright, REST APIs, Unit Testing, Performance Testing  
+**Data/ML**: Tensorflow, Pandas, Jupyter Notebooks, SQL (PostgreSQL, MySQL), NoSQL (DynamoDB, MongoDB)  
 
 
 ## Volunteering
 
-**Volunteer Firefighter & EMT_** | _[Dunn Loring Volunteer Fire & Rescue](https://www.dlvfrd.org/)_ | Dunn Loring, Virginia | January 2020 - Present
+**Volunteer Firefighter & EMT** | _[Dunn Loring Volunteer Fire & Rescue](https://www.dlvfrd.org/)_ | Dunn Loring, Virginia | January 2020 - Present
