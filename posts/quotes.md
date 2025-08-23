@@ -16,7 +16,7 @@ An ongoing list of quotes which I find interesting, inspiring, and insightful. I
 
 > A ship in harbor is safe, but that's not what ships are [built for](https://quoteinvestigator.com/2013/12/09/safe-harbor/).
 
->I need [ammunition](https://apnews.com/article/russia-ukraine-business-europe-united-nations-kyiv-6ccba0905f1871992b93712d3585f548), not a ride
+> I need [ammunition](https://apnews.com/article/russia-ukraine-business-europe-united-nations-kyiv-6ccba0905f1871992b93712d3585f548), not a ride
 
 > It is possible to commit not mistakes and still lose. That is [not weakness](https://en.wikipedia.org/wiki/Jean-Luc_Picard), that is life.
 
@@ -139,8 +139,6 @@ An ongoing list of quotes which I find interesting, inspiring, and insightful. I
 
 > Everyone deserves a [chance to live](https://scryfall.com/card/ons/32/grassland-crusader). My job is to make sure they get it.
 
-> I know that I often sit up at night to [watch for you](https://en.m.wikisource.org/wiki/The_Anabasis_of_Alexander/Book_VII/Chapter_IX), that you may be able to sleep
-
 > The power to [endure harm](https://scryfall.com/card/chr/4/blood-of-the-martyr) outlives the power to inflict it.
 
 > I have seen the true path. I will not warm myself by the fire — I will [become the flame](https://scryfall.com/card/ice/284/diabolic-vision).
@@ -195,7 +193,7 @@ An ongoing list of quotes which I find interesting, inspiring, and insightful. I
 
 > I don't care [who gets the money](<https://en.wikipedia.org/wiki/The_Testament_(Grisham_novel)>). But I do care very much who doesn't get it.
 
-> In God we trust. All others bring [test coverage](https://calderarrow.me)
+> In God we trust. All others bring test coverage.
 
 > He broke us right good, didn't he, sir?  
 > Yes.  
@@ -213,7 +211,7 @@ An ongoing list of quotes which I find interesting, inspiring, and insightful. I
 
 > If no lawyer within earshot of the President is willing to give him that advice, then I expect you will eventually find someone who is enough of a fool, or enough of a coward, to file your motion. [But it was never going to be me.](https://en.wikipedia.org/wiki/Hagan_Scotten)
 
-> [Authority](https://calderarrow.me) is easier to move than information.
+> Authority is easier to move than information.
 
 > [Non Nobis Solum](https://en.m.wikipedia.org/wiki/Non_nobis_solum)
 
@@ -222,5 +220,21 @@ An ongoing list of quotes which I find interesting, inspiring, and insightful. I
 > Know that I often sit up at night to watch for you, that [you may be able to sleep.](https://en.m.wikisource.org/wiki/The_Anabasis_of_Alexander/Book_VII/Chapter_IX)
 
 > I will [strive with all my soul](https://en.m.wikisource.org/wiki/John_Adams) to be something more than persons who have had less advantages than myself.
-  
+
 > A richer people could give more but they could never give [as much](https://scryfall.com/card/c21/97/oblation)
+
+> To tell them how to live is to [prevent them living](https://en.wikisource.org/wiki/End_Poem).
+
+> I wrote a story for a friend, but in the end, he didn't treat me like a friend, [and I'm hurt](https://theeggandtherock.com/p/i-wrote-a-story-for-a-friend).
+
+> It’s a small thing, but lots of small splinters lead to an agonizing experience. So my recipe is: sand it, feel the grain, [get a splinter](https://blog.jim-nielsen.com/2024/sanding-ui/)...
+
+> No more running. I [aim to misbehave](<https://en.wikipedia.org/wiki/Serenity_(2005_film)>)
+
+> If stone met a man, stone might win—but if stone met humanity, [no force](https://en.wikipedia.org/wiki/Oathbringer) could preserve it
+
+> Be [extra extraordinary](https://en.wikipedia.org/wiki/Oathbringer). Nothing else will suffice.
+
+> I can't help feeling words would be enough — if only I knew [the right ones to say.](https://en.wikipedia.org/wiki/Oathbringer)
+
+> I know I should've never looked back, but you ain't gonna [win a woman's heart](https://en.wikipedia.org/wiki/Lord_Huron) like that
