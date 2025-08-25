@@ -119,3 +119,11 @@ The most common alternative is a highly planned, command economy. While efficien
 
 1. The reliance on force is inherently inefficient. Rather than using your people for economic output, you employ people to subjegate others. This is better than people loafing off, but not as efficient as _incentivizing them to do whta they should be doing_.
 2. The restriction on freedom goes against human nature. We like heirarchy and structure, so long as we have choice (or the illusion of choice). All else being equal, a country which operates a more free society will draw people who value freedom. And freedom of thought is what drives innovation at the cutting edge of technology.
+
+Capital competition over labor: can't have strong tax laws, can have stronger labor laws because labor is higher value. It is easier for countries to compete on tax law, since there's no moat. There is a tipping point where increasing rates would drive business away, and it becomes a lower point as morecountries compete.
+
+Labor demands drop, so population demands drops. The leading company must be diverse, and not beholden to ethnic justifications (we need to protect our borders/preserve our ethnic heritage). Brain drain requires saying yes to a foreigner.
+
+Progressives are progressive if it means more people get to buy. Women should work because it increases participation (power sphere) and value of the system. Gays are okay because people want them to spend money, not because people actually care. That's not to say they don't care, but that's not the primary reason
+
+Companies that are less "progressive" tend to have narrow customer bases. Notice that most people or institutions against homosexuality have the freedom to choose their clientele. They live in homogenous communities, have specific customers who are not excluded. Notice that no one is boycotting Christian workers
