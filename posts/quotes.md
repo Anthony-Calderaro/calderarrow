@@ -207,7 +207,7 @@ An ongoing list of quotes which I find interesting, inspiring, and insightful. I
 
 > Better ash than dust
 
-<!-- > You don't go to the gym to find your strengths. You go to find your weaknesses. Dr Mike, Renaissance aperiodization -->
+<!-- > Todo: find the source. You don't go to the gym to find your strengths. You go to find your weaknesses. Dr Mike, Renaissance aperiodization -->
 
 > If no lawyer within earshot of the President is willing to give him that advice, then I expect you will eventually find someone who is enough of a fool, or enough of a coward, to file your motion. [But it was never going to be me.](https://en.wikipedia.org/wiki/Hagan_Scotten)
 
@@ -238,3 +238,5 @@ An ongoing list of quotes which I find interesting, inspiring, and insightful. I
 > I can't help feeling words would be enough — if only I knew [the right ones to say.](https://en.wikipedia.org/wiki/Oathbringer)
 
 > I know I should've never looked back, but you ain't gonna [win a woman's heart](https://en.wikipedia.org/wiki/Lord_Huron) like that
+
+> So we beat on, boats against the current. [Borne back ceaselessly](https://en.wikipedia.org/wiki/The_Great_Gatsby) into the past
