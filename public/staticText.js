@@ -75,10 +75,16 @@ export const homePageLinks = {
     ariaLabel: "Anthony Calderaro's Github"
   },
   employer: {
+    link: 'https://www.novacredit.com/',
+    text: 'Nova Credit',
+    target: '_blank',
+    ariaLabel: "Link to Current Employer"
+  },
+  past_employer: {
     link: 'https://www.capitalone.com/',
     text: 'Capital One',
     target: '_blank',
-    ariaLabel: "Link to Current Employer"
+    ariaLabel: "Link to Past Employer"
   },
   ymmv: {
     link: 'https://en.wiktionary.org/wiki/your_mileage_may_vary#English',
