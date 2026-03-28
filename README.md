@@ -16,6 +16,9 @@ Deployments happen automatically as new commits are pushed into the [production 
 
 That branch automatically runs `npm run build` before deployments, which will rebuild new pages and update the rss feed. If deploying from another branch, ensure to run it manually, first.
 
+## Analytics
+My homepage uses the default [Vercel Analytics](https://vercel.com/docs/analytics/quickstart?framework=nextjs#add-the-analytics-component-to-your-app) component. This was primarily done to test our Vercel's product offerings, and is also where it is deployed. 
+
 ## Some Todos:
 
 - [Redesign](https://adityatelange.github.io/hugo-PaperMod/archives/) the cards for each blog post

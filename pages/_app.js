@@ -4,7 +4,7 @@ import { useRouter } from 'next/router';
 
 import Footer from '../components/Footer';
 import Header from '../components/Header';
-
+import { Analytics } from "@vercel/analytics/next"
 import '../styles/globals.css' // Todo: Remove
 import '../styles/globals.scss'
 
@@ -70,6 +70,7 @@ function MyApp({ Component, pageProps }) {
 
         <main>
           <Component {...pageProps} lightTheme={lightTheme} />
+          <Analytics />
         </main>
         {/* Todo: This probably looks bad on mobile. If so, move it to the end of whatever main content there is. */}
         <Footer lightTheme={lightTheme} />
