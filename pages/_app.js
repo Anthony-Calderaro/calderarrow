@@ -18,9 +18,9 @@ function MyApp({ Component, pageProps }) {
     if (postData) {
       return `${postData.title} | By Anthony Calderaro`;
     } else if (pathname === '/writings') {
-      return 'Witings by Anthony Calderaro.';
+      return 'Witings by Anthony Calderaro';
     } else {
-      return 'The home page for Anthony Calderaro.';
+      return "Anthony Calderaro's personal site";
     }
   }
 

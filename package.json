@@ -6,6 +6,10 @@
     "build": "next build",
     "start": "next dev"
   },
+  "engines": {
+    "npm": "10.8.2",
+    "node": ">=20.0.0"
+  },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.1",
     "@fortawesome/fontawesome-svg-core": "^1.2.32",

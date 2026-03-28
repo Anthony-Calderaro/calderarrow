@@ -7,6 +7,18 @@
     <link>https://calderarrow.me/rss.xml</link>
     <description>An RSS feed of all my writings.</description>
     
+        <item key="neoliberalism">
+          <title>Neoliberalism</title>
+          <link>https://calderarrow.me/writings/neoliberalism</link>
+          <guid isPermaLink="false">neoliberalism</guid>
+        </item>
+      
+        <item key="weight">
+          <title>Weight</title>
+          <link>https://calderarrow.me/writings/weight</link>
+          <guid isPermaLink="false">weight</guid>
+        </item>
+      
         <item key="awareness">
           <title>Awareness v Action</title>
           <link>https://calderarrow.me/writings/awareness</link>
@@ -73,12 +85,6 @@
           <guid isPermaLink="false">coachability</guid>
         </item>
       
-        <item key="resume">
-          <title>Resume</title>
-          <link>https://calderarrow.me/writings/resume</link>
-          <guid isPermaLink="false">resume</guid>
-        </item>
-      
         <item key="2022">
           <title>A review of 2022</title>
           <link>https://calderarrow.me/writings/2022</link>
@@ -113,6 +119,12 @@
           <title>Infinite happiness</title>
           <link>https://calderarrow.me/writings/infinity</link>
           <guid isPermaLink="false">infinity</guid>
+        </item>
+      
+        <item key="housing">
+          <title>Housing as an investment</title>
+          <link>https://calderarrow.me/writings/housing</link>
+          <guid isPermaLink="false">housing</guid>
         </item>
       
         <item key="fees">
@@ -247,6 +259,12 @@
           <guid isPermaLink="false">whywrite</guid>
         </item>
       
+        <item key="why-not-a-pwa">
+          <title>Purpose</title>
+          <link>https://calderarrow.me/writings/why-not-a-pwa</link>
+          <guid isPermaLink="false">why-not-a-pwa</guid>
+        </item>
+      
         <item key="purpose">
           <title>Purpose</title>
           <link>https://calderarrow.me/writings/purpose</link>
@@ -283,12 +301,6 @@
           <guid isPermaLink="false">quotes</guid>
         </item>
       
-        <item key="contact">
-          <title>Contact</title>
-          <link>https://calderarrow.me/writings/contact</link>
-          <guid isPermaLink="false">contact</guid>
-        </item>
-      
         <item key="presidential-biographies">
           <title>Presidential Biographies</title>
           <link>https://calderarrow.me/writings/presidential-biographies</link>
@@ -299,6 +311,12 @@
           <title>Book Review: Frederick Douglass</title>
           <link>https://calderarrow.me/writings/fd</link>
           <guid isPermaLink="false">fd</guid>
+        </item>
+      
+        <item key="test">
+          <title>Living 10 years in 5</title>
+          <link>https://calderarrow.me/writings/test</link>
+          <guid isPermaLink="false">test</guid>
         </item>
       
   </channel>

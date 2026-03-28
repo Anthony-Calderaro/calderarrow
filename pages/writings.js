@@ -13,7 +13,7 @@ import writingsStyles from '../styles/Writings.module.css'
 
 const formatReadingTime = wordCount => {
   const numberOfMinutes = Math.ceil(wordCount / 200);
-  const minOrMins = numberOfMinutes === 1  ? 'min' : 'mins';
+  const minOrMins = numberOfMinutes === 1 ? 'min' : 'mins';
   return `${numberOfMinutes} ${minOrMins}`;
 };
 
@@ -22,20 +22,20 @@ const makeCategoryTags = (categories) => {
     e.preventDefault();
     setSearchText(category)
   }
-  return categories.map((category, i) => <span key={i} tabIndex="0" style={{ fontSize: "12px", color: "black", padding: "6px 12px", borderRadius: "8px", marginRight: "4px", backgroundColor: tagColors[category]}} onKeyDown={(e) => categoryClick(e, category)} onClick={(e) => categoryClick(e, category)}>{category}</span>)
+  return categories.map((category, i) => <span key={i} tabIndex="0" style={{ fontSize: "12px", color: "black", padding: "6px 12px", borderRadius: "8px", marginRight: "4px", backgroundColor: tagColors[category] }} onKeyDown={(e) => categoryClick(e, category)} onClick={(e) => categoryClick(e, category)}>{category}</span>)
 };
 
 const PostCard = ({ id, title, description, date, wordCount, categories }) => {
   return (
     <li key={id} className={writingsStyles.postcard}>
       <Link href={`/writings/${id}`}>
-      <h2>{title}</h2>
-      <p>Post Description: {description}</p>
-      <div style={{ display: "flex", justifyContent: "space-between"}}>
-        <span style={{ color: "gray", fontSize: 14}}>{formatDatesForSearching(date)} · {formatReadingTime(wordCount)}</span>
-        {/* Todo: Add View Count */}
-        <div style={{ textAlign: "right"}}>{makeCategoryTags(categories)}</div>
-      </div>
+        <h2>{title}</h2>
+        <p>Post Description: {description}</p>
+        <div style={{ display: "flex", justifyContent: "space-between" }}>
+          <span style={{ color: "gray", fontSize: 14 }}>{formatDatesForSearching(date)} · {formatReadingTime(wordCount)}</span>
+          {/* Todo: Add View Count */}
+          <div style={{ textAlign: "right" }}>{makeCategoryTags(categories)}</div>
+        </div>
       </Link>
     </li>
   )
@@ -62,14 +62,14 @@ export default ({ allPostsData }) => {
     const searchString = searchText.toLowerCase().trim();
     if (searchString.length === 0 && filterByTags.length === 0) {
       setFilteredPosts(allPostsData); // Show All
-    } else if(searchString.length > 0 && filterByTags.length === 0) {
+    } else if (searchString.length > 0 && filterByTags.length === 0) {
       // Filter by search string
       setFilteredPosts(
         allPostsData.filter(({ title }) => (
           title.toLowerCase().indexOf(searchString) > -1
         ))
       )
-    } else if(searchString.length === 0 && filterByTags.length > 0) {
+    } else if (searchString.length === 0 && filterByTags.length > 0) {
       // Filter by tag
       setFilteredPosts(
         allPostsData.filter(({ categories }) => (
@@ -104,7 +104,7 @@ export default ({ allPostsData }) => {
   return (
     <section>
       <h1>
-        All Posts 
+        All Writings
         <Link href="/rss.xml">
           <FontAwesomeIcon style={{ height: 18, cursor: "pointer", marginLeft: 10 }} icon={faRss} />
         </Link>
@@ -117,7 +117,7 @@ export default ({ allPostsData }) => {
             <Tag
               label={tag}
               tagKey={tag + i}
-              optionalStyles={{backgroundColor: tagColors[tag], opacity: filterByTags.includes(tag) ? 1 : .5}}
+              optionalStyles={{ backgroundColor: tagColors[tag], opacity: filterByTags.includes(tag) ? 1 : .5 }}
               optionalClasses={filterByTags.includes(tag) && writingsStyles.selected_tag}
               click={() => tagClick(tag)}
             />))}
@@ -156,7 +156,7 @@ export async function getStaticProps() {
 }
 
 <div>
-{/* Make global abckground rgb(245, 245, 245) */}
-make writing post background white           
-Fuzzy Search
-Multi Select Tags           translations           Total Post Count            Total Word Count           Total View Count         </div>          
+  {/* Make global abckground rgb(245, 245, 245) */}
+  make writing post background white
+  Fuzzy Search
+  Multi Select Tags           translations           Total Post Count            Total Word Count           Total View Count         </div>          

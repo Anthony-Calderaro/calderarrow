@@ -1,10 +1,20 @@
 # The repository that powers [calderarrow.me](calderarrow.me)
 
+## Get Started
+`npm install`
+`npm start`
+Check "engines" in package.json for most-up-to-date requirements.
+
 ## Tech Stack
 
 - [Node 22](https://nodejs.org/en)
 - [Next](https://nextjs.org/)
 - [CSS modules](https://github.com/css-modules/css-modules)
+
+## Deployments
+Deployments happen automatically as new commits are pushed into the [production branch](https://github.com/Anthony-Calderaro/calderarrow#) of the repo (which is publicly available). 
+
+That branch automatically runs `npm run build` before deployments, which will rebuild new pages and update the rss feed. If deploying from another branch, ensure to run it manually, first.
 
 ## Some Todos:
 

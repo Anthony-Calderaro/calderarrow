@@ -1,15 +1,17 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faRss, faPencilAlt, faLightbulb, faHome, faMusic } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 
 export function createFontAwesomeIcon(icon, optionalClass = '') {
-  return <FontAwesomeIcon className={`icon ${optionalClass}`} icon={icon} />
+  return <FontAwesomeIcon className={`icon ${optionalClass}`} style={{ width: icon === faRss && "16px" }} icon={icon} />
 }
 
 export const themeIcons = {
   dark: faLightbulb,
   light: faLightbulb,
 }
+export const emailAddress = 'anthonyj@gwu.edu';
 
 export const footerIcons = [
   {
@@ -34,10 +36,9 @@ export const footerIcons = [
     // target: ''
   },
   {
-    icon: faGithub,
-    link: 'https://github.com/Anthony-Calderaro',
-    target: '_blank',
-    ariaLabel: 'GitHub'
+    icon: faEnvelope,
+    link: null,
+    ariaLabel: 'copy email to clipboard'
   },
   {
     icon: faRss,
