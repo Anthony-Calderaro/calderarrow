@@ -31,6 +31,7 @@ const securityHeaders = [
 ];
 const nextConfig = {
   pageExtensions: ['js', 'jsx', 'md', 'mdx'],
+  turbopack: {},
   webpack: (config, { dev, isServer }) => {
     require('./utilities/generateRSS');
     return config;
